@@ -1,0 +1,17 @@
+.fue-error {
+    border-left: 3px solid #A10000;
+    color: #A10000;
+    padding: 0 1.618em;
+    background: #FFF0EE;
+}
+
+.fue-success {
+    border-left: 3px solid #00AB00;
+    color: #00AB00;
+    padding: 0 1.618em;
+    background: #F0FFF3;
+}
+
+.fue-error p, .fue-success p {
+    padding: 10px 0;
+}

@@ -1,0 +1,239 @@
+.loop-wrapper.news {
+	.post-article {
+		overflow: hidden;
+		margin: 0;
+		border-bottom: 0px !important;
+
+		&:hover {
+			.image-post-format,
+			.as-image {
+			   .thumbnail {
+					background-color: @accent-color-7;
+					opacity: 1;
+					transition: background-color .4s, opacity .4s;
+
+					.icon {
+						opacity: 0;
+						transition: opacity .4s;
+					}
+
+					img {
+						.transform(scale(1.2));
+					}
+				}
+			}
+		}
+
+		.post-content-outer {
+			&, p {
+				.wpv-font(primary-font-);
+				font-size: 12px;
+				margin-bottom: 1.2em;
+			}
+		}
+	}
+
+	.post-content-wrapper {
+		padding-top: 10px;
+
+		h4 {
+			font-weight: bold;
+
+			&, a {
+				color: @css_link_color;
+				font-weight: bold;
+
+				&:hover {
+					color: @css_link_hover_color;
+				}
+			}
+		}
+	}
+
+	.comment-count {
+		position: relative;
+		display: inline-block;
+		float: right;
+		margin-left: 5px;
+
+
+		a {
+			font-weight: normal;
+			font-size: 12px;
+			color: @accent-color-3;
+
+
+			&:hover {
+				color: @css_link_color;
+			}
+		}
+	}
+
+	.post-actions-wrapper {
+		.icon {
+			margin-right: 8px;
+			vertical-align: middle;
+			font-size: 14px;
+			color: @accent-color-3;
+
+			&:hover {
+				color: @accent-color-1;
+			}
+		}
+
+		.post-date {
+			position: relative;
+			display: inline-block;
+			float: left;
+			font-size: 11px;
+			font-style: italic;
+			text-transform: uppercase;
+			color: @accent-color-3;
+		}
+	}
+
+	.post-content-meta {
+		margin: 10px 25px 0;
+		padding-top: 10px;
+		border-top: 1px solid @default-line-color;
+		text-align: center;
+		font-size: 11px;
+		font-style: italic;
+		text-transform: uppercase;
+		color: @accent-color-3;
+
+		a {
+
+			font-size: 11px;
+			font-style: italic;
+			text-transform: uppercase;
+			color: @accent-color-3;
+
+
+			&:hover {
+				color: @css_link_color;
+			}
+		}
+	}
+
+	.list-item {
+		padding-top: 15px;
+		border-bottom: 0;
+		box-sizing: border-box;
+
+		&.with-hpadding {
+			padding-left: 15px;
+			padding-right: 15px;
+		}
+
+		header.single {
+			padding: 10px 0;
+			border-bottom: 1px solid @default-line-color;
+			position: relative;
+
+			&:after {
+				content: "";
+				bottom: -1px;
+				left: 0;
+				width: 50px;
+				height: 1px;
+				position: absolute;
+				background: @accent-color-1;
+			}
+		}
+
+		> div {
+			position: relative;
+			position: relative;
+			z-index: 1;
+			overflow: hidden;
+			background: transparent;
+		}
+	}
+
+	&.wpv-isotope-loaded {
+		padding-top: 2px;
+		padding-bottom: @vertical-padding/2;
+	}
+
+	.thumbnail {
+		position: relative;
+		overflow: visible;
+		width: 100%;
+		text-align: center;
+
+		img {
+			width: 100%;
+			height: auto;
+		}
+
+		.icon {
+			@icon-size: 65px;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			display: inline-block;
+			width: @icon-size;
+			height: @icon-size;
+			color: @accent-color-8;
+			font-size: @icon-size;
+			margin: -@icon-size/2 0 0 -@icon-size/2;
+			opacity: 0;
+		}
+	}
+
+	.post-edit-link,
+	.sep-text-after {
+		display: none;
+	}
+
+	.image-post-format,
+	.video-post-format.as-image,
+	.standard-post-format.as-image {
+		.thumbnail {
+			overflow: hidden;
+			.translateZ(0);
+
+			img {
+				transition: all .4s ease;
+			}
+		}
+	}
+
+	> .page-content {
+		margin-bottom: 60px;
+	}
+
+	.post-article {
+		.quote-post-format {
+			.cite {
+				float: none;
+				padding: 20px 0 20px;
+				width: auto;
+				text-align: left;
+
+				img {
+					display: inline-block;
+					margin-bottom: 0;
+					padding: 0 20px 0 0;
+					max-width: 85px;
+					border: 0;
+					vertical-align: middle;
+
+					+ .quote-author {
+						display: inline;
+						vertical-align: middle;
+					}
+				}
+
+				+ .quote-text {
+					padding-left: 0;
+				}
+			}
+
+			.quote-text {
+				padding-bottom: 25px;
+			}
+		}
+	}
+}

@@ -1,0 +1,17 @@
+<h1>{{ @event.post_title }}</h1>
+<h1> {{ @checkin_count }} Tickets Checked In</h1>
+<form action="{{  @ALIASES.checkin_url }}" method="GET" >
+	<input type="hidden" name="event_id" value="{{ @event.post_id }}" />
+	<input type="text" name="ticket_id" autofocus />
+	<input type="submit" value="Checkin >>">
+</form>
+<check if="{{ @ticket.post_id != Null }}">
+    <true>
+        <h1>{{ @ticket.ticket_title }} purchased by {{ @ticket.first_name }} {{ @ticket.last_name }}</h1>
+    </true>
+</check>
+<check if="{{ @result }}">
+    <true>
+        <h1> <font color="{{ @result.color }}">{{ @result.message }}</font></h1>
+    </true>
+</check>

@@ -1,0 +1,27 @@
+.align-right {
+	text-align: right;
+}
+.history-table {
+	width:100%;
+	border:1px solid #eee;
+}
+.history-table th,
+.history-table td {
+	text-align: left;
+	padding:10px;
+}
+.history-table th {
+	background:#333;
+	color:#fff;
+}
+.customer-total {
+	color:#7EB03B;
+	font-size: 1.2em;
+}
+.history-table tr:nth-child(2n+1) td {
+	background: #f7f7f7;
+}
+.history-table tr.current td {
+	background: #ffc;
+	font-weight: bold
+}

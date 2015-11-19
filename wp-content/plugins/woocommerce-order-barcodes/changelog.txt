@@ -1,0 +1,26 @@
+*** WooCommerce Order Barcodes Changelog ***
+
+2014.03.27 - version 1.2.0
+ * New - Adding wc_order_barcode() function for fetching a specific order's barcode
+ * Fix - Fixing PHP strict standards errors
+
+2014.10.03 - version 1.1.2
+ * Tweak - Adding option to switch off barcode generation (on by default)
+ * Tweak - Adding 'woocommerce_order_barcodes_barcode_string' filter to allow the generated barode string to be modified on the fly
+
+2014.09.08 - version 1.1.1
+ * Fix - Fixing CSS for admin barcode display
+ * Tweak - Updating queries for WooCommerce 2.2
+
+2014.07.14 - version 1.1
+ * New - Added woocommerce_order_barcodes_do_nonce_check filter that will allow you to disable the nonce check on scanning
+ * New - Added woocommerce_order_barcodes_scan_permission filter that will allow you to modify the permissions needed to scan barcodes
+ * Tweak - Added order ID to woocommerce_order_barcodes_complete_order filter
+ * Tweak - Improved error messages when scanning fails
+ * Tweak - Improved a few inline comments
+
+2014.06.03 - version 1.0.1
+ * Adding woocommerce_order_barcodes_complete_order filter to allow third parties to add custom conditions for order completion
+
+2014.06.03 - version 1.0.0
+ * Initial release! Woo!

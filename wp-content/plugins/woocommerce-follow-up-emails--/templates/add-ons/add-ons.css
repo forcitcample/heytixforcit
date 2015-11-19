@@ -1,0 +1,100 @@
+.fue-addons-wrap .fue-addons, .fue-addons-wrap .fue-templates {
+    overflow: hidden;
+}
+
+.fue-addons-wrap .fue-addons li, .fue-addons-wrap .fue-templates li {
+    margin: 0 1em 1em 0 !important;
+    padding: 0;
+    vertical-align: top;
+    width: 300px;
+    display: inline-block;
+}
+
+.fue-addons-wrap .fue-addons li div, .fue-addons-wrap .fue-templates li div {
+    background: none repeat scroll 0 0 #f5f5f5;
+    border: 1px solid #ddd;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 -1px 0 rgba(0, 0, 0, 0.1) inset;
+    color: inherit;
+    display: block;
+    min-height: 180px;
+    overflow: hidden;
+    text-decoration: none;
+    position: relative;
+    padding-bottom: 25px;
+}
+
+.fue-addons-wrap .fue-addons li div:hover, .fue-addons-wrap .fue-templates li div:hover {
+    background: #fff;
+}
+
+.fue-addons-wrap .fue-addons li h3, .fue-addons-wrap .fue-templates li h3 {
+    background: none repeat scroll 0 0 #fff;
+    margin: 0 !important;
+    padding: 20px !important;
+}
+
+.fue-addons-wrap .fue-addons li .price, .fue-addons-wrap .fue-addons li img.extension-thumb + h3,
+.fue-addons-wrap .fue-templates li .price, .fue-addons-wrap .fue-templates li img.extension-thumb + h3 {
+    display: none;
+}
+
+.fue-addons-wrap .fue-addons li p, .fue-addons-wrap .fue-templates li p {
+    border-top: 1px solid #f1f1f1;
+    margin: 0 !important;
+    padding: 20px !important;
+}
+
+.fue-addons-wrap .fue-addons li h3 a, .fue-addons-wrap .fue-templates li h3 a {
+    color: inherit;
+}
+.fue-addons-wrap .fue-addons li a.button, .fue-addons-wrap .fue-templates li a.button {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+}
+
+.fue-addons-wrap .fue-addons li p.installed, .fue-addons-wrap .fue-templates li p.installed {
+    position: absolute;
+    bottom: -10px;
+    left: 0px;
+    border: none;
+    color: green;
+    font-weight: bold;
+}
+
+.fue-addons-wrap .fue-templates li p.uninstall {
+    display: none;
+}
+
+.fue-addons-wrap .fue-templates li p.uninstall a {
+    text-decoration: none;
+    color: #ff0000;
+}
+
+.fue-addons-wrap .fue-templates li:hover p.installed {
+    display: none;
+}
+
+.fue-addons-wrap .fue-templates li:hover p.uninstall {
+    display: block;
+    position: absolute;
+    bottom: -10px;
+    left: 0px;
+    border: none;
+    font-weight: bold;
+}
+
+.fue-addons-wrap .fue-templates li p.downloads {
+    position: absolute;
+    bottom: -10px;
+    right: 0px;
+    border: none;
+    font-weight: bold;
+    color: #cdcdcd;
+}
+
+.fue-addons-wrap .fue-templates li img {
+    padding: 5px 5px 10px 5px;
+    margin: 0 auto;
+    display: block;
+}

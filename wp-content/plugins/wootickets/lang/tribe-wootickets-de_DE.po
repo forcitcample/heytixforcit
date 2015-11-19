@@ -1,0 +1,156 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooTickets v2.0-alpha\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-12-05 15:39-0800\n"
+"PO-Revision-Date: 2015-05-18 07:52-0700\n"
+"Last-Translator: Jan Wiedemuth <jan.wiedemuth@umschaltsperre.de>\n"
+"Language-Team: Jan Wiedemuth <info@umschaltsperre.de>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.7.6\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ./\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../admin-views/metabox-advanced.php:3
+msgid "Stock:"
+msgstr "Lager:"
+
+#: ../admin-views/metabox-advanced.php:7
+msgid ""
+"(Total available # of this ticket type. Once they're gone, ticket type is "
+"sold out)"
+msgstr ""
+"(Total verfügbar # von diesem Ticket-Typ. Sobald sie ausverkauft sind, "
+"Ticket-Typ ist ausverkauft)"
+
+# @ tribe-wootickets
+#: ../admin-views/metabox-advanced.php:12
+msgid "SKU:"
+msgstr "SKU:"
+
+#: ../admin-views/metabox-advanced.php:16
+msgid "(A unique identifying code for each ticket type you're selling)"
+msgstr "(Ein eindeutiger Code für jeden Kartentyp den Sie verkaufen)"
+
+# @ tribe-wootickets
+#: ../admin-views/metabox-advanced.php:25
+msgid ""
+"Currently, WooTickets will only show up on the frontend once per full event. "
+"For PRO users this means the same ticket will appear across all events in "
+"the series. Please configure your events accordingly."
+msgstr ""
+"Momentan wird WooTickets nur einmal für jedes (volle) Event angezeigt. Für "
+"PRO Benutzer bedeutet dies, dass das gleiche Ticket bei allen Events einer "
+"Serie angezeigt wird. Bitte konfigurieren Sie ihre Events entsprechend."
+
+# @ tribe-wootickets
+#: ../classes/class-ticket-email.php:13 ../views/wootickets/tickets.php:10
+msgid "Tickets"
+msgstr "Tickets"
+
+#: ../classes/class-ticket-email.php:14
+msgid ""
+"Email the user will receive after a completed order with the tickets he "
+"purchased."
+msgstr ""
+
+# @ tribe-wootickets
+#: ../classes/class-ticket-email.php:16
+msgid "Your tickets from {sitename}"
+msgstr "Dein Ticket von {sitename}"
+
+# @ woocommerce
+#: ../classes/class-ticket-email.php:97
+msgid "Subject"
+msgstr "Betreff"
+
+# @ woocommerce
+#: ../classes/class-ticket-email.php:99
+#, php-format
+msgid "Defaults to <code>%s</code>"
+msgstr "Standards zu <code>%s</code>"
+
+#: ../classes/class-wootickets.php:306
+msgid "You'll receive your tickets in another email."
+msgstr "Sie erhalten Ihre Tickets in einem gesonderten E-Mail."
+
+# @ tribe-wootickets
+#: ../classes/class-wootickets.php:766
+#, php-format
+msgid "In trash (was %s)"
+msgstr "im Papioerkorb (war %s)"
+
+# @ tribe-wootickets
+#: ../classes/class-wootickets.php:772
+msgid "Deleted"
+msgstr "Gelöscht"
+
+# @ wootickets
+#: ../classes/class-wootickets.php:777
+msgid "(deleted)"
+msgstr "(gelöscht)"
+
+#: ../classes/class-wootickets.php:807
+msgid "Unknown"
+msgstr ""
+
+#: ../classes/class-wootickets.php:876
+msgid "Event sales report"
+msgstr "Event-Umsatzbericht"
+
+#: ../classes/class-wootickets.php:898
+msgid "Report"
+msgstr "Bericht"
+
+# @ tribe-wootickets
+#: ../classes/class-wootickets.php:921
+msgid "This is a ticket for the event:"
+msgstr "Dies ist ein Ticket für das Event:"
+
+#: ../views/wootickets/tickets.php:56
+msgid "Out of stock!"
+msgstr ""
+
+#: ../views/wootickets/tickets.php:82
+msgid "Add to cart"
+msgstr "In den Warenkorb"
+
+# @ tribe-wootickets
+#: ../wootickets.php:127
+msgid "The Events Calendar"
+msgstr "The Events Calendar"
+
+# @ tribe-wootickets
+#: ../wootickets.php:128
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: ../wootickets.php:133 ../wootickets.php:135
+#, php-format
+msgid ""
+"To begin using WooTickets, please install and activate the latest version of "
+"<a href=\"%s\" class=\"thickbox\" title=\"%s\">%s</a>."
+msgstr ""
+
+# @ tribe-wootickets
+#~ msgid ""
+#~ "Email the user will recieve after a completed order with the tickets he "
+#~ "purchased."
+#~ msgstr ""
+#~ "E-Mail an den Nutzer nach vollständiger Bestellung mit gekauften Tickets."
+
+# @ tribe-wootickets
+#~ msgid ""
+#~ "To begin using WooTickets, please install the latest version of <a href="
+#~ "\"%s\" class=\"thickbox\" title=\"%s\">%s</a>."
+#~ msgstr ""
+#~ "Um WooTickets verwenden zu können installieren Sie bitte die letzte "
+#~ "Version von <a href=\"%s\" class=\"thickbox\" title=\"%s\">%s</a>."

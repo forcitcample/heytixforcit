@@ -1,0 +1,204 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: The Events Calendar: WooCommerce Tickets v3.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-02-04 18:23-0800\n"
+"PO-Revision-Date: 2014-02-24 18:01-0800\n"
+"Last-Translator: styret <styret@bergen.ungdomslag.no>\n"
+"Language-Team: \n"
+"Language: nn_NO\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ tribe-wootickets
+#: ../wootickets.php:128
+msgid "The Events Calendar"
+msgstr "The Events Calendar"
+
+# @ tribe-wootickets
+#: ../wootickets.php:129
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+# @ tribe-wootickets
+#: ../wootickets.php:134 ../wootickets.php:136
+#, php-format
+msgid ""
+"To begin using WooTickets, please install the latest version of <a href=\"%s"
+"\" class=\"thickbox\" title=\"%s\">%s</a>."
+msgstr ""
+"For å byrje å bruke WooTickets må du ha siste versjon av <a href=\"%s\" "
+"class=\"thickbox\" title=\"%s\">%s</a>."
+
+# @ tribe-wootickets
+#: ../admin-views/metabox-advanced.php:3
+msgid "Stock:"
+msgstr "Lager:"
+
+# @ tribe-wootickets
+#: ../admin-views/metabox-advanced.php:7
+msgid ""
+"(Total available # of this ticket type. Once they're gone, ticket type is "
+"sold out)"
+msgstr ""
+"(Tilgjengelege # av denne billettypen. Når alle er seld blir billettypen "
+"endra til utseld)"
+
+# @ tribe-wootickets
+#: ../admin-views/metabox-advanced.php:12
+msgid "SKU:"
+msgstr "SKU:"
+
+# @ tribe-wootickets
+#: ../admin-views/metabox-advanced.php:16
+msgid "(A unique identifying code for each ticket type you're selling)"
+msgstr "(Ein unik identifiseringskode for kvar billettype du sel)"
+
+# @ tribe-wootickets
+#: ../admin-views/metabox-advanced.php:25
+msgid ""
+"Currently, WooTickets will only show up on the frontend once per full event. "
+"For PRO users this means the same ticket will appear across all events in "
+"the series. Please configure your events accordingly."
+msgstr ""
+"Førebels kjem WooTickets berre til syne på framsida ein gong per heile "
+"hending. For PRO-brukarar tyder dette at den same billetten vil synast på "
+"samtlege hendingar i ein serie. Du bør konfigurere hendingane dine etter det "
+"prinsippet."
+
+# @ tribe-wootickets
+#: ../classes/class-ticket-email.php:13 ../views/wootickets/tickets.php:82
+msgid "Tickets"
+msgstr "Billettar"
+
+# @ tribe-wootickets
+#: ../classes/class-ticket-email.php:14
+msgid ""
+"Email the user will recieve after a completed order with the tickets he "
+"purchased."
+msgstr "Eposten brukaren vil motta etter å ha fullført eit billettkjøp."
+
+# @ tribe-wootickets
+#: ../classes/class-ticket-email.php:16
+msgid "Your tickets from {sitename}"
+msgstr "Billettane dine frå {sitename}"
+
+# @ woocommerce
+#: ../classes/class-ticket-email.php:97
+msgid "Subject"
+msgstr "Emne"
+
+# @ woocommerce
+#: ../classes/class-ticket-email.php:99
+#, php-format
+msgid "Defaults to <code>%s</code>"
+msgstr "Standard er <code>%s</code>"
+
+# @ tribe-wootickets
+#: ../classes/class-wootickets.php:279
+msgid "You'll receive your tickets in another email."
+msgstr "Du vil få billettane dine i ein annan epost."
+
+# @ tribe-wootickets
+#: ../classes/class-wootickets.php:557
+#, php-format
+msgid "In trash (was %s)"
+msgstr "I søpla (var %s)"
+
+# @ tribe-wootickets
+#: ../classes/class-wootickets.php:560
+msgid "Deleted"
+msgstr "Sletta"
+
+# @ wootickets
+#: ../classes/class-wootickets.php:567
+msgid "(deleted)"
+msgstr "(sletta)"
+
+# @ tribe-wootickets
+#: ../classes/class-wootickets.php:666
+msgid "Event sales report"
+msgstr "Billettsalsrapport"
+
+# @ tribe-wootickets
+#: ../classes/class-wootickets.php:766
+msgid "This is a ticket for the event:"
+msgstr "Dette er ein billett for hendinga:"
+
+# @ tribe-plugin-update-engine
+#: ../vendor/pue-client/admin-views/license-key.view.php:9
+#: ../vendor/pue-client/admin-views/license-key.view.php:13
+#: ../vendor/pue-client/lib/pue_plugin_update_engine.class.php:291
+msgid "License Key"
+msgstr "Lisensnøkkel"
+
+# @ tribe-plugin-update-engine
+#: ../vendor/pue-client/admin-views/license-key.view.php:10
+msgid "A valid license key is required for support and updates."
+msgstr "Ein gyldig lisensnøkkel er påkravd for oppdateringar og brukarstøtte."
+
+# @ tribe-plugin-update-engine
+#: ../vendor/pue-client/admin-views/license-key.view.php:16
+msgid "Replace empty fields"
+msgstr "Erstatt tomme felt"
+
+# @ tribe-plugin-update-engine
+#: ../vendor/pue-client/admin-views/license-key.view.php:25
+#: ../vendor/pue-client/lib/pue_plugin_update_engine.class.php:292
+msgid "A valid license key is required for support and updates"
+msgstr "Ein gyldig lisensnøkkel er påkravd for oppdateringar og brukarstøtte"
+
+# @ tribe-plugin-update-engine
+#: ../vendor/pue-client/lib/pue_plugin_update_engine.class.php:360
+msgid "License key(s) updated."
+msgstr "Lisensnøkkel(ar) oppdatert."
+
+# @ tribe-plugin-update-engine
+#: ../vendor/pue-client/lib/pue_plugin_update_engine.class.php:400
+msgid "Sorry, key validation server is not available."
+msgstr "Nøkkelvalideringssørveren er ikkje tilgjengeleg."
+
+# @ tribe-plugin-update-engine
+#: ../vendor/pue-client/lib/pue_plugin_update_engine.class.php:402
+msgid "Sorry, this key is expired."
+msgstr "Nøkkelen er ikkje lenger gyldig."
+
+# @ tribe-plugin-update-engine
+#: ../vendor/pue-client/lib/pue_plugin_update_engine.class.php:404
+msgid "Sorry, this key is out of installs."
+msgstr "Ingen fleire installasjonar på denne nøkkelen."
+
+# @ tribe-plugin-update-engine
+#: ../vendor/pue-client/lib/pue_plugin_update_engine.class.php:406
+msgid "Sorry, this key is not valid."
+msgstr "Nøkkelen er ikkje gyldig."
+
+# @ tribe-plugin-update-engine
+#: ../vendor/pue-client/lib/pue_plugin_update_engine.class.php:409
+#, php-format
+msgid "Valid Key! Expires on %s"
+msgstr "Gyldig nøkkel! Gyldig fram til %s"
+
+# @ plugin-update-engine
+#: ../vendor/pue-client/lib/pue_plugin_update_engine.class.php:413
+#, php-format
+msgid ""
+"Hmmm... something's wrong with this validator. Please contact <a href=\"%s"
+"\">support.</a>"
+msgstr ""
+"Hmmm... noko er feil med validatoren. Ta kontakt me <a href=\"%s"
+"\">brukarstøtte.</a>"
+
+# @ tribe-wootickets
+#: ../views/wootickets/tickets.php:89
+msgid "Add to cart"
+msgstr "Legg i handelkorga"

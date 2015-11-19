@@ -1,0 +1,17 @@
+*** WooCommerce Customer History ***
+
+2014.10.24 - version 1.1.1
+* Corrected a PHP warning on the order details admin page introduced in 1.1.0.
+* Corrected a PHP Fatal at checkout due to incorrect method name.
+
+2014.10.22 - version 1.1.0
+* Rewrote history tracking to use transients + cookies for increased stability.
+* Rewrote 2.2 Compatibility to support all order statuses on purchase history.
+* Updated purchase history lifetime value calculation to use new WC 2.2 order statuses.
+* Added setting for optionally including customer history in admin emails.
+
+2014.09.09 - version 1.0.1
+* 2.2 Compatibility
+
+2014.07.29 - version 1.0.0
+* Initial Release!

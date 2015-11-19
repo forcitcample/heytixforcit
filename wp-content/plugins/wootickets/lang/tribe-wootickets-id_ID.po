@@ -1,0 +1,129 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Tickets 3.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-05-26 09:29-0800\n"
+"PO-Revision-Date: 2014-06-24 16:52-0800\n"
+"Last-Translator: \n"
+"Language-Team: Modern Tribe, Inc. <pro@tri.be>\n"
+"Language: id_ID\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.5\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;"
+"esc_html_x:1,2c\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../admin-views/metabox-advanced.php:3
+msgid "Stock:"
+msgstr "Stok:"
+
+#: ../admin-views/metabox-advanced.php:7
+msgid ""
+"(Total available # of this ticket type. Once they're gone, ticket type is "
+"sold out)"
+msgstr ""
+"(Jumlah # yang tersedia untuk tipe tiket ini. Setelah terpakai, tipe tiket "
+"ini habis) "
+
+#: ../admin-views/metabox-advanced.php:12
+msgid "SKU:"
+msgstr "SKU:"
+
+#: ../admin-views/metabox-advanced.php:16
+msgid "(A unique identifying code for each ticket type you're selling)"
+msgstr "(Sebuah kode unik untuk mengidentifikasikan tipe tiket yang Anda jual)"
+
+#: ../admin-views/metabox-advanced.php:25
+msgid ""
+"Currently, WooTickets will only show up on the frontend once per full event. "
+"For PRO users this means the same ticket will appear across all events in "
+"the series. Please configure your events accordingly."
+msgstr ""
+"Saat ini, WooTickets hanya tampil di frontend sekali per event. Untuk "
+"pengguna PRO ini berarti tiket yang sama akan tampil di semua event pada "
+"seri tersebut. Mohon sesuaikan konfigurasi event-event Anda. "
+
+#: ../classes/class-ticket-email.php:13 ../views/wootickets/tickets.php:82
+msgid "Tickets"
+msgstr "Tiket"
+
+#: ../classes/class-ticket-email.php:14
+msgid ""
+"Email the user will recieve after a completed order with the tickets he "
+"purchased."
+msgstr ""
+"Email yang akan diterima oleh pengguna setelah pesanan terpenuhi dengan "
+"tiket yang dibeli."
+
+#: ../classes/class-ticket-email.php:16
+msgid "Your tickets from {sitename}"
+msgstr "Tiket Anda dari {sitename}"
+
+#: ../classes/class-ticket-email.php:97
+msgid "Subject"
+msgstr "Judul"
+
+#: ../classes/class-ticket-email.php:99
+#, php-format
+msgid "Defaults to <code>%s</code>"
+msgstr "Default <code>%s</code>"
+
+#: ../classes/class-wootickets.php:306
+msgid "You'll receive your tickets in another email."
+msgstr "Anda akan menerima tiket Anda di email lain."
+
+#: ../classes/class-wootickets.php:598
+#, php-format
+msgid "In trash (was %s)"
+msgstr "Di tong sampah (sebelumnya %s)"
+
+#: ../classes/class-wootickets.php:604
+msgid "Deleted"
+msgstr "Telah Dihapus"
+
+#: ../classes/class-wootickets.php:609
+msgid "(deleted)"
+msgstr "(telah dihapus)"
+
+#: ../classes/class-wootickets.php:705
+msgid "Event sales report"
+msgstr "Laporan penjualan tiket"
+
+#: ../classes/class-wootickets.php:727
+msgid "Report"
+msgstr "Laporan"
+
+#: ../classes/class-wootickets.php:750
+msgid "This is a ticket for the event:"
+msgstr "Ini adaah tiket untuk event:"
+
+#: ../views/wootickets/tickets.php:59
+msgid "Out of stock!"
+msgstr "Stok habis!"
+
+#: ../views/wootickets/tickets.php:89
+msgid "Add to cart"
+msgstr "Beli"
+
+#: ../wootickets.php:127
+msgid "The Events Calendar"
+msgstr ""
+
+#: ../wootickets.php:128
+msgid "WooCommerce"
+msgstr ""
+
+#: ../wootickets.php:133 ../wootickets.php:135
+#, php-format
+msgid ""
+"To begin using WooTickets, please install the latest version of <a href=\"%s"
+"\" class=\"thickbox\" title=\"%s\">%s</a>."
+msgstr ""
+"Untuk mulai menggunakan WooTickets, silakan install versi terakhir dari <a "
+"href=\"%s\" class=\"thickbox\" title=\"%s\">%s</a>."

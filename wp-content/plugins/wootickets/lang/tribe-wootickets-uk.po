@@ -1,0 +1,173 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Tickets 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-02-04 18:23-0800\n"
+"PO-Revision-Date: 2014-03-20 20:34+0200\n"
+"Last-Translator: Василий Вишняков <salsero@chillidance.com>\n"
+"Language-Team: Modern Tribe, Inc. <support@tri.be>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Language: ru\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../wootickets.php:128
+msgid "The Events Calendar"
+msgstr "Календар подій"
+
+#: ../wootickets.php:129
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: ../wootickets.php:134 ../wootickets.php:136
+#, php-format
+msgid ""
+"To begin using WooTickets, please install the latest version of <a href=\"%s"
+"\" class=\"thickbox\" title=\"%s\">%s</a>."
+msgstr ""
+"Для початку використанняя WooTickets, будь ласка, встановіть останню версію "
+"<a href=\"%s\" class=\"thickbox\" title=\"%s\">%s</a>."
+
+#: ../admin-views/metabox-advanced.php:3
+msgid "Stock:"
+msgstr "Асортимент:"
+
+#: ../admin-views/metabox-advanced.php:7
+msgid ""
+"(Total available # of this ticket type. Once they're gone, ticket type is "
+"sold out)"
+msgstr ""
+"(Усього доступно # квитків цього типу. Як тільки вони закінчаться, тип "
+"квитка змінеться на розпроданий)"
+
+#: ../admin-views/metabox-advanced.php:12
+msgid "SKU:"
+msgstr "SKU:"
+
+#: ../admin-views/metabox-advanced.php:16
+msgid "(A unique identifying code for each ticket type you're selling)"
+msgstr "(Унікальний код активації для кожного типу проданого квитка)"
+
+#: ../admin-views/metabox-advanced.php:25
+msgid ""
+"Currently, WooTickets will only show up on the frontend once per full event. "
+"For PRO users this means the same ticket will appear across all events in "
+"the series. Please configure your events accordingly."
+msgstr ""
+"В даний час, WooTickets буде показано тільки на інтерфейсі один раз у повній "
+"події. Для PRO користувачів це означає, що той самий квиток зявиться у всіх "
+"подіях цієї серії. Будь ласка налаштуйте події відповідно."
+
+#: ../classes/class-ticket-email.php:13 ../views/wootickets/tickets.php:82
+msgid "Tickets"
+msgstr "Квитки"
+
+#: ../classes/class-ticket-email.php:14
+msgid ""
+"Email the user will recieve after a completed order with the tickets he "
+"purchased."
+msgstr ""
+"Відправляти користувачеві квиток по електронній пошті після завершення "
+"замовлення."
+
+#: ../classes/class-ticket-email.php:16
+msgid "Your tickets from {sitename}"
+msgstr "Ваш квиток з сайту {sitename}"
+
+#: ../classes/class-ticket-email.php:97
+msgid "Subject"
+msgstr "Тема"
+
+#: ../classes/class-ticket-email.php:99
+#, php-format
+msgid "Defaults to <code>%s</code>"
+msgstr "За замовчуванням <code>%s</code>"
+
+#: ../classes/class-wootickets.php:279
+msgid "You'll receive your tickets in another email."
+msgstr "Ви отримаєте свої квитки на іншу адресу електронної пошти"
+
+#: ../classes/class-wootickets.php:557
+#, php-format
+msgid "In trash (was %s)"
+msgstr "У корзині (было %s)"
+
+#: ../classes/class-wootickets.php:560
+msgid "Deleted"
+msgstr "Видалено"
+
+#: ../classes/class-wootickets.php:567
+msgid "(deleted)"
+msgstr "(видалений)"
+
+#: ../classes/class-wootickets.php:666
+msgid "Event sales report"
+msgstr "Звіт з продажу подій"
+
+#: ../classes/class-wootickets.php:766
+msgid "This is a ticket for the event:"
+msgstr "Це квиток для події:"
+
+#: ../vendor/pue-client/admin-views/license-key.view.php:9
+#: ../vendor/pue-client/admin-views/license-key.view.php:13
+#: ../vendor/pue-client/lib/pue_plugin_update_engine.class.php:291
+msgid "License Key"
+msgstr "Ліцензійний ключ"
+
+#: ../vendor/pue-client/admin-views/license-key.view.php:10
+msgid "A valid license key is required for support and updates."
+msgstr "Діючий ліцензійний ключ потрібний для підтримки і оновлень."
+
+#: ../vendor/pue-client/admin-views/license-key.view.php:16
+msgid "Replace empty fields"
+msgstr "Замініть порожні поля"
+
+#: ../vendor/pue-client/admin-views/license-key.view.php:25
+#: ../vendor/pue-client/lib/pue_plugin_update_engine.class.php:292
+msgid "A valid license key is required for support and updates"
+msgstr "Діючий ліцензійний ключ необхідний для підтримки та оновлень"
+
+#: ../vendor/pue-client/lib/pue_plugin_update_engine.class.php:360
+msgid "License key(s) updated."
+msgstr "Ліцензійний ключ оновлено."
+
+#: ../vendor/pue-client/lib/pue_plugin_update_engine.class.php:400
+msgid "Sorry, key validation server is not available."
+msgstr "На жаль, сервер перевірки ключа не доступний."
+
+#: ../vendor/pue-client/lib/pue_plugin_update_engine.class.php:402
+msgid "Sorry, this key is expired."
+msgstr "Вибачте, цей ключ просрочено."
+
+#: ../vendor/pue-client/lib/pue_plugin_update_engine.class.php:404
+msgid "Sorry, this key is out of installs."
+msgstr "На жаль, цей ключ поза  установок."
+
+#: ../vendor/pue-client/lib/pue_plugin_update_engine.class.php:406
+msgid "Sorry, this key is not valid."
+msgstr "На жаль, цей ключ не дійсний."
+
+#: ../vendor/pue-client/lib/pue_plugin_update_engine.class.php:409
+#, php-format
+msgid "Valid Key! Expires on %s"
+msgstr "Ключ дійсний! Закінчується %s"
+
+#: ../vendor/pue-client/lib/pue_plugin_update_engine.class.php:413
+#, php-format
+msgid ""
+"Hmmm... something's wrong with this validator. Please contact <a href=\"%s"
+"\">support.</a>"
+msgstr ""
+"Хм ... щось не так з перевіркою ключа. Будь ласка, зв'яжіться з <a href=\"%s"
+"\">службою підтримки.</a>"
+
+#: ../views/wootickets/tickets.php:89
+msgid "Add to cart"
+msgstr "Додати до корзини"

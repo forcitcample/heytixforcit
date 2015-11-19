@@ -1,0 +1,93 @@
+Version 1.0.18, April 8 2015
+------------------------------------------------------------------------------------
+[*] Fixed cart discount not being displayed on product quantity change
+[*] Fixed "coupon invalid" warning when the last item is removed from cart
+[-] Removed option to apply discount after tax (not available since WooCommerce 2.3)
+
+Version 1.0.17, March 9 2015
+------------------------------------------------------------------------------------
+[*] Fixed cart discount not being displayed on the first cart load
+
+Version 1.0.16, February 25 2015
+------------------------------------------------------------------------------------
+[*] Fixed a bug that displayed a price striked through when no discount was applied
+
+Version 1.0.15, February 19 2015
+------------------------------------------------------------------------------------
+[*] Quick fix related to compatibility issues with WooCommerce 2.3
+
+Version 1.0.14, February 4 2015
+------------------------------------------------------------------------------------
+[*] Fixed a bug related to subtotal in widget mini cart
+[*] Improved compatibility with WooCommerce 2.0 (function remove_coupon())
+
+Version 1.0.13, October 30 2014
+------------------------------------------------------------------------------------
+[*] Fixed a bug related to pricing table display conditions check
+
+Version 1.0.12, October 24 2014
+------------------------------------------------------------------------------------
+[*] Pricing table now displays trailing zeros by default
+[*] Fixed a bug related to maximum_amount property of WooCommerce coupon
+[*] Fixed array to string conversion notice
+[*] Fixed subtotal and total display in mini cart
+
+Version 1.0.11, September 24 2014
+------------------------------------------------------------------------------------
+[-] Removed hardcoded rounding to two decimals in favor of WooCommerce setting
+[*] Change language file template name from default.pot to rp_wcdpd.pot
+[*] "Products in list" will now include products with various statuses
+
+Version 1.0.10, September 10 2014
+------------------------------------------------------------------------------------
+[*] Allowing other plugins to extend list of capabilities to use in conditions
+[*] Fixed notice "Undefined index: display_offers"
+
+Version 1.0.9, September 9 2014
+------------------------------------------------------------------------------------
+[*] Improved compatibility with PHP 5.2 (PHP_ROUND_HALF_DOWN issue)
+[*] Changed $discounts_applied property from private to public
+
+Version 1.0.8, August 20 2014
+------------------------------------------------------------------------------------
+[*] Allowing discounts to be applied by manually calling apply_discounts()
+[*] Fixed cart discount coupon error when WooCommerce coupons are disabled
+[*] Fixed a few Strict Standards warnings
+
+Version 1.0.7, August 13 2014
+------------------------------------------------------------------------------------
+[*] Suppressing the Coupon Is Not Valid error on cart quantity changes
+[*] Other minor bug fixes
+
+Version 1.0.6, August 06 2014
+------------------------------------------------------------------------------------
+[*] Fixed discount rounding issues
+
+Version 1.0.5, July 14 2014
+------------------------------------------------------------------------------------
+[*] Fixed infinite loop issue when 'ghost' categories are present
+[*] Fixed variable product price adjustment bug
+
+Version 1.0.4, June 26 2014
+------------------------------------------------------------------------------------
+[*] Rule selection for pricing table improvements
+[*] Fixed a bug that prevented pricing table from being displayed on last variation
+
+Version 1.0.3, April 16 2014
+------------------------------------------------------------------------------------
+[*] Improved plugin performance
+
+Version 1.0.2, March 27 2014
+------------------------------------------------------------------------------------
+[+] Added user capabilities to conditions list (support for Groups plugin)
+[*] Pricing table will be displayed instantly, if all variations have the same price
+[*] Fixed pricing table display when using ranges of one unit
+[*] Improved algorithms related to quantity calculation
+
+Version 1.0.1, March 12 2014
+------------------------------------------------------------------------------------
+[*] Several minor bug fixes
+
+Version 1.0, March 10 2014
+------------------------------------------------------------------------------------
+[+] Initial release

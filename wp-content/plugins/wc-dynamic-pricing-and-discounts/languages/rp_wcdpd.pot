@@ -1,0 +1,720 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Dynamic Pricing & Discounts\n"
+"POT-Creation-Date: 2014-03-10 23:21+0300\n"
+"PO-Revision-Date: 2014-03-10 23:22+0300\n"
+"Last-Translator: \n"
+"Language-Team: RightPress <info@rightpress.net>\n"
+"Language: en_EN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: __;_e;_c;__ngettext:1,2;_n:1,2;_nc:1,2;"
+"__ngettext_noop:1,2;_n_noop:1,2;_x:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_ex:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-"
+"and-discounts\n"
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/wc-dynamic-pricing-and-discounts.php:648
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/help.php:18
+msgid "Pricing Rules"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/wc-dynamic-pricing-and-discounts.php:652
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/help.php:21
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/settings.php:22
+msgid "Cart Discounts"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/wc-dynamic-pricing-and-discounts.php:656
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/wc-dynamic-pricing-and-discounts.php:1569
+msgid "Settings"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/wc-dynamic-pricing-and-discounts.php:660
+msgid "Localization"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/wc-dynamic-pricing-and-discounts.php:737
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/localization.php:44
+msgid "Quantity"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/wc-dynamic-pricing-and-discounts.php:738
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/localization.php:52
+msgid "Price"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/wc-dynamic-pricing-and-discounts.php:739
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/localization.php:28
+msgid "Quantity discounts"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/wc-dynamic-pricing-and-discounts.php:740
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/localization.php:36
+msgid "Special offers"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/wc-dynamic-pricing-and-discounts.php:747
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:39
+msgid "Pricing Rule #"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/wc-dynamic-pricing-and-discounts.php:748
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/discounts.php:39
+msgid "Discount Rule #"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/wc-dynamic-pricing-and-discounts.php:892
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/wc-dynamic-pricing-and-discounts.php:924
+msgid "This will only be used for your own reference."
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/wc-dynamic-pricing-and-discounts.php:893
+msgid ""
+"All three pricing rule methods are completely different:<br /><br /"
+"><i>Quantity discount</i> is used to set up tiered discounts that depend on "
+"quantity of specific product purchased.<br /><br /><i>Special offer</i> is "
+"used to set up <i>buy two get one free</i> and similar scenarios.<br /><br /"
+"><i>Exclude matched items</i> is used to exclude specific products or "
+"categories from other, usually more general rules (e.g. exlude specific "
+"product from a category rule)."
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/wc-dynamic-pricing-and-discounts.php:894
+#, php-format
+msgid ""
+"Use cumulative methods when you wish to set up scenarios like <i>get "
+"10% discount on Product X when you buy any 10 items from Category Y</i>."
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/wc-dynamic-pricing-and-discounts.php:906
+msgid ""
+"Please note that if you select other cart items to adjust, quantities of "
+"matched items (not items to adjust) will be used to determine pricing tier. "
+"Biggest quantity of all quantities will be used."
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/wc-dynamic-pricing-and-discounts.php:912
+msgid ""
+"Please note that if you select other cart items to adjust, quantities of "
+"matched items (not items to adjust) will be taken into account. Biggest "
+"quantity of all quantities will be used."
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/wc-dynamic-pricing-and-discounts.php:918
+msgid ""
+"Whether to apply the same rule multiple times (if quantities allow) or not."
+"<br /><br />For example, if you set up <i>buy 2 get 1 free</i> rule and "
+"leave <i>Repeat</i> unchecked, then 10 products at full price will earn only "
+"1 free product.<br /><br />On the other hand, if you set <i>Repeat</i> to "
+"active, 10 products at full price will earn 5 free products."
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/wc-dynamic-pricing-and-discounts.php:926
+msgid ""
+"If checked, this cart discount will not be applied if cart contains at least "
+"one item which price was adjusted by pricing rules."
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/wc-dynamic-pricing-and-discounts.php:935
+msgid ""
+"On newer versions of WooCommerce, this will appear on the totals block as a "
+"discount title (similar to coupon code)."
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/wc-dynamic-pricing-and-discounts.php:938
+msgid ""
+"Whether or not to display a pricing table on products that have quantity "
+"discount rule configured for them.<br /><br />This setting also allows you "
+"to choose whether table should be displayed inline or opened in a modal.<br /"
+"><br />It is important to understand that if you have any other rules and/or "
+"conditions in addition to the very basic <i>Quantity discount</i> table, the "
+"final price may differ from what is displayed in the pricing table. It is "
+"your own responsibility to determine whether displaying a quantity pricing "
+"table on a product page for marketing purposes will work fine in your unique "
+"setup."
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/wc-dynamic-pricing-and-discounts.php:940
+msgid ""
+"Choose position on the product page where pricing table (or link to open a "
+"modal) should appear. Not all of positions will work with all themes."
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/wc-dynamic-pricing-and-discounts.php:1022
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/wc-dynamic-pricing-and-discounts.php:1023
+msgid "Pricing & Discounts"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/wc-dynamic-pricing-and-discounts.php:1116
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/wc-dynamic-pricing-and-discounts.php:1120
+msgid "Something went wrong. Please try again."
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/wc-dynamic-pricing-and-discounts.php:1160
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/wc-dynamic-pricing-and-discounts.php:1373
+msgid "Invalid data structure."
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/wc-dynamic-pricing-and-discounts.php:1359
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/wc-dynamic-pricing-and-discounts.php:1492
+msgid ""
+"Pricing rule configuration did not pass validation. Reverted to previous "
+"state."
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/wc-dynamic-pricing-and-discounts.php:1567
+msgid "Support"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/help.php:24
+msgid "Get In Touch"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/localization.php:22
+msgid "Labels"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/settings.php:28
+msgid "Cart discount title"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/settings.php:36
+msgid "Cart discounts applied"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/settings.php:39
+msgid "Before tax (exclusive)"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/settings.php:40
+msgid "After tax (inclusive)"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/settings.php:47
+msgid "Quantity Pricing Table"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/settings.php:47
+msgid "(experimental)"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/settings.php:53
+msgid "Display pricing table"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/settings.php:56
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/settings.php:68
+msgid "Do not display"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/settings.php:57
+msgid "Product Page - Display in a modal"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/settings.php:58
+msgid "Product Page - Display inline"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/settings.php:65
+msgid "Special offer details"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/settings.php:69
+msgid "Display in a modal"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/settings.php:70
+msgid "Display inline"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/settings.php:77
+msgid "Table layout"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/settings.php:80
+msgid "Horizontal"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/settings.php:81
+msgid "Vertical"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/settings.php:88
+msgid "Display position"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/settings.php:91
+msgid "Above add to cart"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/settings.php:92
+msgid "Below add to cart"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/settings.php:93
+msgid "Above product summary"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/settings.php:94
+msgid "Below product summary"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/settings.php:95
+msgid "Below product meta"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/settings.php:96
+msgid "Below page content"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:22
+msgid "Manage Pricing Rules"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:26
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/discounts.php:26
+msgid "Apply first matched rule"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:27
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/discounts.php:27
+msgid "Apply all matched rules"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:28
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/discounts.php:28
+msgid "Apply biggest discount"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:39
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/discounts.php:39
+msgid "Remove"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:42
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/discounts.php:42
+msgid "General Settings"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:47
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/discounts.php:47
+msgid "Rule description"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:49
+msgid "e.g. wholesale pricing for VIP customers"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:55
+msgid "Method"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:58
+msgid "Quantity discount"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:59
+msgid "Special offer"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:60
+msgid "Exclude matched items"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:67
+msgid "Quantities based on"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:70
+msgid "Exclusive"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:71
+msgid "Quantities of each product individually"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:72
+msgid "Quantities of each variation individually"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:73
+msgid "Quantities of each cart line item individually"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:75
+msgid "Cumulative"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:76
+msgid "Quantities of all selected products split by category"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:77
+msgid "Quantities of all selected products summed up"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:85
+msgid "If conditions are matched"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:88
+msgid "Apply with other matched rules"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:89
+msgid "Apply only this rule (disregard other rules)"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:90
+msgid "Apply only if no other rules are matched"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:97
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/discounts.php:55
+msgid "Valid from/until"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:99
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/discounts.php:57
+msgid "Select date from..."
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:100
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/discounts.php:58
+msgid "Select date until..."
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:106
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/discounts.php:72
+msgid "Conditions"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:111
+msgid "Apply to"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:114
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:115
+msgid "All products"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:117
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:264
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:321
+msgid "Specific categories"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:118
+msgid "Categories in list"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:119
+msgid "Categories not in list"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:121
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:265
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:322
+msgid "Specific products"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:122
+msgid "Products in list"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:123
+msgid "Products not in list"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:131
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:273
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:330
+msgid "Category list"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:143
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:285
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:342
+msgid "Product list"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:155
+msgid "Customers"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:158
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:159
+msgid "All customers"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:161
+msgid "Specific roles"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:162
+msgid "Roles in list"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:163
+msgid "Roles not in list"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:165
+msgid "Specific customers"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:166
+msgid "Customers in list"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:167
+msgid "Customers not in list"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:175
+msgid "Role list"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:187
+msgid "Customer list"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:201
+msgid "Quantity Discount"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:207
+msgid "Min quantity"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:208
+msgid "Max quantity"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:209
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:362
+msgid "Adjustment type"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:210
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/discounts.php:79
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/discounts.php:182
+msgid "Value"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:220
+msgid "e.g. 5"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:223
+msgid "e.g. 9"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:227
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:365
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/discounts.php:174
+msgid "Percentage discount"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:228
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:366
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/discounts.php:175
+msgid "Price discount"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:229
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:367
+msgid "Fixed price"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:233
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:376
+msgid "e.g. 15.00"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:246
+msgid "Add Row"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:257
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:314
+msgid "Products to adjust"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:260
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:317
+msgid "Same products"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:261
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:318
+msgid "Same products (selected above)"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:263
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:320
+msgid "Other products"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:301
+msgid "Special Offer"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:306
+msgid "Amount to purchase"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:308
+msgid "e.g. 2"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:354
+msgid "Amount to adjust"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:356
+msgid "e.g. 1"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:374
+msgid "Adjustment value"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:382
+msgid "Repeat"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/pricing.php:400
+msgid "Add Rule"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/discounts.php:22
+msgid "Manage Cart Discounts"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/discounts.php:49
+#, php-format
+msgid "e.g. additional 5% discount for frequent buyers"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/discounts.php:64
+msgid "Only if pricing not adjusted"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/discounts.php:78
+msgid "Field"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/discounts.php:91
+msgid "Cart Subtotal"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/discounts.php:92
+msgid "Subtotal at least"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/discounts.php:93
+msgid "Subtotal less than"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/discounts.php:95
+msgid "Cart Item Count"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/discounts.php:96
+msgid "Count of cart items at least"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/discounts.php:97
+msgid "Count of cart items less than"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/discounts.php:99
+msgid "Quantity Sum"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/discounts.php:100
+msgid "Sum of item quantities at least"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/discounts.php:101
+msgid "Sum of item quantities less than"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/discounts.php:103
+msgid "Products In Cart"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/discounts.php:104
+msgid "At least one product in cart"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/discounts.php:105
+msgid "None of selected products in cart"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/discounts.php:107
+msgid "Categories In Cart"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/discounts.php:108
+msgid "At least one category in cart"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/discounts.php:109
+msgid "None of selected categories in cart"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/discounts.php:111
+msgid "Customer Details (must be logged in)"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/discounts.php:112
+msgid "User in list"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/discounts.php:113
+msgid "User role in list"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/discounts.php:114
+msgid "Order count to date at least"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/discounts.php:115
+msgid "Amount spent to date at least"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/discounts.php:116
+msgid "Shipping country in list"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/discounts.php:121
+msgid "e.g. 50"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/discounts.php:159
+msgid "Add Condition"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/discounts.php:166
+msgid "Discount"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/discounts.php:171
+msgid "Discount type"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/discounts.php:184
+msgid "e.g. 5.00"
+msgstr ""
+
+#: /var/www/3.8.1/wp-content/plugins/wc-dynamic-pricing-and-discounts/includes/views/admin/discounts.php:198
+msgid "Add Discount"
+msgstr ""

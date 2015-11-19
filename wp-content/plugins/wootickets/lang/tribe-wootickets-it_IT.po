@@ -1,0 +1,195 @@
+# Tribe Events WooTickets by Modern Tribe, Inc.
+# Copyright (C) Modern Tribe, Inc.
+# This file is distributed under the same license as the Tribe Events WooTickets package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Tribe Events WooTickets\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-12-05 15:39-0800\n"
+"PO-Revision-Date: 2014-12-30 21:06+0800\n"
+"Last-Translator: Roberto Scano <mail@robertoscano.info>\n"
+"Language-Team: Paletta <madebypaletta.com>\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,"
+"_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ./\n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: Poedit 1.7.1\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../admin-views/metabox-advanced.php:3
+msgid "Stock:"
+msgstr "Quantità:"
+
+#: ../admin-views/metabox-advanced.php:7
+msgid ""
+"(Total available # of this ticket type. Once they're gone, ticket type is sold out)"
+msgstr ""
+"(Numero di biglietti disponibile. Una volta esauriti questa tipologia sarà nascosta)"
+
+#: ../admin-views/metabox-advanced.php:12
+msgid "SKU:"
+msgstr "SKU:"
+
+#: ../admin-views/metabox-advanced.php:16
+msgid "(A unique identifying code for each ticket type you're selling)"
+msgstr "(Un codice univoco per identificare la tipologia di biglietti che stai vendendo)"
+
+#: ../admin-views/metabox-advanced.php:25
+msgid ""
+"Currently, WooTickets will only show up on the frontend once per full event. For PRO "
+"users this means the same ticket will appear across all events in the series. Please "
+"configure your events accordingly."
+msgstr ""
+"Attualmente WooTickets appare una volta sola per ciascun evento. Per gli utenti PRO lo "
+"stesso biglietto apparirà in tutti gli eventi della stessa serie. Ti raccomandiamo di "
+"impostare i tuoi eventi di conseguenza."
+
+#: ../classes/class-ticket-email.php:13 ../views/wootickets/tickets.php:10
+msgid "Tickets"
+msgstr "Acquista"
+
+#: ../classes/class-ticket-email.php:14
+msgid ""
+"Email the user will receive after a completed order with the tickets he purchased."
+msgstr "L'Email che riceverà l'utente dopo aver completato l'ordine dei biglietti."
+
+#: ../classes/class-ticket-email.php:16
+msgid "Your tickets from {sitename}"
+msgstr "I tuoi biglietti da {sitename}"
+
+#: ../classes/class-ticket-email.php:97
+msgid "Subject"
+msgstr "Oggetto"
+
+#: ../classes/class-ticket-email.php:99
+#, php-format
+msgid "Defaults to <code>%s</code>"
+msgstr "Predefinito a <code>%s</code>"
+
+#: ../classes/class-wootickets.php:306
+msgid "You'll receive your tickets in another email."
+msgstr "Riceverai i tuoi biglietti in un altro email"
+
+#: ../classes/class-wootickets.php:766
+#, php-format
+msgid "In trash (was %s)"
+msgstr "In cestino (era %s)"
+
+#: ../classes/class-wootickets.php:772
+msgid "Deleted"
+msgstr "Eliminato"
+
+#: ../classes/class-wootickets.php:777
+msgid "(deleted)"
+msgstr "(eliminato)"
+
+#: ../classes/class-wootickets.php:807
+msgid "Unknown"
+msgstr "Sconosciuto"
+
+#: ../classes/class-wootickets.php:876
+msgid "Event sales report"
+msgstr "Report delle vendite"
+
+#: ../classes/class-wootickets.php:898
+msgid "Report"
+msgstr "Report"
+
+#: ../classes/class-wootickets.php:921
+msgid "This is a ticket for the event:"
+msgstr "Questo è un biglietto per l'evento:"
+
+#: ../views/wootickets/tickets.php:56
+msgid "Out of stock!"
+msgstr "Esauriti!"
+
+#: ../views/wootickets/tickets.php:82
+msgid "Add to cart"
+msgstr "Aggiungi al carrello"
+
+#: ../wootickets.php:127
+msgid "The Events Calendar"
+msgstr "The Events Calendar"
+
+#: ../wootickets.php:128
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: ../wootickets.php:133 ../wootickets.php:135
+#, php-format
+msgid ""
+"To begin using WooTickets, please install and activate the latest version of <a href="
+"\"%s\" class=\"thickbox\" title=\"%s\">%s</a>."
+msgstr ""
+"Per iniziare ad utilizzare WooTickets, installare e attivare l'ultima versione di <a "
+"href=\"%s\" class=\"thickbox\" title=\"%s\">%s</a>."
+
+#~ msgid ""
+#~ "To begin using WooTickets, please install the latest version of <a href=\"%s\" "
+#~ "class=\"thickbox\" title=\"%s\">%s</a>."
+#~ msgstr ""
+#~ "Per utilizzare WooTickets install l'ultima version di <a href=\"%s\" class="
+#~ "\"thickbox\" title=\"%s\">%s</a>."
+
+#~ msgid ""
+#~ "Email the user will recieve after a completed order with the tickets he purchased."
+#~ msgstr ""
+#~ "E-mail che l'utente riceverà una volta completato l'ordine con i biglietti che ha "
+#~ "acquistato."
+
+#~ msgid "License Key"
+#~ msgstr "Chiave di licenza"
+
+#~ msgid "A valid license key is required for support and updates."
+#~ msgstr "Una chiave di licenza valida è necessaria per supporto e aggiornamenti."
+
+#~ msgid "Replace empty fields"
+#~ msgstr "Sostituisci i campi vuoti"
+
+#~ msgid "A valid license key is required for support and updates"
+#~ msgstr "Una chiave di licenza valida è necessaria per supporto e aggiornamenti."
+
+#~ msgid "License key(s) updated."
+#~ msgstr "Chiavi di licenza aggiornate."
+
+#~ msgid "Sorry, key validation server is not available."
+#~ msgstr "Spiacente, il server di validazione non è disponibile."
+
+#~ msgid "Sorry, this key is expired."
+#~ msgstr "Spiacente, questa chiave è scaduta."
+
+#~ msgid "Sorry, this key is out of installs."
+#~ msgstr "Spiacente, questa chiave non ha più installazioni disponibili."
+
+#~ msgid "Sorry, this key is not valid."
+#~ msgstr "Spiacente, questa chiave non è valida."
+
+#~ msgid "Valid Key! Expires on %s"
+#~ msgstr "Chiave valida! Scade il %s"
+
+#~ msgid ""
+#~ "Hmmm... something's wrong with this validator. Please contact <a href=\"%s"
+#~ "\">support.</a>"
+#~ msgstr "Hmmm… qualcosa è andato storto. Contatta il <a href=\"%s\">supporto.</a>"
+
+#~ msgid ""
+#~ "The Events Calendar WooTickets allows you to sell tickets to events through "
+#~ "WooCommerce"
+#~ msgstr ""
+#~ "The Events Calendar WooTickets ti permette di vendere biglietti per i tuoi eventi "
+#~ "tramite WooCommerce"
+
+#~ msgid "Ticket attached"
+#~ msgstr "Ticket allegato"
+
+#~ msgid "License Key for %s"
+#~ msgstr "Chiave di licenza per %s"
+
+#~ msgid "[X]"
+#~ msgstr "[X]"

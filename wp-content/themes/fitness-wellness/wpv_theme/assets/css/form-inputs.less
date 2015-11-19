@@ -1,0 +1,74 @@
+.form-input {
+	position: relative;
+	margin: 0;
+	background: @accent-color-7;
+
+}
+
+input[type=text],
+input[type=tel],
+input[type=email],
+input[type=password],
+input[type=email],
+input[type=search],
+input[type=date],
+input[type=range],
+input[type=number],
+input[type=button],
+textarea,
+select {
+	.border-box();
+	padding: 17px;
+	width: 100%;
+	position: relative;
+	border: none;
+	outline: none;
+	border: 1px solid @accent-color-7;
+	margin: 0;
+	box-shadow: none !important;
+	font-size: 18px;
+	border-radius: 0;
+
+	div.wpcf7 & {
+		margin-bottom: 17px;
+		background: @accent-color-7;
+		border-radius: 1px;
+	}
+
+	&:focus {
+		border: 1px solid @accent-color-6;
+	}
+	&.invalid {
+		border-color: #D94729;
+	}
+	&:-moz-ui-invalid {
+		border-color: #D94729;
+	}
+
+	.wpv-main & {
+		.formElementColors(@main-background-color);
+	}
+	footer.main-footer & {
+		.formElementColors(@footer-background-color);
+	}
+	.fixed-header-box & {
+		.formElementColors(@header-background-color);
+	}
+}
+
+.form-input .required {
+	display: none;
+}
+
+textarea {
+	min-height: 6em;
+	width: 100%;
+	position: relative;
+	resize: none;
+	font-size: 18px;
+}
+
+html.placeholder .dgx-donate-form-section label[for],
+html.placeholder form.wpcf7-form label[for] {
+	display: inline-block;
+}

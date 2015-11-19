@@ -1,0 +1,1342 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Screets Chat X\n"
+"POT-Creation-Date: 2014-11-29 04:09+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Screets <support@screets.com>\n"
+"Language-Team: Screets Team <support@screets.com>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.10\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x;_ex;_nx\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../core/admin/chat_console.php:19 ../core/options/options.php:799
+msgid "Users"
+msgstr "Utilisateurs"
+
+#: ../core/admin/chat_console.php:20 ../core/admin/chat_console.php:25
+#: ../core/fn.common.php:551
+msgid "Please wait"
+msgstr "Patientez SVP"
+
+#: ../core/class.logs.php:16
+msgid "Chat log(s) deleted succesfully"
+msgstr "Historique(s) de chat effacé(s) avec succès"
+
+#: ../core/class.logs.php:48
+msgid "User"
+msgstr "Utilisateur"
+
+#: ../core/class.logs.php:49 ../core/fn.admin.php:225 ../core/fn.admin.php:475
+#: ../core/options/options.php:58
+msgid "Email"
+msgstr "Email"
+
+#: ../core/class.logs.php:50 ../core/fn.admin.php:481
+msgid "IP Address"
+msgstr "Adresse IP"
+
+#: ../core/class.logs.php:51
+msgid "Create at"
+msgstr "Créer au"
+
+#: ../core/class.logs.php:52
+msgid "Total Messages"
+msgstr "Total de messages"
+
+#: ../core/class.logs.php:85 ../core/options/options.php:21
+#: ../core/options/options.php:22 ../core/options/options.php:311
+msgid "N/A"
+msgstr "N/A"
+
+#: ../core/class.logs.php:99
+msgid "Show logs"
+msgstr "Afficher historique"
+
+#: ../core/class.logs.php:100
+msgid "Delete"
+msgstr "Effacer"
+
+#: ../core/class.logs.php:173 ../core/class.logs.php:334
+msgid "Chat log(s) has been deleted"
+msgstr "L'historique de chat a été effacé"
+
+#: ../core/class.logs.php:175 ../core/class.logs.php:268
+#: ../core/class.logs.php:305 ../core/class.logs.php:336
+#: ../core/fn.admin.php:77 ../core/fn.admin.php:78
+msgid "Chat Logs"
+msgstr "Historiques de chat"
+
+#: ../core/class.options.php:408 ../core/fn.common.php:59
+#: ../screets-cx.php:172
+msgid "Settings"
+msgstr "Paramètres"
+
+#: ../core/fn.admin.php:88 ../core/fn.admin.php:89
+#: ../core/options/options.php:717
+msgid "Offline messages"
+msgstr "Messages hors ligne"
+
+#: ../core/fn.admin.php:161
+msgid "CX Operator"
+msgstr "CX Opérateur"
+
+#: ../core/fn.admin.php:224
+msgid "Title"
+msgstr "Titre"
+
+#: ../core/fn.admin.php:226 ../core/fn.admin.php:478
+#: ../core/fn.offline.php:138 ../core/options/options.php:527
+msgid "Phone"
+msgstr "Téléphone"
+
+#: ../core/fn.admin.php:227
+msgid "Details"
+msgstr "Détails"
+
+#: ../core/fn.admin.php:228
+msgid "Last Login"
+msgstr "Dernière connexion"
+
+#: ../core/fn.admin.php:249
+msgid "Delete this item permanently"
+msgstr "Supprimer cet article de façon permanente"
+
+#: ../core/fn.admin.php:249
+msgid "Delete Permanently"
+msgstr "Supprimer de façon permanente"
+
+#: ../core/fn.admin.php:289 ../core/fn.admin.php:384
+msgid "Sender"
+msgstr "Expéditeur"
+
+#: ../core/fn.admin.php:290 ../core/fn.admin.php:508
+msgid "Receiver"
+msgstr "Destinataire"
+
+#: ../core/fn.admin.php:291 ../core/fn.admin.php:507
+msgid "Date"
+msgstr "Date"
+
+#: ../core/fn.admin.php:343 ../screets-cx.php:480
+msgid "Chat Options"
+msgstr "Options de chat"
+
+#: ../core/fn.admin.php:355
+msgid "Visitor Details"
+msgstr "Détails du visiteur"
+
+#: ../core/fn.admin.php:367 ../screets-cx.php:266 ../screets-cx.php:267
+msgid "Offline Message"
+msgstr "Message hors ligne"
+
+#: ../core/fn.admin.php:376
+msgid "Message Details"
+msgstr "Détails du message"
+
+#: ../core/fn.admin.php:410
+msgid "Full name"
+msgstr "Nom complet"
+
+#: ../core/fn.admin.php:415 ../core/fn.offline.php:133
+#: ../core/options/options.php:517
+msgid "E-mail"
+msgstr "E-mail"
+
+#: ../core/fn.admin.php:472 ../core/fn.offline.php:128
+msgid "Name"
+msgstr "Nom"
+
+#: ../core/fn.admin.php:482
+msgid "Browser"
+msgstr "Navigateur"
+
+#: ../core/fn.admin.php:483
+msgid "OS"
+msgstr "Système d'exploitation"
+
+#: ../core/fn.admin.php:514
+msgid "Message has NOT been sent to offline emails!"
+msgstr "Le message n'a PAS été envoyé aux adresses mails hors connexion"
+
+#: ../core/fn.admin.php:516
+msgid "Message has been received to offline emails successfully."
+msgstr ""
+"Le message a été reçu avec succès par les adresses mails hors connexion"
+
+#: ../core/fn.admin.php:535 ../core/options/options.php:111
+#: ../core/options/options.php:114
+msgid "Display chat box"
+msgstr "Afficher la boîte de chat"
+
+#: ../core/fn.admin.php:536
+msgid "Default"
+msgstr "Défaut"
+
+#: ../core/fn.admin.php:537 ../core/options/options.php:134
+msgid "Show"
+msgstr "Afficher"
+
+#: ../core/fn.admin.php:538 ../core/options/options.php:135
+msgid "Hide"
+msgstr "Cacher"
+
+#: ../core/fn.admin.php:542
+msgid "Auto-initiate chat after"
+msgstr "Démarrer automatiquement le chat après"
+
+#: ../core/fn.admin.php:544
+msgid "second(s)"
+msgstr "seconde(s)"
+
+#: ../core/fn.admin.php:545
+msgid "Set 0 (zero) to use default value in chat settings"
+msgstr ""
+"Régler à 0 (zéro) pour utiliser la valeur par défaut dans les paramètres de "
+"chat"
+
+#: ../core/fn.ajax.php:123
+msgid "New visitor is online "
+msgstr "Nouveau visiteur en ligne"
+
+#: ../core/fn.ajax.php:124
+#, php-format
+msgid "%s is online"
+msgstr "%s est en ligne"
+
+#: ../core/fn.ajax.php:124
+msgid "Please check chat console"
+msgstr "Vérifier la console de chat SVP"
+
+#: ../core/fn.ajax.php:321
+msgid "Successfully saved!"
+msgstr "Enregistré avec succès !"
+
+#: ../core/fn.ajax.php:341 ../core/fn.ajax.php:348 ../core/fn.ajax.php:359
+#: ../core/fn.ajax.php:365 ../core/fn.common.php:558
+msgid "Please fill out all required fields"
+msgstr "Veuillez remplir tous les champs obligatoires SVP"
+
+#: ../core/fn.ajax.php:351 ../core/fn.common.php:559
+msgid "E-mail is invalid"
+msgstr "L'adresse email est invalide"
+
+#: ../core/fn.ajax.php:372
+msgid "Admin"
+msgstr "Admin"
+
+#: ../core/fn.ajax.php:372
+msgid "Offline messages in chat options are not set correctly!"
+msgstr ""
+"Les messages hors ligne dans les options de chat ne sont pas configurés "
+"correctement !"
+
+#: ../core/fn.ajax.php:376 ../core/fn.ajax.php:392
+msgid "Something went wrong. Please try again"
+msgstr "Quelque chose s'est mal passé. Essayer à nouveau"
+
+#: ../core/fn.ajax.php:395
+msgid "Successfully sent! Thank you"
+msgstr "Envoyé avec succès ! Merci"
+
+#: ../core/fn.common.php:49
+msgid "Chat Console"
+msgstr "Console de chat"
+
+#: ../core/fn.common.php:69 ../screets-cx.php:943
+msgid "Connect"
+msgstr "Se connecter"
+
+#: ../core/fn.common.php:540
+msgid "Waiting"
+msgstr "En attente"
+
+#: ../core/fn.common.php:541
+msgid "Start Chat"
+msgstr "Démarrer le chat"
+
+#: ../core/fn.common.php:546
+msgid "No operators online"
+msgstr "Aucun opérateur en ligne"
+
+#: ../core/fn.common.php:547
+msgid "No messages found"
+msgstr "Aucun message trouvé"
+
+#: ../core/fn.common.php:548
+msgid "Sending"
+msgstr "Envoi en cours"
+
+#: ../core/fn.common.php:549
+msgid "Connecting"
+msgstr "Connexion en cours"
+
+#: ../core/fn.common.php:550
+#, php-format
+msgid "%s is writing"
+msgstr "%s est en train d'écrire"
+
+#: ../core/fn.common.php:552
+msgid "Chat Online"
+msgstr "Chat en ligne"
+
+#: ../core/fn.common.php:553
+msgid "Chat Offline"
+msgstr "Chat hors ligne"
+
+#: ../core/fn.common.php:554 ../core/options/options.php:631
+#: ../core/options/options.php:645 ../core/options/options.php:665
+#: ../core/options/options.php:679 ../core/options/options.php:693
+msgid "Optional"
+msgstr "Optionnel"
+
+#: ../core/fn.common.php:555
+msgid "Your message"
+msgstr "Votre message"
+
+#: ../core/fn.common.php:556
+msgid "End chat"
+msgstr "Terminer le chat"
+
+#: ../core/fn.common.php:557
+msgid "Connecting error!"
+msgstr "Erreur de connexion !"
+
+#: ../core/fn.common.php:560
+msgid "You"
+msgstr "Vous"
+
+#: ../core/fn.common.php:561
+msgid "Online"
+msgstr "En ligne"
+
+#: ../core/fn.common.php:562 ../core/options/options.php:710
+msgid "Offline"
+msgstr "Hors ligne"
+
+#: ../core/fn.common.php:563
+msgid ""
+"Operators do not chat from here, only visitors. If you want to test chat "
+"box, you will want to use two different browsers or computers"
+msgstr ""
+"Les opérateurs ne peuvent pas chatter ici, uniquement les visiteurs . Si "
+"vous voulez tester la boîte de chat , vous devez utiliser deux navigateurs "
+"ou ordinateurs différents"
+
+#: ../core/fn.common.php:566
+msgid "January"
+msgstr "Janvier"
+
+#: ../core/fn.common.php:567
+msgid "February"
+msgstr "Février"
+
+#: ../core/fn.common.php:568
+msgid "March"
+msgstr "Mars"
+
+#: ../core/fn.common.php:569
+msgid "April"
+msgstr "Avril"
+
+#: ../core/fn.common.php:570 ../core/fn.common.php:584
+msgid "May"
+msgstr "May"
+
+#: ../core/fn.common.php:571
+msgid "June"
+msgstr "Juin"
+
+#: ../core/fn.common.php:572
+msgid "July"
+msgstr "Juillet"
+
+#: ../core/fn.common.php:573
+msgid "August"
+msgstr "Août"
+
+#: ../core/fn.common.php:574
+msgid "September"
+msgstr "Septembre"
+
+#: ../core/fn.common.php:575
+msgid "October"
+msgstr "Octobre"
+
+#: ../core/fn.common.php:576
+msgid "November"
+msgstr "Novembre"
+
+#: ../core/fn.common.php:577
+msgid "December"
+msgstr "Décembre"
+
+#: ../core/fn.common.php:580
+msgid "Jan"
+msgstr "Jan"
+
+#: ../core/fn.common.php:581
+msgid "Feb"
+msgstr "Fév"
+
+#: ../core/fn.common.php:582
+msgid "Mar"
+msgstr "Mars"
+
+#: ../core/fn.common.php:583
+msgid "Apr"
+msgstr "Avr"
+
+#: ../core/fn.common.php:585
+msgid "Jun"
+msgstr "Juin"
+
+#: ../core/fn.common.php:586
+msgid "Jul"
+msgstr "Juil"
+
+#: ../core/fn.common.php:587
+msgid "Aug"
+msgstr "Août"
+
+#: ../core/fn.common.php:588
+msgid "Sep"
+msgstr "Sep"
+
+#: ../core/fn.common.php:589
+msgid "Oct"
+msgstr "Oct"
+
+#: ../core/fn.common.php:590
+msgid "Nov"
+msgstr "Nov"
+
+#: ../core/fn.common.php:591
+msgid "Dec"
+msgstr "Déc"
+
+#: ../core/fn.common.php:594
+msgid "ago"
+msgstr " "
+
+#: ../core/fn.common.php:595
+msgid "less than a minute"
+msgstr "il y a moins d'une minute"
+
+#: ../core/fn.common.php:596
+msgid "about a minute"
+msgstr "il y a environ une minute"
+
+#: ../core/fn.common.php:597
+#, php-format
+msgid "%d minutes"
+msgstr "il y a %d minutes"
+
+#: ../core/fn.common.php:598
+msgid "about an hour"
+msgstr "il y a environ une heure"
+
+#: ../core/fn.common.php:599
+#, php-format
+msgid "about %d hours"
+msgstr "il y a environ %d heures"
+
+#: ../core/fn.common.php:600
+msgid "a day"
+msgstr "il y a un jour"
+
+#: ../core/fn.common.php:601
+#, php-format
+msgid "%d days"
+msgstr "il y a %d jours"
+
+#: ../core/fn.common.php:602
+msgid "about a month"
+msgstr "il y a environ un mois"
+
+#: ../core/fn.common.php:603
+#, php-format
+msgid "%d months"
+msgstr "il y a %d mois"
+
+#: ../core/fn.common.php:604
+msgid "about a year"
+msgstr "il y a environ un an"
+
+#: ../core/fn.common.php:605
+#, php-format
+msgid "%d years"
+msgstr "il y a %d ans"
+
+#: ../core/fn.offline.php:142
+msgid "Message"
+msgstr "Message"
+
+#: ../core/fn.offline.php:145
+msgid "User information"
+msgstr "Information Utilisateur"
+
+#: ../core/fn.offline.php:163
+msgid "New offline message"
+msgstr "Nouveau message hors ligne"
+
+#: ../core/fn.offline.php:216
+msgid "We received your message"
+msgstr "Vous avez reçu un message"
+
+#: ../core/fn.setup.php:73 ../core/fn.setup.php:81 ../core/fn.setup.php:89
+#: ../core/fn.setup.php:98 ../core/fn.setup.php:107
+msgid "This field is required"
+msgstr "Ce champ est obligatoire"
+
+#: ../core/fn.setup.php:116 ../core/fn.setup.php:125
+msgid "Please review this field"
+msgstr "Veuillez vérifier ce champ SVP"
+
+#: ../core/options/options.php:56 ../screets-cx.php:485
+msgid "Operator Name"
+msgstr "Nom de l'opérateur"
+
+#: ../core/options/options.php:57
+msgid "Username"
+msgstr "Nom d'utilisateur"
+
+#: ../core/options/options.php:75
+msgid "No operators found"
+msgstr "Aucun opérateur trouvé"
+
+#: ../core/options/options.php:98
+msgid "General"
+msgstr "Général"
+
+#: ../core/options/options.php:105
+msgid "Display"
+msgstr "Afficher"
+
+#: ../core/options/options.php:112
+#, php-format
+msgid ""
+"<a href='%s' target='_blank'>wp_footer()</a> function has to be located in "
+"your theme"
+msgstr ""
+"La fonction <a href='%s' target='_blank'>wp_footer()</a> doit être présente "
+"dans votre thème"
+
+#: ../core/options/options.php:116
+msgid "Disable on mobile devices"
+msgstr "Désactiver sur les appareils mobiles"
+
+#: ../core/options/options.php:117
+msgid "Display in WooCommerce pages"
+msgstr "Afficher sur les pages WooCommerce"
+
+#: ../core/options/options.php:117
+msgid "Product pages, cart and checkout"
+msgstr "Pages produit, panier et contrôle"
+
+#: ../core/options/options.php:131
+msgid "Display on homepage?"
+msgstr "Afficher en page d'accueil ?"
+
+#: ../core/options/options.php:175
+msgid "Notifications"
+msgstr "Notifications"
+
+#: ../core/options/options.php:181
+msgid "Notify operators by email"
+msgstr "Notifier les opérateurs par email"
+
+#: ../core/options/options.php:184
+msgid "When visitor logs into chat"
+msgstr "Quand les visiteurs se connecte au chat"
+
+#: ../core/options/options.php:196
+msgid "License"
+msgstr "License"
+
+#: ../core/options/options.php:202 ../core/options/options.php:222
+msgid "Purchase Code"
+msgstr "Code d'achat"
+
+#: ../core/options/options.php:203
+#, php-format
+msgid ""
+"You can find your <strong>purchase code</strong> under <a href=\"%s\" target="
+"\"_blank\">Downloads</a> tab in CodeCanyon. <br />Just click \"Download\" "
+"button next to the the plugin."
+msgstr ""
+"Vous pouvez trouver votre <strong>code d'achat</strong> sous l'onglet <a "
+"href=\"%s\" target=\"_blank\">Downloads</a> sur le site CodeCanyon. <br /"
+">Cliquez simplement sur le bouton \"Download\" à côté du plugin."
+
+#: ../core/options/options.php:212
+msgid "Upgrade"
+msgstr ""
+
+#: ../core/options/options.php:223
+msgid "Please enter your Live Chat plugin purchase code here"
+msgstr ""
+
+#: ../core/options/options.php:237 ../core/options/options.php:426
+msgid "Appearance"
+msgstr "Apparence"
+
+#: ../core/options/options.php:244
+msgid "Chat Window"
+msgstr "Fenêtre de chat"
+
+#: ../core/options/options.php:250
+msgid "Skin"
+msgstr "Format"
+
+#: ../core/options/options.php:263
+msgid "Primary Color"
+msgstr "Couleur principale"
+
+#: ../core/options/options.php:264
+msgid "Also using for colorizing offline emails"
+msgstr "Aussi utilisée pour colorier les emails hors ligne"
+
+#: ../core/options/options.php:272
+msgid "Link Color"
+msgstr "Couleur des liens"
+
+#: ../core/options/options.php:281
+msgid "Widget size"
+msgstr "Taille du widget"
+
+#: ../core/options/options.php:293
+msgid "Widget Position"
+msgstr "Position du widget"
+
+#: ../core/options/options.php:294
+msgid "Which side do you want to display chat box"
+msgstr "De quel côté voulez-vous afficher la boîte de chat"
+
+#: ../core/options/options.php:296
+msgid "top-left"
+msgstr "en haut à gauche"
+
+#: ../core/options/options.php:297
+msgid "top-right"
+msgstr "en haut à droite"
+
+#: ../core/options/options.php:298
+msgid "bottom-left"
+msgstr "en bas à gauche"
+
+#: ../core/options/options.php:299
+msgid "bottom-right"
+msgstr "en bas à droite"
+
+#: ../core/options/options.php:308
+msgid "Animation"
+msgstr "Animation"
+
+#: ../core/options/options.php:317
+msgid "Animate"
+msgstr "Animer"
+
+#: ../core/options/options.php:326
+msgid "Speed up animation"
+msgstr "Accélérer l'animation"
+
+#: ../core/options/options.php:337
+msgid "Offset"
+msgstr "Décalage"
+
+#: ../core/options/options.php:349
+msgid "Delay"
+msgstr "Délai"
+
+#: ../core/options/options.php:350
+msgid "1000 ms = 1 second"
+msgstr "1000 ms = 1 seconde"
+
+#: ../core/options/options.php:354
+msgid "milliseconds"
+msgstr "millisecondes"
+
+#: ../core/options/options.php:361
+msgid "Radius"
+msgstr "Rayon"
+
+#: ../core/options/options.php:373
+msgid "Reply Box Position"
+msgstr "Position de la réponse"
+
+#: ../core/options/options.php:376
+msgid "Top"
+msgstr "Au-dessus"
+
+#: ../core/options/options.php:377
+msgid "Bottom"
+msgstr "En-dessous"
+
+#: ../core/options/options.php:386
+msgid "Company Avatar"
+msgstr "Avatar de la société"
+
+#: ../core/options/options.php:387
+msgid "Default operators' avatar"
+msgstr "Avatar par défaut des opérateurs"
+
+#: ../core/options/options.php:395
+msgid "Avatar Size"
+msgstr "Taille de l'avatar"
+
+#: ../core/options/options.php:408
+msgid "Avatar Radius"
+msgstr "Rayon de l'avatar"
+
+#: ../core/options/options.php:409
+msgid "If avatar size and radius values are the same, avatar will be circle"
+msgstr ""
+"Si la taille et le rayon de l'avatar sont identiques, l'avatar sera rond"
+
+#: ../core/options/options.php:420
+msgid "Chat Button"
+msgstr "Bouton de chat"
+
+#: ../core/options/options.php:429
+msgid "Show title"
+msgstr "Afficher le titre"
+
+#: ../core/options/options.php:430
+msgid "Show icon"
+msgstr "Afficher l'icône"
+
+#: ../core/options/options.php:431
+msgid "Show arrow"
+msgstr "Afficher la flèche"
+
+#: ../core/options/options.php:444
+msgid "Button Size"
+msgstr "Taille du bouton"
+
+#: ../core/options/options.php:445
+msgid "0 (zero): No fixed size"
+msgstr "0 (zéro): pas de taille fixée"
+
+#: ../core/options/options.php:456
+msgid "Button title"
+msgstr "Titre du bouton"
+
+#: ../core/options/options.php:458
+msgid "Chat with us"
+msgstr "Chatter avec nous"
+
+#: ../core/options/options.php:467
+msgid "Messages"
+msgstr "Messages"
+
+#: ../core/options/options.php:473
+msgid "Offline form title"
+msgstr "Titre du formulaire hors ligne"
+
+#: ../core/options/options.php:475
+msgid "Contact us"
+msgstr "Contactez nous"
+
+#: ../core/options/options.php:483
+msgid "Reply field label"
+msgstr "Label du champ de réponse"
+
+#: ../core/options/options.php:485 ../core/options/options.php:556
+msgid "Type here and hit enter to chat"
+msgstr "Ecrivez ici puis appuyer sur entrée"
+
+#: ../core/options/options.php:493
+msgid "Offline body"
+msgstr "Message hors ligne"
+
+#: ../core/options/options.php:494 ../core/options/options.php:762
+#: ../core/options/options.php:774
+msgid "HTML tags are allowed"
+msgstr "Les tags HTML sont autorisés"
+
+#: ../core/options/options.php:495
+msgid ""
+"Sorry! We aren't around right now. Leave a message and we'll get back to "
+"you, asap."
+msgstr ""
+"Désolé ! Nous ne sommes pas là pour l'instant. Laissez un message et nous "
+"vous répondrons dès que possible."
+
+#: ../core/options/options.php:505
+msgid "Name field label"
+msgstr "Label du champ nom"
+
+#: ../core/options/options.php:507
+msgid "Your name"
+msgstr "Votre nom"
+
+#: ../core/options/options.php:515
+msgid "Email field label"
+msgstr "Label du champ email"
+
+#: ../core/options/options.php:525
+msgid "Phone field label"
+msgstr "Label du champ téléphone"
+
+#: ../core/options/options.php:535
+msgid "Message field label"
+msgstr "Label du champ message"
+
+#: ../core/options/options.php:537
+msgid "How can we help you?"
+msgstr "Comment pouvons-nous vous aider ?"
+
+#: ../core/options/options.php:545
+msgid "Send button"
+msgstr "Bouton envoi"
+
+#: ../core/options/options.php:547
+msgid "Send"
+msgstr "Envoyer"
+
+#: ../core/options/options.php:566
+msgid "Forms"
+msgstr "Formulaires"
+
+#: ../core/options/options.php:575
+msgid "Login form"
+msgstr "Formulaire de connexion"
+
+#: ../core/options/options.php:591
+msgid "Prechat message"
+msgstr "Message avant le chat"
+
+#: ../core/options/options.php:593
+msgid "Questions? We're here. Send us a message!"
+msgstr "Des questions ? Nous sommes là. Envoyez-nous un message !"
+
+#: ../core/options/options.php:603
+msgid "Welcome message"
+msgstr "Message de bienvenue"
+
+#: ../core/options/options.php:605
+msgid "Questions, issues or concerns? I'd love to help you!"
+msgstr "Questions ou problèmes ? J'aimerais vous aider !"
+
+#: ../core/options/options.php:627 ../core/options/options.php:661
+msgid "Name field"
+msgstr "Champ nom"
+
+#: ../core/options/options.php:630 ../core/options/options.php:644
+#: ../core/options/options.php:664 ../core/options/options.php:678
+#: ../core/options/options.php:692
+msgid "Hidden"
+msgstr "Caché"
+
+#: ../core/options/options.php:632 ../core/options/options.php:646
+#: ../core/options/options.php:666 ../core/options/options.php:680
+#: ../core/options/options.php:694
+msgid "Required"
+msgstr "Obligatoire"
+
+#: ../core/options/options.php:641 ../core/options/options.php:675
+msgid "Email field"
+msgstr "Champ email"
+
+#: ../core/options/options.php:655
+msgid "Contact form"
+msgstr "Formulaire de contact"
+
+#: ../core/options/options.php:689
+msgid "Phone field"
+msgstr "Champ téléphone"
+
+#: ../core/options/options.php:723
+msgid "Where should offline messages go?"
+msgstr "Où doivent être envoyés les messages hors ligne ?"
+
+#: ../core/options/options.php:724
+msgid "If you need SMTP configuration, you will want to use WP SMTP plugin"
+msgstr ""
+"Si vous avez besoin de la configuration SMTP, vous devez utiliser le plugin "
+"WP SMTP"
+
+#: ../core/options/options.php:724 ../core/options/options.php:725
+msgid "Separate email addresses with comma ','"
+msgstr "Séparer les adresses email par une virgule ','"
+
+#: ../core/options/options.php:733
+msgid "Redirect offline button to an URL"
+msgstr "Rediriger le bouton hors ligne vers une URL"
+
+#: ../core/options/options.php:734
+msgid ""
+"If you have already contact system, you can link button to an existing page "
+"when chat is offline"
+msgstr ""
+"Si vous avez déjà un formulaire de contact, vous pouvez lier le bouton à une "
+"page existante lorsque le chat est hors ligne"
+
+#: ../core/options/options.php:743 ../core/options/options.php:745
+msgid "Site Name"
+msgstr "Nom du site"
+
+#: ../core/options/options.php:752
+msgid "Site URL"
+msgstr "URL du site"
+
+#: ../core/options/options.php:761
+msgid "E-mail header"
+msgstr "Entête du mail"
+
+#: ../core/options/options.php:763
+msgid ""
+"We received your message and will respond within one business day, likely "
+"much sooner. We will be happy to provide you with a detailed answer as "
+"quickly as we can."
+msgstr ""
+"Nous avons bien reçu votre message et vous répondrons sous un jour environ, "
+"probablement beaucoup plus tôt . Nous serons heureux de vous fournir une "
+"réponse détaillée le plus rapidement possible."
+
+#: ../core/options/options.php:773
+msgid "E-mail footer"
+msgstr "Signature"
+
+#: ../core/options/options.php:775
+msgid ""
+"Regards,\n"
+"\n"
+"Your Company\n"
+"<a href='http://www.yourdomain.com'>www.yourdomain.com</a>"
+msgstr ""
+"Cordialement,\n"
+"\n"
+"Votre société\n"
+"<a href='http://www.votredomaine.com'>www.votredomaine.com</a>"
+
+#: ../core/options/options.php:785
+msgid "Send a copy to visitor as well"
+msgstr "Envoyer une copie au visiteur "
+
+#: ../core/options/options.php:806
+msgid "Operators & Visitors"
+msgstr "Opérateurs & Visiteurs"
+
+#: ../core/options/options.php:812
+msgid "Default role of operators"
+msgstr "Rôle par défaut des opérateurs"
+
+#: ../core/options/options.php:813
+msgid ""
+"Operators have the same capability with this role. It does NOT mean this "
+"role will act like operator"
+msgstr ""
+"Les opérateurs ont les mêmes permissions que ce rôle. Cela ne signifie pas "
+"que ce rôle va agir comme un opérateur"
+
+#: ../core/options/options.php:822
+msgid "Additional role of operators"
+msgstr "Rôle additionnel des opérateurs"
+
+#: ../core/options/options.php:823
+msgid "Additional role from your active WP plugins"
+msgstr "Rôle additionnel issu de vos plugins WP actifs"
+
+#: ../core/options/options.php:845 ../core/options/options.php:847
+msgid "Guest Prefix"
+msgstr "Préfixe Invité"
+
+#: ../core/options/options.php:846
+msgid ""
+"For instance, you can write <em>Guest-</em>. Then guest name looks like "
+"<em>Guest-1234</em>"
+msgstr ""
+"Pour l'instant, vous pouvez écrire <em>Invité-</em>. Le nom de l'invité "
+"apparaîtra alors comme ceci <em>Invité-1234</em>"
+
+#: ../core/options/options.php:850
+msgid "Guest"
+msgstr "Invité"
+
+#: ../core/options/options.php:856
+msgid "Operators List"
+msgstr "Liste des opérateurs"
+
+#: ../core/options/options.php:862
+msgid "Create Operator"
+msgstr "Créer un opérateur"
+
+#: ../core/options/options.php:862
+msgid "Note that administrators can also answer visitors like operators"
+msgstr ""
+"Noter que les administrateurs peuvent répondre aux questions des visiteurs "
+"aussi bien que les opérateurs"
+
+#: ../core/options/options.php:874 ../core/options/options.php:955
+msgid "Advanced"
+msgstr "Avancé"
+
+#: ../core/options/options.php:881
+msgid "Realtime App Platform"
+msgstr "Plate-forme de l'application en temps réel"
+
+#: ../core/options/options.php:894 ../core/options/options.php:896
+msgid "App URL"
+msgstr "Application URL"
+
+#: ../core/options/options.php:895
+msgid "URL of the application"
+msgstr "URL de l'application"
+
+#: ../core/options/options.php:895
+#, php-format
+msgid "<a href=\"%s\" target=\"_blank\">Create free %s account</a>"
+msgstr "<a href=\"%s\" target=\"_blank\">Créer un compte gratuit %s</a>"
+
+#: ../core/options/options.php:906 ../core/options/options.php:908
+msgid "App Token"
+msgstr "Clé d'application"
+
+#: ../core/options/options.php:907
+msgid ""
+"The token can be found under \"Secrets\" menu in your Firebase dashboard"
+msgstr ""
+"La clé peut être trouvée dans le menu  \" Secrets \" dans votre tableau de "
+"bord Firebase"
+
+#: ../core/options/options.php:915
+msgid "Performance"
+msgstr "Performance"
+
+#: ../core/options/options.php:931
+msgid "Compress"
+msgstr "Compresser"
+
+#: ../core/options/options.php:932
+msgid ""
+"Improve performance by using compressed CSS / JS files of current template."
+msgstr ""
+"Améliorer les performances en utilisant des fichiers CSS / JS compressés."
+
+#: ../core/options/options.php:934
+msgid "Use compiled JavaScript file"
+msgstr "Utiliser un fichier JavaScript compressé"
+
+#: ../core/options/options.php:935
+msgid "Use compressed CSS file"
+msgstr "Utiliser un fichier CSS compressé"
+
+#: ../core/options/options.php:936
+msgid "Disable CSS file"
+msgstr "Désactiver le fichier CSS"
+
+#: ../core/options/options.php:945
+msgid "Faster AJAX"
+msgstr "Faster AJAX"
+
+#: ../core/options/options.php:946
+msgid ""
+"This method isn't supported by some PHP/Apache server installations.<br>If "
+"contact form sends email after activating this method, you can use it safely."
+msgstr ""
+"Cette méthode n'est pas supportée par certaines installations serveur PHP/"
+"Apache.<br>Si le formulaire de contact envoi bien des emails après "
+"activation de cette méthode, vous pouvez l'utiliser sans risque."
+
+#: ../core/options/options.php:947
+msgid "Use faster AJAX for the plugin instead of default WordPress AJAX"
+msgstr "Utiliser Faster AJAX au lieu du WordPress AJAX par défaut"
+
+#: ../core/options/options.php:962
+msgid "Debug"
+msgstr "Débug"
+
+#: ../core/options/options.php:964
+msgid "Activate browser console debug"
+msgstr "Activer la console de débug du navigateur"
+
+#: ../core/options/options.php:972
+msgid "Custom CSS"
+msgstr "CSS personnalisé"
+
+#: ../core/options/options.php:1002
+msgid "Reverse Proxy IPs"
+msgstr "Reverse Proxy IPs"
+
+#: ../core/options/options.php:1003
+msgid ""
+"If your server is behind a reverse proxy, you must whitelist the proxy IP "
+"addresses from which WordPress should trust the HTTP_X_FORWARDED_FOR header "
+"in order to properly identify the visitor's IP address. Comma-delimited, e."
+"g. '10.0.1.200,10.0.1.201'"
+msgstr ""
+"Si votre serveur est derrière un proxy, vous devez mettre sur liste blanche "
+"les adresses IP du proxy depuis lesquelles WordPress doit accepter l'entête "
+"HTTP_X_FORWARDED_FOR afin de bien identifier l'adresse IP du visiteur. "
+"Séparés par des virgules, par exemple '10.0.1.200,10.0.1.201'"
+
+#: ../core/options/options.php:1016
+msgid "Help"
+msgstr "Aide"
+
+#: ../core/options/views/check_data.php:19
+msgid "Realtime Data"
+msgstr "Données en temps réel"
+
+#: ../core/options/views/check_data.php:22
+msgid "Clean realtime data"
+msgstr "Nettoyer les données en temps réel"
+
+#: ../core/options/views/check_data.php:23
+msgid ""
+"All data in your realtime app platform will be cleaned and saved into your "
+"database!"
+msgstr ""
+"Toutes les données de l'application temps réel seront effacées et sauvées "
+"dans votre base de données !"
+
+#: ../core/options/views/check_data.php:24
+msgid "Logout from chat console before clean data!"
+msgstr "Se déconnecter de la console de chat avant de nettoyer les données !"
+
+#: ../core/options/views/check_db.php:13
+msgid "Create Databases"
+msgstr "Créer les bases de données"
+
+#: ../core/options/views/check_db.php:13
+msgid ""
+"No databases found. It is required for archiving your chat logs and more."
+msgstr ""
+"Aucune base de données trouvée. C'est obligatoire pour pouvoir entre autre "
+"archiver vos historiques de chat."
+
+#: ../core/options/views/check_db.php:16
+msgid "Good"
+msgstr "Bon"
+
+#: ../core/options/views/check_db.php:21
+msgid "Database status"
+msgstr "Etat de la base de données"
+
+#: ../core/options/views/check_security.php:13
+msgid "Update now"
+msgstr "Mettre à jour maintenant"
+
+#: ../core/options/views/check_security.php:13
+msgid "Security rules couldn't be updated."
+msgstr "Les règles de sécurité n'ont pas pu être mises à jour."
+
+#: ../core/options/views/check_security.php:16
+msgid "Up-to-date"
+msgstr "A jour"
+
+#: ../core/options/views/check_security.php:21
+msgid "Security"
+msgstr "Sécurité"
+
+#: ../core/options/views/check_session.php:15
+msgid "Check"
+msgstr "Vérifier"
+
+#: ../core/options/views/check_session.php:16
+msgid ""
+"You are using <strong>PHP sessions</strong>. Please click \"Check\" button "
+"to ensure that sessions really work!"
+msgstr ""
+"Vous utilisez les <strong>sessions PHP</strong>. Cliquez sur le bouton "
+"\"Vérifier\" pour être sûr que les sessions fonctionnent réellement !"
+
+#: ../core/options/views/check_session.php:16
+msgid ""
+"If you want to store session data to database, add the code below into "
+"<strong>wp-config.php</strong>."
+msgstr ""
+"Si vous voulez stocker les données de session dans la base de données, "
+"ajouter le code ci-dessous dans le fichier <strong>wp-config.php</strong>."
+
+#: ../core/options/views/check_session.php:21
+msgid "Clean sessions"
+msgstr "Nettoyer les sessions"
+
+#: ../core/options/views/check_session.php:22
+msgid "Session data storing to database."
+msgstr "Données de session stockées dans la base de données."
+
+#: ../core/options/views/check_session.php:28
+msgid "Sessions"
+msgstr "Sessions"
+
+#: ../core/options/views/closetab.php:4
+msgid "Save changes"
+msgstr "Enregistrer les modifications"
+
+#: ../core/options/views/closetab.php:5 ../screets-cx.php:951
+msgid "Saving"
+msgstr "Enregistrement en cours"
+
+#: ../core/options/views/closetab.php:6
+msgid "Saved"
+msgstr "Enregistré"
+
+#: ../core/options/views/closetab.php:7
+msgid ""
+"Reset all settings to default. Are you sure? This action cannot be undone!"
+msgstr ""
+"Réinitialise tous les paramètres par défaut. Etes vous sûr ? Cette action ne "
+"peut pas être annulée !"
+
+#: ../core/options/views/closetab.php:7
+msgid "Restore default settings"
+msgstr "Restaurer les paramètres par défaut"
+
+#: ../core/options/views/code.php:5
+msgid "Insert code"
+msgstr "Insérer un code"
+
+#: ../core/options/views/dashboard.php:3
+msgid "Recent Activity"
+msgstr "Activité récente"
+
+#: ../core/options/views/dashboard.php:9
+msgid "Feedback"
+msgstr "Réaction"
+
+#: ../core/options/views/license.php:13
+msgid "Purchase"
+msgstr "Acheter"
+
+#: ../core/options/views/notifications.php:5
+msgid "Instructions"
+msgstr "Instructions"
+
+#: ../core/options/views/notifications.php:17
+#: ../core/options/views/notifications.php:28
+#: ../core/options/views/notifications.php:37
+#: ../core/options/views/notifications.php:46
+msgid "Click to close"
+msgstr "Cliquer pour fermer"
+
+#: ../core/options/views/settings.php:13
+msgid ""
+"For full functionality of this page it is reccomended to enable javascript."
+msgstr ""
+"Pour toutes les fonctionnalités de cette page, il est recommandé d'activer "
+"Javascript."
+
+#: ../core/options/views/settings.php:14
+msgid "Settings reseted successfully"
+msgstr "Paramètres réinitialisés avec succès"
+
+#: ../core/options/views/settings.php:15
+msgid "There is already default settings"
+msgstr "Il y a déjà les paramètres par défaut"
+
+#: ../core/options/views/settings.php:16
+msgid "Settings saved successfully"
+msgstr "Paramètres enregistrés avec succès"
+
+#: ../core/options/views/settings.php:17
+msgid "Settings not saved, because there is no changes"
+msgstr "Paramètres non enregistrés car il n'y a pas de changement"
+
+#: ../core/options/views/upload.php:18
+msgid "Upload"
+msgstr "Télécharger"
+
+#: ../screets-cx.php:265
+msgid "Offline Messages"
+msgstr "Messages  hors ligne"
+
+#: ../screets-cx.php:268
+msgid "Parent Offline Message:"
+msgstr "Message hors ligne parent"
+
+#: ../screets-cx.php:269
+msgid "All Offline Messages"
+msgstr "Tous les messages hors ligne"
+
+#: ../screets-cx.php:270
+msgid "View Offline Message"
+msgstr "Voir les messages hors ligne"
+
+#: ../screets-cx.php:271
+msgid "Add New Offline Message"
+msgstr "Ajouter un nouveau message hors ligne"
+
+#: ../screets-cx.php:272
+msgid "New Offline Message"
+msgstr "Nouveau message hors ligne"
+
+#: ../screets-cx.php:273
+msgid "Edit Offline Message"
+msgstr "Modifier le message hors ligne"
+
+#: ../screets-cx.php:274
+msgid "Update Offline Message"
+msgstr "Mettre à jour le message hors ligne"
+
+#: ../screets-cx.php:275
+msgid "Search offline message"
+msgstr "Rechercher un message hors ligne"
+
+#: ../screets-cx.php:276
+msgid "No offline message found"
+msgstr "Aucun message hors ligne trouvé"
+
+#: ../screets-cx.php:277
+msgid "No offline message found in Trash"
+msgstr "Aucun message hors ligne dans la corbeille"
+
+#: ../screets-cx.php:489
+msgid "Refresh chat console page when you update operator name"
+msgstr ""
+"Actualiser la page de la console de chat quand vous mettez à jour le nom "
+"d'un opérateur"
+
+#: ../screets-cx.php:944
+msgid "Disconnect"
+msgstr "Se déconnecter"
+
+#: ../screets-cx.php:945
+msgid "You're offline"
+msgstr "Vous êtes hors ligne"
+
+#: ../screets-cx.php:946
+msgid ""
+"Chat logs saved into your own server and removed from realtime app platform "
+"after ending chat"
+msgstr ""
+"Historiques de chat enregistrés dans votre propre serveur et supprimés de la "
+"plate-forme d'applications en temps réel après la fin du chat"
+
+#: ../screets-cx.php:947
+msgid "Save and end chat"
+msgstr "Enregistre et ferme le chat"
+
+#: ../screets-cx.php:948
+msgid ""
+"If you leave, you will be logged out of chat. However you will be able to "
+"save conversations into your server when you come back to console!"
+msgstr ""
+"Si vous partez, vous serez déconnecté du chat . Cependant, vous serez en "
+"mesure d'enregistrer les conversations dans votre serveur lorsque vous "
+"reviendrez dans la console !"
+
+#: ../screets-cx.php:949
+msgid "New Message"
+msgstr "Nouveau message"
+
+#: ../screets-cx.php:950
+msgid "New User Online"
+msgstr "Nouvel utilisateur en ligne"
+
+#~ msgid "Display login form"
+#~ msgstr "Afficher le formulaire de connexion"
+
+#~ msgid "If you hide display form, conversation box will appear automatically"
+#~ msgstr ""
+#~ "Si vous cacher le formulaire, la fenêtre de conversation apparaîtra "
+#~ "automatiquement"

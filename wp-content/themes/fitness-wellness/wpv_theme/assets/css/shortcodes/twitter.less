@@ -1,0 +1,25 @@
+.single-tweet {
+	text-align: center;
+
+	.tweet-text {
+        color: lighten(@primary-font-color, 20%);
+
+        p {
+     		margin: 1em 0 .5em 0;
+		}
+	}
+
+
+	.tweet-time {
+		text-transform: uppercase;
+		color: lighten(@primary-font-color, 20%);
+		font-size: 10px;
+	}
+
+	+ .tweet-divider {
+		margin: 16px auto;
+		max-width: 250px;
+		height: 1px;
+		background: @accent-color-7;
+	}
+}

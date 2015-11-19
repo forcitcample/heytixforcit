@@ -1,0 +1,433 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <title>Documentation for &quot;WooCommerce Additional Fees&quot;-Pugin for WordPress by InoPlugs</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/css/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/css/blueprint-css/print.css" type="text/css" media="print">
+	<link rel="stylesheet" href="assets/css/blueprint-css/image.css" type="text/css">
+	<link rel="stylesheet" href="assets/js/prettyPhoto/css/prettyPhoto.css" type="text/css" media="screen" charset="utf-8" />
+	<link rel="stylesheet" href="assets/css/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<link rel='stylesheet' href='assets/css/main.css' type='text/css' media='all' />
+
+
+	<script type='text/javascript' src='assets/js/jquery.js'></script>
+	<script type="text/javascript" src="assets/js/prettyPhoto/js/jquery.prettyPhoto.js" charset="utf-8"></script>
+	<script type='text/javascript' src='assets/js/custom.js'></script>
+
+  </head>
+  <body class="ip-doc-page-content">
+  <!-- Start help file content -->
+  <div class="container">
+		<div class="center"><img src="assets/images/logo.png" height="250"></div>
+		<h1 class="center">InoPlugs - in your face innovations!</h1>
+
+		<h3 class="center alt">&ldquo;<span class="center">Plugins written and maintained</span> by G&uuml;nter &amp; Peter Sch&ouml;nmann&ldquo;</h3>
+
+		<hr/>
+
+	  <div class="ip-doc-headline">
+		  <h1 class="center alt nounderline">Plugin &quot;WooCommerce Additional Fees&quot;</h1>
+	  </div>
+
+		<!-- General Section -->
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 1/03/2013<br>
+					Version: 1.0.0.0<br>
+					By: G&uuml;nter Sch&ouml;nmann<br>
+					Contact: <a href="http://inoplugs.com/contact">click here</a>
+					</strong>				</p>
+				<p class="prepend-top"><span class="small">Informations about updates are always announced on Twitter and at <a href="http://inoplugs.com">Inoplugs.com</a>.</span><br/>
+					<br/>
+					<a href="http://twitter.com/inoplugs" target="_blank"><img src="assets/images/twitter.png" width="212" height="65"></a><br/>
+					<br/>
+				</p>
+		    </div><!-- end div .span-6 -->
+
+		  <div class="span-12 last">
+				<p class="prepend-top append-0"><strong>Hey! First of all I would like to thank you for purchasing my plugin!</strong><br/><br/>
+				If you have any questions that are beyond the scope of this help file, please feel free to ask your question in the
+				support forum or by using the contact form (link on the left). </p>
+				<p class="prepend-top append-0">This file will show you how to set up and use the &quot;WooCommerce Additional Fees&quot; - extension. <br/><br/>
+					This plugin is quite easy to use and gives you the opportunity to add additional fees to an order depending on the selected payment gateway.
+					You may add the fees on the product level and on the order level. You have the opportunity to manually change the additional fee value in the backend when editing the order.</p>
+				<p class="prepend-top append-0">Have fun with this plugin!
+					<br/>Best regards<br/>
+					<strong>G&uuml;nter Sch&ouml;nmann</strong></p>
+		  </div>
+		</div><!-- end div .borderTop -->
+
+		<hr/>
+
+<!-- Table of Contents Section -->
+		<div class="ip-doc-headline">
+		  <h1 class="alt ip-doc-bold" id="toc">Table of Contents</h1>
+	    </div>
+	    <ul>
+
+		  <li class="ip-doc-numlist-1"><a href="#Overview">General Overview</a></li>
+		  <li class="ip-doc-numlist-1"><a href="#Install">Installing and Uninstalling</a></li>
+		  <li class="ip-doc-numlist-1"><a href="#Using">Using the plugin</a>
+			  <ul>
+				  <li class="ip-doc-numlist-2"><a href="#Basicinformation">Basic information</a></li>
+				  <li class="ip-doc-numlist-2"><a href="#Basicsettings">Option Tab: &quot;Basic Settings&quot;</a></li>
+				  <li class="ip-doc-numlist-2"><a href="#Gatewaysettings">Option Tab: &quot;Payment Gateway Settings&quot;</a></li>
+				  <li class="ip-doc-numlist-2"><a href="#ProductBasicsettings">Product -&gt; Option Tab: &quot;Basic Settings&quot;</a></li>
+				  <li class="ip-doc-numlist-2"><a href="#ProductGatewaysettings">Product -&gt; Option Tab: &quot;Payment Gateway Settings&quot;</a></li>
+			  </ul>
+		  </li>
+		  <li class="ip-doc-numlist-1"><a href="#Dependencies">System Requirements and Dependencies</a></li>
+		  <li class="ip-doc-numlist-1"><a href="#Versionlog">Versions - Log</a></li>
+	  </ul>
+	<hr/>
+	  <div class="ip-doc-headline">
+		  <h2 class="alt ip-doc-bold" id="Overview">General Overview<a class="alignright ip-doc-hrefcont" href="#toc">&rArr; top</a></h2>
+	  </div>
+	  <div class="ip-doc-description">
+		  <p class="ip-doc-description-p">
+			  This plugin is an extension for WooCommerce. It gives you the opportunity to add a fee to an order depending on the payment gateway choosen by the customer.
+			  The fee can depend on the choosen products and on the value of the complete cart.
+			  The automatically calculated fee can be changed later in the backend on the order page at any time. You can also add a fee individually to an order;
+			  if originally no fee was defined for a gateway or if you added an order manually in the backend.
+		  </p>
+		  <div class="ip-doc-headline">
+			   <h4 class="alt ip-doc-bold">General options overview:<a class="alignright ip-doc-hrefcont" href="#toc">&rArr; top</a></h4>
+		  </div>
+		  <ul>
+			  <li class="ip-doc-numlist-3">Enable/Disable additional fees for the whole website without removing any data.</li>
+			  <li class="ip-doc-numlist-3">Enable/Disable additional fees for a single gateway</li>
+			  <li class="ip-doc-numlist-3">Enable/Disable additional fees for a single product</li>
+			  <li class="ip-doc-numlist-3">Define the automatic calculation of fees individually for each gateway</li>
+			  <li class="ip-doc-numlist-3">Define the automatic calculation of fees individually for each product</li>
+			  <li class="ip-doc-numlist-3">Change the automatically calculated additional fee manually on the order page</li>
+			  <li class="ip-doc-numlist-3">Add an additional fee manually to an order later, even if it was disabled for the choosen payment gateway</li>
+			  <li class="ip-doc-numlist-3">Add an additional fee manually to an order generated with &quot;Add new order&quot; in the backend</li>
+			  <li class="ip-doc-numlist-3">Define a maximum limit to which a fee is added on cart level</li>
+			  <li class="ip-doc-numlist-3">Define a maximum limit to which a fee is added for a product</li>
+			  <li class="ip-doc-numlist-3">Tax calculation is supported with additional fees</li>
+			  <li class="ip-doc-numlist-3">On deactivation/deinstallation you can keep all your settings for later use or remove them (helps to keep your system clean).</li>
+			  <li class="ip-doc-numlist-3">Additional fee information of orders is not removed on deactivation/uninstallation to have a chance to recover this information later, if required </li>
+		  </ul>
+		  <p class="ip-doc-description-p">
+			  There are 3 ways implemented to calculate the additional fee:
+		  </p>
+		  <ul>
+			  <li class="ip-doc-numlist-3">&quot;Fixed amount&quot;: Adds a fixed amount</li>
+			  <li class="ip-doc-numlist-3">&quot;add % to total amount&quot;: Adds a percentage depending on the total amount of the product or order</li>
+			  <li class="ip-doc-numlist-3">&quot;include % in total amount&quot;: The fee is calculated as a commission rate (you will be payed the total amount of the order)</li>
+		  </ul>
+		  <br />
+		  <p class="ip-doc-description-p">
+			  An automatic upgrade of internal options to a newer version (if detected) ensures the
+			  high reliability and easy usage of this plugin.
+		  </p>
+		  <p class="ip-doc-description-p">
+			  Most of the code is based on modern OOP-Technics (object orientated programming) and ajax requests - this ensures a high
+			  stability of this plugin. In addition the possibility of interference with other plugins due to identical
+			  function names is very low.
+		  </p>
+	  </div>
+	  <div class="ip-doc-headline">
+		  <h2 class="alt ip-doc-bold" id="Install">Installing &amp; Uninstalling<a class="alignright ip-doc-hrefcont" href="#toc">&rArr; top</a></h2>
+	  </div>
+	  <div class="ip-doc-description">
+		  <p class="ip-doc-description-p">The downloadable .zip package contains the following folders and files:</p>
+		  <ul>
+			  <li class="ip-doc-numlist-3"><span class="ip-doc-bold">/documentation_woocommerce-additional-fees/english -&gt;</span> the file
+				  index.html in this directory contains the documentation to this plugin.
+			  </li>
+			  <li class="ip-doc-numlist-3"><span class="ip-doc-bold">woocommerce-additional-fees.zip -&gt;</span>This file can be used
+				  for a direct upload by WordPress. Alternativly you can unzip this file and upload the complete folder in your
+			      WordPress plugin directory (usually found in Your_WordPress_Directory/wp-content/plugins/) via ftp (e.g. use ftp clients like Filezilla).</li>
+		  </ul>
+		  <p class="ip-doc-description-p">To install, follow these steps:</p>
+		  <ul>
+			<li class="ip-doc-numlist-2num">Download the package and unzip it.</li>
+			<li class="ip-doc-numlist-2num">Upload the file 'woocommerce-additional-fees.zip' with WordPress<br/>
+			or<br/>
+			Unzip the file 'woocommerce-additional-fees.zip' and upload it manually as described above.
+			</li>
+			<li class="ip-doc-numlist-2num">Activate the plugin (WordPress Dashboard -&gt; Plugins -&gt; 'WooCommerce Additional Fees (by Inoplugs)' )</li>
+			<li class="ip-doc-numlist-2num">Go to 'WordPress Dashboard  -&gt; WooCommerce -&gt; Settings -&gt; Additional Fees'. There you find the tab 'Basic Settings'
+				and a single tab for each installed payment gateway.
+			</li>
+			<li class="ip-doc-numlist-2num">Click on each tab and select the settings for your need. See description of options later.</li>
+          </ul>
+		  <p class="ip-doc-description-p">To deactivate the plugin, follow these steps:</p>
+		  <ul>
+			<li class="ip-doc-numlist-2num">Go to 'WordPress Dashboard  -&gt; WooCommerce -&gt; Settings -&gt; Additional Fees'.</li>
+			<li class="ip-doc-numlist-2num">
+				Select or deselect &quot;Delete options on deactivate&quot; and &quot;Delete options on uninstall&quot; if you wish to keep your settings for a later reactivation or reinstallation.
+				Otherwise all your settings will be removed permanently.</li>
+			<li class="ip-doc-numlist-2num">Deactivate the plugin (WordPress Dashboard  -&gt; Plugins -&gt; 'WooCommerce Additional Fees (by Inoplugs)' )</li>
+          </ul>
+		  <p class="ip-doc-description-p">To uninstall the plugin, follow these steps:</p>
+		  <ul>
+			<li class="ip-doc-numlist-2num">Go to 'WordPress Dashboard  -&gt; Plugins -&gt; WooCommerce Additional Fees (by Inoplugs)'  and click &quot;Delete&quot; to remove the plugin.</li>
+          </ul>
+
+		  <p class="ip-doc-description-p">To upgrade to a newer version, follow these steps:</p>
+		  <ul>
+			<li class="ip-doc-numlist-2num">Go to 'WordPress Dashboard  -&gt; WooCommerce -&gt; Settings -&gt; Additional Fees'. </li>
+			<li class="ip-doc-numlist-2num">Deselect &quot;Delete options on deactivate&quot; if you wish to keep your settings for the new version.
+				Otherwise all your settings will be removed permanently.</li>
+			<li class="ip-doc-numlist-2num">Deactivate the plugin (WordPress Dashboard  -&gt; Plugins -&gt; 'WooCommerce Additional Fees (by Inoplugs)') and delete the plugin files manually, if you like.</li>
+			<li class="ip-doc-numlist-2num">Download the new package and follow instructions for the installation. If you decided to keep your settings, they will be recognised and
+				your plugin will work again. Otherwise you have to proceed as after a complete new installation. </li>
+          </ul>
+		  <p class="ip-doc-description-p">Alternativly using the WooCommerce and WordPress update function you can follow these steps:</p>
+		  <ul>
+			<li class="ip-doc-numlist-2num">Go to 'WordPress Dashboard  -&gt; WooCommerce -&gt; Settings -&gt; Additional Fees'. </li>
+			<li class="ip-doc-numlist-2num">Deselect &quot;Delete all files and settings on deactivation&quot; if you wish to keep your settings for the new version.
+				Otherwise all your settings and uploaded files will be removed permanently, as WordPress deactivates the plugin.</li>
+			<li class="ip-doc-numlist-2num">Go to 'WordPress Dashboard  -&gt; Plugins -&gt; WooCommerce Additional Fees (by Inoplugs)' and use the WooCommerce and WordPress update utility.</li>
+
+		  </ul>
+		  <p class="ip-doc-description-p">Alternativly you can follow these steps:</p>
+		  <ul>
+			<li class="ip-doc-numlist-2num">Download the new version.</li>
+			<li class="ip-doc-numlist-2num">Upload the new version to your website as described above (via WordPress or ftp).</li>
+			<li class="ip-doc-numlist-2num">The integrated fallback will recognise the new version and adjust all internal
+				  option variables to be compatible with the new version. All your selections will be set like before the update.</li>
+		  </ul>
+	  </div>
+	  <div class="ip-doc-headline">
+		  <h2 class="alt ip-doc-bold" id="Using">Using the plugin<a class="alignright ip-doc-hrefcont" href="#toc">&rArr; top</a></h2>
+	  </div>
+	  <div class="ip-doc-description">
+		<h3 class="alt ip-doc-bold" id="Basicinformation">a) Basic information:<a class="alignright ip-doc-hrefcont" href="#toc">&rArr; top</a></h3>
+		<p class="ip-doc-description-p">
+			After installing the plugin you should go to the option page ('WordPress Dashboard  -&gt; WooCommerce -&gt; Settings -&gt; Additional Fees'). There you find a tab
+		    &quot;Basic Settings&quot; and a tab for each installed payment gateway. By default additional fees are disabled for a payment gateway, so you need
+			to enable it for each gateway and select, what should be added automatically on checkout.
+		</p>
+		<p class="ip-doc-description-p">
+			If you want to add fees on product level, you have to enable additional fees for products on this main settings page, otherwise the settings for products will be
+			ignored. If you want to disable fees for all products temporarily you only need to uncheck this option.
+		</p>
+		<p class="ip-doc-description-p">
+			If additional fees for products is activated, you must go to each product where you want to add fees. In the section &quot;Product Data&quot; you will find a tab
+			&quot;Additional Fees&quot;. After clicking you will find the same tabs you know from the main settings page. In &quot;Basic Settings&quot; you must activate the
+			calculation of fees for the product, otherwise all other settings will be ignored.
+		</p>
+		<p class="ip-doc-description-p">
+			In the gateway sections you can enable the required gateways and set the rules for calculation of the fee.
+		</p>
+		<p class="ip-doc-description-p">
+			The customer is informed about the additional fee(s) added on the checkout page and the total amount shown includes the
+			fee(s) added. The additional fee(s) are also shown on all confirmation emails and invoices.
+		</p>
+		<p class="ip-doc-description-p">
+			In the backend on the order page you can change or delete the additional fee manually to any amount or add a new additional fee, if
+			it is deactivated for the choosen payment gateway.
+		</p>
+		<p class="ip-doc-description-p">
+			It is also possible to add a new order in the backend with &quot;Add New Order&quot; button and add an additional fee to that order.
+		</p>
+		<p class="ip-doc-description-p">
+			When deactivating or uninstalling the plugin all information about additional fees are kept on order level.
+		</p>
+		<h3 class="alt ip-doc-bold" id="Basicsettings">b) Settings -&gt; Option Tab: &quot;Basic Settings&quot;:<a class="alignright ip-doc-hrefcont" href="#toc">&rArr; top</a></h3>
+		<ul>
+			<li class="ip-doc-numlist-2num">Go to 'WordPress Dashboard  -&gt; WooCommerce -&gt; Settings -&gt; Additional Fees' and click tab &quot;Basic Settings&quot;</li>
+			<li class="ip-doc-numlist-2num">Select option values.</li>
+			<li class="ip-doc-numlist-2num">Click &quot;Save settings&quot; - button at bottom to save your changes. All your settings are saved.
+					You need not save the changes on each tab for it's own but can make all the changes you like on each tab and save them with a
+					single click on the &quot;Save settings&quot; - button.
+			</li>
+		</ul>
+		<table class="ip-doc-table-noborder" border="0" cellspacing="3" cellpadding="10">
+			<colgroup>
+				<col width="200px" />
+				<col width="*" />
+			</colgroup>
+			<tr>
+				<th>Option</th>
+				<th>Description</th>
+			</tr>
+			<tr>
+				<td>Delete options on deactivate</td>
+				<td>
+					Activate by checking to delete all information, how to calculate additional fees automatically when deactivating this plugin. Only activate it,
+					if you want to clean up database. Also activate, if you want to delete the plugin files manually. By default this option is deactivated.
+					<br/><span class="ip-doc-bold red">Keep in mind, that WP automatically deactivates the plugin when updating.</span>
+				</td>
+			</tr>
+			<tr>
+				<td>Delete options on uninstall</td>
+				<td>Activate by checking to delete all information, how to calculate additional fees automatically when uninstalling this plugin via WordPress. Do not check, if you want to keep
+					the information in case you want to reinstall the plugin later. By default this option is activated.</td>
+			</tr>
+			<tr>
+				<td>Enable additional fees calculation for the shop</td>
+				<td>Activate the calculation of fees. By default this is unchecked. Unchecking disables the automatic calculation of additional fees througout the whole store but leaves the plugin active.</td>
+			</tr>
+			<tr>
+				<td>Enable additional fees calculation for products</td>
+				<td>Activate calculation of fees on product level. By default this is unchecked. Unchecking disables the calculation of fees for products regardless of the settings
+				    on product level.
+				</td>
+			</tr>
+		</table>
+		<h3 class="alt ip-doc-bold" id="Gatewaysettings">c) Settings -&gt; Option Tab: &quot;Payment Gateway Settings&quot;:<a class="alignright ip-doc-hrefcont" href="#toc">&rArr; top</a></h3>
+		<ul>
+			<li class="ip-doc-numlist-2num">Go to 'WordPress Dashboard  -&gt; WooCommerce -&gt; Settings -&gt; Additional Fees' and click &quot;a payment gateway&quot; tab</li>
+			<li class="ip-doc-numlist-2num">Select and set option values.</li>
+			<li class="ip-doc-numlist-2num">Click &quot;Save settings&quot; - button at bottom to save your changes. All your settings are saved.
+					You need not save the changes on each tab for it's own but can make all the changes you like on each tab and save them with a
+					single click on the &quot;Save settings&quot; - button.</li>
+		</ul>
+		<table class="ip-doc-table-noborder" border="0" cellspacing="3" cellpadding="10">
+			<colgroup>
+				<col width="200px" />
+				<col width="*" />
+			</colgroup>
+			<tr>
+				<th>Option</th>
+				<th>Description</th>
+			</tr>
+			<tr>
+				<td>Status</td>
+				<td>Tells you if the payment gateway is enabled or disabled. You may also set
+					additional fees for disabled gateways.</td>
+			</tr>
+			<tr>
+				<td>Enable additional fees on total cart value for this gateway</td>
+				<td>Select this option, if you want additional fees to be added automatically, when the customer chooses this payment gateway.
+					You can enable or disable whenever you like.
+				</td>
+			</tr>
+			<tr>
+				<td>Output text</td>
+				<td>The informational text the user is shown in the calculation of total order amount.
+				</td>
+			</tr>
+			<tr>
+				<td>Tax class</td>
+				<td>Select the required tax class for tax calculation for the additional fee. You may also choose 'No Tax required'.
+				</td>
+			</tr>
+			<tr>
+				<td>Type of additional fee</td>
+				<td>You have 3 possibilities to choose, how the additional fee is calculated:
+					<ul>
+						<li class="ip-doc-numlist-3">
+							<h6>&quot;Fixed amount&quot;: </h6>
+							<p class="ip-doc-description-li">Adds the given value &quot;Value to add&quot; to the
+								total amount and increases this value by the tax, if necessary.
+							</p>
+						</li>
+						<li class="ip-doc-numlist-3">
+							<h6>&quot;Add % to total amount&quot;: </h6>
+							<p class="ip-doc-description-li">Calculates the given value in &quot;Value to add&quot; as a percentage from the
+								total amount and increases this calculated value by the tax, if necessary. This value is used to increase the
+								total amount of the order.
+							</p>
+						</li>
+						<li class="ip-doc-numlist-3">
+							<h6>&quot;Include % in total amount&quot;: </h6>
+							<p class="ip-doc-description-li">This option is required, if you have to pay commission calculated from the amount
+							   of money you recieve and do not want to pay for that commission. That means, that the amount added (including tax)
+							   equals the amount that you have to pay commission.
+							</p>
+						</li>
+					</ul>
+
+				</td>
+			</tr>
+			<tr>
+				<td>Value to add</td>
+				<td>The additional fee value to be added - interpreted depending on &quot;Type of additional fee&quot; either as a fixed value
+				    or as a percentage value.
+				</td>
+			</tr>
+			<tr>
+				<td>Maximum cart value for adding fee</td>
+				<td>Up to this order value an additional fee is added. If the order amount exceeds this value, no additional fee is added.
+				    Set this value to 0 to make it unlimited.
+				</td>
+			</tr>
+		</table>
+		<h3 class="alt ip-doc-bold" id="ProductBasicsettings">d) Product -&gt; Option Tab: &quot;Basic Settings&quot;:<a class="alignright ip-doc-hrefcont" href="#toc">&rArr; top</a></h3>
+		<ul>
+			<li class="ip-doc-numlist-2num">Go to 'Edit Product -&gt; Product Data Section -&gt; Additional Fees' and click tab &quot;Basic Settings&quot;</li>
+			<li class="ip-doc-numlist-2num">Select option values.</li>
+			<li class="ip-doc-numlist-2num">Click standard WordPress &quot;Update&quot; - button to save your changes.</li>
+		</ul>
+		<table class="ip-doc-table-noborder" border="0" cellspacing="3" cellpadding="10">
+			<colgroup>
+				<col width="200px" />
+				<col width="*" />
+			</colgroup>
+			<tr>
+				<th>Option</th>
+				<th>Description</th>
+			</tr>
+			<tr>
+				<td>Activate for this product:</td>
+				<td>Activate calculation of fees on product level by checking. By default this is unchecked. Unchecking disables the calculation of fees for this product regardless of all other settings.</td>
+			</tr>
+		</table>
+		<h3 class="alt ip-doc-bold" id="ProductGatewaysettings">e) Product -&gt; Option Tab: &quot;Payment Gateway Settings&quot;:<a class="alignright ip-doc-hrefcont" href="#toc">&rArr; top</a></h3>
+		<ul>
+			<li class="ip-doc-numlist-2num">Go to 'Edit Product -&gt; Product Data Section -&gt; Additional Fees' and click tab &quot;a payment gateway&quot; tab</li>
+			<li class="ip-doc-numlist-2num">Select and set option values.</li>
+			<li class="ip-doc-numlist-2num">Click standard WordPress &quot;Update&quot; - button to save your changes.</li>
+		</ul>
+		<p class="ip-doc-description-p">
+			The options correspond as described in b) and are valid only for this product.
+		</p>
+	  </div>
+	  <div class="ip-doc-headline">
+		  <h2 class="alt ip-doc-bold" id="Dependencies">System Requirements and Dependencies<a class="alignright ip-doc-hrefcont" href="#toc">&rArr; top</a></h2>
+	  </div>
+	  <div class="ip-doc-description">
+		<p class="ip-doc-description-p">
+			This plugin is tested on and requires the following minimum versions:
+		</p>
+		<ul>
+			  <li class="ip-doc-numlist-3">WordPress Version 3.5.1</li>
+			  <li class="ip-doc-numlist-3">WooCommerce Version 2.0.0</li>
+		</ul>
+	  </div>
+	  <div class="ip-doc-headline">
+		  <h2 class="alt ip-doc-bold" id="Versionlog">Versions - Log<a class="alignright ip-doc-hrefcont" href="#toc">&rArr; top</a></h2>
+	  </div>
+	  <div class="ip-doc-description">
+		  <p class="ip-doc-description-p">
+			  In this section you will find the changelog (history of new version releases).
+		  </p>
+		  <table class="ip-doc-table-noborder" border="0" cellspacing="3" cellpadding="10">
+			  <colgroup>
+				  <col width="60px">
+				  <col width="150px">
+				  <col width="*">
+			  </colgroup>
+			  <tr>
+				  <th>Version</th>
+				  <th>Date</th>
+				  <th>Comment</th>
+			  </tr>
+			  <tr>
+				  <td class="ip-doc-table-nowrap">
+					  1.0.0.0.
+				  </td>
+				  <td>1. March 2013 </td>
+				  <td>First release</td>
+			  </tr>
+		  </table>
+	  </div>
+	  <div class="ip-doc-footer">
+		  <p class="ip-doc-description-footer">
+			  &copy; Copyright 2013 - All rights reserved by InoPlugs.com - G&uuml;nter and Peter Sch&ouml;nmann.
+		  </p>
+	  </div>
+  </div>  <!-- end div .container -->
+  </body>
+
+
+</html>

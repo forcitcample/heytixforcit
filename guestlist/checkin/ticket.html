@@ -1,0 +1,8 @@
+<table cellspacing="0" >
+<tbody>
+    <tr><td>{{ @ticket.ticket_title }}</td></tr>
+    <tr><td>{{ @ticket.first_name}} {{ @ticket.last_name}}</td></tr>
+    <tr><td><img alt="No Barcode Found" src="/checkin/api/tickets/{{ @ticket.ticket_id }}/barcode"></td></tr>
+    <tr><td>{{ @ticket.ticket_id }}</td></tr>
+</tbody>
+</table>

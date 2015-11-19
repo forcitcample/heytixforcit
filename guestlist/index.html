@@ -1,0 +1,552 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="shortcut icon" type="image/x-icon" href="http://www.clienteleconnect.com/wp-content/uploads/2015/02/Clientele_Connect_Favicon.png">
+    <link rel="apple-touch-icon" href="http://www.clienteleconnect.com/wp-content/uploads/2015/02/Clientele_Connect_Favicon.png"/>
+    <title>Clientele Connect Venue Checkin</title>
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+    <link type="text/css" rel="stylesheet" href="css/font-awesome.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/offline-language-english.css" />
+    <link rel="stylesheet" href="css/offline-language-english-indicator.css" />
+    <link rel="stylesheet" href="css/offline-theme-chrome-indicator.css" />
+    <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.2/css/bootstrap.min.css">
+
+    <script type="text/template" id="search_no_results">
+        <div>
+            <div style="text-align: center; width: 100%;">
+                <span>No Results Found</span>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </script>
+
+    <script type="text/template" id="safari_fixer">
+	    <div class="login">
+            <a href="/" class="login_logo"><img src="images/login_logo.png" alt="" /></a>
+            <div class="title_login">Settings error</div>
+            <div class="localstore_error">
+                <span class="orange_warning">
+					Your web browser does not support
+					storing data locally.
+				</span>
+				<span class="block_text add_margin_top">The most common cause of this error is using</span>
+				<span class="block_text">"Private Browsing Mode".</span>
+				<span class="block_text add_margin_top">In this mode, some settings may not save,</span>
+				<span class="block_text"> or certain features may not work properly.</span>
+				<span class="block_text add_margin_top">To login and use our application, please turn off</span>
+				<span class="block_text">"Private Browsing Mode".</span>
+
+				<span class="block_text turn_off_private">How to turn off “Private Browsing”:</span>
+				<ol>
+					<span class="block_text add_margin_top rull_point"><li>Tap on the <b>"Show Pages"</b> icon in the lower right hand navigation.</li></span>
+					<span class="block_text rull_point"><li>Tap on <b>"Private"</b> in the lower left hand corner.</li></span>
+					<span class="block_text rull_point"><li>You may be prompted to close or keep all current tabs open.</li></span>
+					<span class="block_text rull_point"><li>Tap <b>"Done"</b> in the lower right hand corner and continue browsing.</li></span>
+				</ol>
+            </div>
+ 
+        </div>
+    </script>
+
+    <script type="text/template" id="list_row_ticket">
+        <div class="chk_list ticket_row">
+            <div class="pull-left txt_chk">
+                <span class="fb_thumb"><img src="<%= thumbnail %>" class='photo' alt="" /></span>
+                <span class="txt_chk_text guestlist_name"><%- name %></span>
+                <div class="txt_chk_text ticket_name">
+                    <span><%- name %></span><br>
+                    <span class="ticket_id"><%- ticket_type %>: <%- id %></span>
+                </div>
+            </div>
+            <% if (checked_in == 1) { %>
+                <div class="pull-right undo_checkd_in">
+                    <a href="#" class='checkin' data-ticket="<%- id %>" data-event="<%- post_id %>">
+                        <i class="fa fa-undo"></i>
+                        <span>UNDO CHECKin</span>
+                    </a>
+                </div>
+            <% } else { %>
+                <div class="pull-right checkd_in">
+                    <a href="#" class='checkin' data-ticket="<%- id %>" data-event="<%- post_id %>">
+                        <i class="fa fa-check-circle-o"></i>
+                        <span>checkin</span>
+                    </a>
+                </div>
+            <% } %>
+            <div class="clear"></div>
+        </div>
+    </script>
+
+    <script type="text/template" id="list_row_event">
+        <div class="chk_list event_row">
+            <div class="pull-left txt_chk">
+                <span><img src="<%= thumbnail %>" class='logo_photo' width="50" alt="" /></span>
+                <span class="txt_chk_text"><%= name %></span><br>
+            </div>
+            <div class="pull-right select_event">
+                <a href="#" data-event="<%= id %>">
+                    <i class="fa fa-chevron-circle-right right_select"></i>
+                    <i class="fa fa-chevron-circle-up up_select"></i>
+                    <i class="fa fa-chevron-circle-down down_select"></i>
+                    <span class="listrow_select">select</span>
+                </a>
+            </div>
+            <div class="sales_info" id="<%= id %>">
+                <div class="mobile_sales_wrapper">
+                    <div class="ticket_sales_data" id="<%= id %>"></div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </script>
+
+    <script type="text/template" id="listview">
+        <div class="title">
+            <%= list_title %>
+                <div class="events_count"></div>
+        </div>
+        <div class="all_events">
+            <a class="show_events hide" id="view_all_events">View All Events</a>
+            <a class="show_events hide" id="view_current_events">View Current Events</a>
+        </div>
+        <div class="con">
+            <div class="search_bar"><form>
+                <input type="text" name="focus" id="search" placeholder="Search by Name" required class="search-box" />
+                <button class="close-icon" type="reset"></button></form>
+                <div class="clear"></div>
+            </div>
+            <div class="chk_list_main"></div>
+        </div>
+    </script>
+
+    <script type="text/template" id="tickets_sale">
+        <table class="table ticket_sales_table">
+            <tr>
+                <th class="ticket_cell_table big_cell">TYPE</th>
+                <th class="ticket_cell_table pull_right_ticket">PRICE</th>
+                <th class="ticket_cell_table pull_right_ticket">SOLD</th>
+                <th class="ticket_cell_table pull_right_ticket revenue_cell">REVENUE</th>
+            </tr>
+            <% for (ticket in data) { %>
+            <tr>
+                <td class="ticket_cell_table ticket_cell_header big_cell">
+                    <%= ticket %>
+                </td>
+                <td class="ticket_cell_table pull_right_ticket">
+                    <span>$</span>
+                    <span class="ticket_cost"><%= data[ticket].cost %></span>
+                </td>
+                <td class="ticket_cell_table pull_right_ticket">
+                    <%= data[ticket].sold %>
+                </td>
+                <td class="ticket_cell_table pull_right_ticket">
+                    <span>$</span>
+                    <span class="ticket_cost"><%=data[ticket].revenue%></span>
+                </td>
+            </tr>
+            <% } %>
+            <tr>
+                <th class="ticket_cell_table big_cell">TOTAL</th>
+                <th class="ticket_cell_table pull_right_ticket">--</th>
+                <th class="ticket_cell_table pull_right_ticket">
+                    <%= total_sold %>
+                </th>
+                <th class="ticket_cell_table pull_right_ticket">
+                    <span>$</span>
+                    <span class="ticket_cost"><%= total_revenue %></span>
+                </th>
+            </tr>
+        </table>
+    </script>
+
+    <script type="text/template" id="menu">
+        <div class="title">
+            <%= menu_title %>
+        </div>
+        <div class="menu_icons">
+            <a href="#/reporting">
+                <div class="menu_item menu_reports">
+                    <div class="icon_wrapper">
+                        <i class="fa fa-line-chart fa-lg icon-size"></i><br><br>
+                        <span>REPORTS</span>
+                    </div>
+                </div>
+            </a>
+            <a href="#/eventlist">
+                <div class="menu_item menu_checkin">
+                    <div class="icon_wrapper">
+                        <i class="fa fa-group fa-lg icon-size"></i><br><br>
+                        <span>CHECKIN</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </script>
+
+    <script type="text/template" id="header">
+        <div class="header_inside">
+            <a href="index.html" class="logo pull_left">
+                <% if(logo == '') { %>
+                    <%= name %>
+                <% } else { %>
+                    <img src="<%= logo %>" />
+                <% } %>
+            </a>
+
+            <div class="pull_right top_right_main">
+                <ul class="top_right">
+                    <li class="user"><a href="#"><%= username %></a></li>
+                    <li>|</li>
+                    <li class="events"><a href="#/eventlist">Events</a></li>
+                    <% if (CheckinApp.getSession().getUser().getRole() === "venue manager") { %>
+                        <li>|</li>
+                        <li class="reports"><a href="#/reporting">Reports</a></li>
+                    <% } %>
+                    <li>|</li>
+                    <li class="log_out"><a href="#">Logout</a></li>
+                </ul>
+                <div class="clear"></div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </script>
+
+    <script type="text/template" id="main">
+        <div class="header"></div>
+        <div class="tabs">
+            <div class="navig">
+                <div class="bar_toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="navg_ul reporting_tabs">
+                    <li class="nav_a"><a href="#reporting">USERS</a></li>
+                    <li class="nav_b"><a href="#sales">SALES</a></li>
+                </ul>
+                <ul class="navg_ul checkin_tabs">
+                    <li class="nav_a"><a href="#guestlist" class="active">GUEST LIST</a></li>
+                    <li class="nav_b"><a href="#ticketlist">TICKETS</a></li>
+                </ul>
+            </div>
+            <div class="content"></div>
+        </div>
+        <div class="footer"></div>
+    </script>
+
+    <script type="text/template" id="footer">
+        <div class="footer_inside">
+            <p>powered BY</p>
+            <a href="#"><img src="images/footer_logo.png" alt="" /></a>
+        </div>
+    </script>
+
+    <script type="text/template" id="login">
+        <div class="login">
+            <a href="/" class="login_logo"><img src="images/login_logo.png" alt="" /></a>
+            <div class="title_login">Login</div>
+            <div class="form_login">
+                <div class="error" id="invalid_credentials" style="display: none;">Invalid Username / Password</div>
+                <div class="error" id="invalid_role" style="display: none;">You do not have access. Please contact your admin.</div>
+                <input type="text" id="user" class="login_username" placeholder="USERNAME" />
+                <input type="password" id="pwd" class="login_password" placeholder="PASSWORD" />
+                <input type="submit" class="sign_in_btn" value="Sign in" />
+            </div>
+        </div>
+    </script>
+
+    <script type="text/template" id="eventreport">
+        <h1 style="text-align: center;">Event Report</h1>
+        <% if (!!data.length) { %>
+        <table class="table table-header">
+            <tr>
+                <th>Purchaser Name</th>
+                <th>Purchaser Email</th>
+                <th>Ticket Type</th>
+                <th>Check In</th>
+            </tr>
+        </table>
+        <div class="table-wrapper">
+            <table class="table table-striped">
+                <% _.each(data, function (item) { %>
+                <tr>
+                    <td><%= item.purchaser_name %></td>
+                    <td><%= item.purchaser_email %></td>
+                    <td><%= item.ticket %></td>
+                    <td><%= item.check_in %></td>
+                </tr>
+                <% }); %>
+            </table>
+        </div>
+        <% } else { %>
+        <p>No data</p>
+        <% } %>
+    </script>
+
+    <script type="text/template" id="venuereport">
+        <% if (!!data.length) { %>
+        <h1 style="text-align: center;"><%= name %> Venue Report</h1>
+        <table class="table table-striped">
+            <tr>
+                <th>Purchaser Name</th>
+                <th>Purchaser Email</th>
+                <th>Events Attended</th>
+                <th>Tickets Purchased</th>
+                <th>Tickets Per Event</th>
+                <th>Guestlist Tickets</th>
+                <th>Guestlist Tickets Per Event</th>
+            </tr>
+            <% _.each(data, function (item) { %>
+            <tr>
+                <td><%= item.purchaser_name %></td>
+                <td><%= item.purchaser_email %></td>
+                <td><%= item["event-count"] %></td>
+                <td><%= item["ticket-count"] %></td>
+                <td><%= item.tickets_per_event %></td>
+                <td><%= item["gl-ticket-count"] %></td>
+                <td><%= item.guestlist_tickets_per_event %></td>
+            </tr>
+            <% }); %>
+        </table>
+        <% } else { %>
+        <p>No data</p>
+        <% } %>
+    </script>
+
+    <script type="text/template" id="event_report_header">
+        <th class="header-name report_event_col_1">
+            <a class="sort_event_data purchaser_name_event" data-param="purchaser_name" data-order=-1>Purchaser Name</a>
+        </th>
+        <th class="header-name report_event_col_2">
+            <a class="sort_event_data purchaser_email_event" data-param="purchaser_email" data-order=-1>Purchaser Email</a>
+        </th>
+        <th class="header-name report_event_col_3">
+            <a class="sort_event_data ticket_event" data-param="ticket" data-order=-1>Ticket Type</a>
+        </th>
+        <th class="header-name report_event_col_4">
+            <a class="sort_event_data check_in_event" data-param="check_in" data-order=-1>Check In</a>
+        </th>
+    </script>
+
+    <script type="text/template" id="venue_report_header">
+        <th class="header-name report_venue_col_1">
+            <a class="sort_venue_data purchaser_name_venue" data-param="purchaser_name" data-order=-1>Purchaser Name</a>
+        </th>
+        <th class="header-name report_venue_col_big">
+            <a class="sort_venue_data purchaser_email_venue" data-param="purchaser_email" data-order=-1>Purchaser Email</a>
+        </th>
+        <th class="header-name report_venue_col_small">
+            <a class="sort_venue_data event-count_venue" data-param="event-count" data-order=-1>Events Attended</a>
+        </th>
+        <th class="header-name report_venue_col_small">
+            <a class="sort_venue_data ticket-count_venue" data-param="ticket-count" data-order=-1>Tickets Purchased</a>
+        </th>
+        <th class="header-name report_venue_col_small">
+            <a class="sort_venue_data tickets_per_event_venue" data-param="tickets_per_event" data-order=-1>Tickets Per Event</a>
+        </th>
+        <th class="header-name report_venue_col_small">
+            <a class="sort_venue_data gl-ticket-count_venue" data-param="gl-ticket-count" data-order=-1>Guestlist Tickets</a>
+        </th>
+        <th class="header-name report_venue_col_small">
+            <a class="sort_venue_data guestlist_tickets_per_event_venue" data-param="guestlist_tickets_per_event" data-order=-1>Guestlist Tickets Per Event</a>
+        </th>
+    </script>
+
+    <script type="text/template" id="event_report_body">
+        <table class="table table-striped table-event event_report" id="event_report">
+            <tr class="header_container mobile_header_event">
+            </tr>
+            <% _.each(data, function (item) { %>
+            <tr>
+                <td class="report_event_col_1"><%= item.purchaser_name %></td>
+                <td class="report_event_col_2"><%= item.purchaser_email %></td>
+                <td class="report_event_col_3"><%= item.ticket %></td>
+                <td class="report_event_col_4"><%= item.check_in %></td>
+            </tr>
+            <% }); %>
+        </table>
+    </script>
+
+    <script type="text/template" id="venue_report_body">
+        <table class="table table-striped venue_report table-venue" id="venue_report">
+            <tr class="header_container mobile_header_venue">
+            </tr>
+            <% _.each(data.models, function (item) { %>
+            <tr>
+                <td class="report_venue_col_1"><%= item.get("purchaser_name") %></td>
+                <td class="report_venue_col_big"><%= item.get("purchaser_email") %></td>
+                <td class="report_venue_col_small"><%= item.get("event-count") %></td>
+                <td class="report_venue_col_small"><%= item.get("ticket-count") %></td>
+                <td class="report_venue_col_small"><%= item.get("tickets_per_event") %></td>
+                <td class="report_venue_col_small"><%= item.get("gl-ticket-count") %></td>
+                <td class="report_venue_col_small"><%= item.get("guestlist_tickets_per_event") %></td>
+            </tr>
+            <% }); %>
+        </table>
+    </script>
+
+    <script type="text/template" id="event_data">
+        <div class="reporting-table">
+            <table class="table table-header">
+                <tr class="header_container">
+                </tr>
+            </table>
+            <div class="report-event-wrapper">
+            </div>
+        </div>
+        <div class="mobile-event-table">
+            <div class="report-event-wrapper">
+            </div>
+        </div>
+    </script>
+
+    <script type="text/template" id="venue_data">
+        <div class="venue-table">
+            <table class="table table-header">
+                <tr class="header_container">
+                </tr>
+            </table>
+            <div class="report-venue-wrapper">
+            </div>
+        </div>
+        <div class="mobile-venue-table">
+            <div class="report-venue-wrapper">
+            </div>
+        </div>
+    </script>
+
+    <script type="text/template" id="reporting">
+        <div class="title">
+            REPORTING <br>
+            <a class="full_venue_report">
+                <span class="show_venue">VIEW VENUE REPORT</span>
+                <span class="show_event">VIEW EVENT REPORTS</span>
+            </a>
+        </div>
+        <div class="report_params">
+            <select class="select_report month_select" id="month_selector">
+                <option disabled>MONTH</option>
+                <% _.each(months, function (month, num) { %>
+                <option value= <%= num %> ><%= month %></option>
+                <% }); %>
+            </select>
+            <select class="select_report event_select" id="event_selector">
+                <option value="default" disabled>EVENT</option>
+                <% _.each(events, function (event) { %>
+                <option value= <%= event.get("id") %> ><%= event.get("name") %></option>
+                <% }); %>
+            </select>
+            <div class="download_csv">
+                <i class="fa fa-download"></i><br>
+                <span>CSV</span>
+            </div>
+        </div>
+        <div class="instruction">
+            <span>Click column titles to sort by category</span>
+        </div>
+        <div class="report_container">
+        </div>
+    </script>
+
+    <script type="text/template" id="ytyty">
+        <div style="text-align: center;">
+            <div class="profile_pop">
+                <i class="fa fa-times-circle-o pull-right close_icon"></i>
+            </div>
+            <div style="photo_top">
+                <span class="photo_id">
+                    <img src="<%= thumbnail %>" class='photo' alt="" />
+                </span>
+            </div>
+            <div class="clear"></div>
+            <div class="profile_info">
+                <div class="txt_chk">
+                    <div class="profile_name"><div class="fname"><%- firstname %></div><div class="lname"><%= lastname %></div></div>
+                </div>
+                <div class="chk_modal">
+                    <% if (checked_in == 1) { %>
+                    <div style="padding-top: 4px;">
+                        <a href="#" class='checkin' data-ticket="<%- id %>" data-event="<%- post_id %>">
+                            <i class="fa fa-undo modal-checks" style="color: #B2E8A2"></i>
+                        </a>
+                    </div>
+                    <% } else { %>
+                    <div class="padding-top: 4px;">
+                        <a href="#" class='checkin' data-ticket="<%- id %>" data-event="<%- post_id %>">
+                            <i class="fa fa-check-circle-o modal-checks" ></i>
+                        </a>
+                    </div>
+                    <% } %>
+
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+    </script>
+
+</head>
+<body>
+    <div class="main"></div>
+
+
+    <script type="text/javascript" src="js/vendor/jquery-2.1.3.min.js"></script>
+    <script type="text/javascript" src="js/vendor/jquery.cookie.js"></script>
+    <script type="text/javascript" src="js/vendor/underscore-min.js"></script>
+    <script type="text/javascript" src="js/vendor/backbone-min.js"></script>
+    <script type="text/javascript" src="js/vendor/backbone.dualstorage.min.js"></script>
+    <script type="text/javascript" src="js/plugins/backbone.sync.js"></script>
+    <script type="text/javascript" src="js/vendor/backbone.search.js"></script>
+    <script type="text/javascript" src="js/vendor/offline.min.js"></script>
+    <script type="text/javascript" src="js/vendor/backbone.routefilter.js"></script>
+    <script type="text/javascript" src="js/vendor/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/vendor/backbone.bootstrap-modal.js"></script>
+    <script type="text/javascript" src="js/vendor/table2CSV.js"></script>
+    <script src="http://cdn.pubnub.com/pubnub-3.7.1.min.js"></script>
+
+
+    <script type="text/javascript" src="js/checkin.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+
+    <script type="text/javascript" src="js/views/list-row.js"></script>
+    <script type="text/javascript" src="js/views/listview.js"></script>
+    <script type="text/javascript" src="js/views/header.js"></script>
+    <script type="text/javascript" src="js/views/main.js"></script>
+    <script type="text/javascript" src="js/views/footer.js"></script>
+    <script type="text/javascript" src="js/views/login.js"></script>
+    <script type="text/javascript" src="js/views/photomodal.js"></script>
+    <script type="text/javascript" src="js/views/venuereport.js"></script>
+    <script type="text/javascript" src="js/views/eventreport.js"></script>
+    <script type="text/javascript" src="js/views/safari-fixer.js"></script>
+    <script type="text/javascript" src="js/views/menu.js"></script>
+    <script type="text/javascript" src="js/views/reporting.js"></script>
+
+    <script type="text/javascript" src="js/models/listview.js"></script>
+    <script type="text/javascript" src="js/models/header.js"></script>
+    <script type="text/javascript" src="js/models/ticket.js"></script>
+    <script type="text/javascript" src="js/models/event.js"></script>
+    <script type="text/javascript" src="js/models/session.js"></script>
+    <script type="text/javascript" src="js/models/user.js"></script>
+    <script type="text/javascript" src="js/models/venuereport.js"></script>
+    <script type="text/javascript" src="js/models/eventreport.js"></script>
+    <script type="text/javascript" src="js/models/checkedin.js"></script>
+
+    <script type="text/javascript" src="js/collections/searchable.js"></script>
+    <script type="text/javascript" src="js/collections/tickets.js"></script>
+    <script type="text/javascript" src="js/collections/events.js"></script>
+    <script type="text/javascript" src="js/collections/venuereport.js"></script>
+    <script type="text/javascript" src="js/collections/eventreport.js"></script>
+
+    <script type="text/javascript" src="js/routers/default.js"></script>
+
+    <script type="text/javascript">
+        window.pubnub = PUBNUB.init({
+            publish_key   : 'pub-c-e13cb106-3ad5-4dbf-bf78-8c24fae70280',
+            subscribe_key : 'sub-c-a007ef80-0f9c-11e5-91a9-0619f8945a4f'
+        })
+    </script>
+
+</body>
+</html>

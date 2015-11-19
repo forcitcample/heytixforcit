@@ -1,0 +1,93 @@
+*** WooCommerce Additional Fees Changelog ***
+
+2015.03.17 - version 2.2.6
+	* http://www.woothemes.com/products/gravity-forms-add-ons/ puts the same article several times in the cart -> 
+	  needs to make fee ID unique for each product line to avoid overwriting fees for the same product
+
+2015.03.11 - version 2.2.5
+	* Setting priority of some WC hooks to a higher value to ensure, that our plugin is the last
+
+2015.01.16 - version 2.2.4
+	* Bugfix in recalculation of saved orders 
+		- using WC core functions added with 2.2
+		- allow multiple taxes 
+		- allow discounts
+	* Bugfix order page: tax values for fees are not always displayed - extended tax calculation for saved orders
+
+2014.12.29 - version 2.2.3
+	* WC version 2.3: cupons after tax was eliminated - depricated arguments have been removed from code (backwards compatible for < 2.3 remains)
+
+2014.12.12 - version 2.2.2
+    * update fix from version 2.1.5: implement array of plugins to ignore standard WC function WC()->payment_gateways->get_available_payment_gateways()
+      and load all gateways in WC_Add_Fees->load_request_data()
+
+2014.09.06 - version 2.2.1
+	* Backward comp. with admin-ajax call wc-settings
+
+2014.09.05 - version 2.2.0
+	* Removing old documentation folder
+	* Refactoring code and classes and filenames to meet WP coding standards closer
+	* Making ready for WC 2.2
+		* implementing $fee->tax_data for cart
+		* implementing '_line_tax_data' for order
+		* disable recalculating fees, if refunds are given on additional fees
+
+2014.08.08 - version 2.1.5
+	* woocommerce-account-funds produces an endless loop due to a call to $cart->calculate_totals in our call to WC()->payment_gateways->get_available_payment_gateways()
+	  Fixed by reading available gateways directly by WC()->payment_gateways->payment_gateways
+
+2014.07.18 - version 2.1.4
+	* Integrate a fixed value to be added after calculated fee (needed to add a fixed commission in EU market dor credit card companies)
+
+2014.06.18 - version 2.1.3
+	* Fixed bug on cart page
+
+2014.06.17 - version 2.1.2
+	* Fixed bug with WP_PLUGIN_URL to the function plugins_url()
+	* Fixed bug with $obj_wc_cart
+	* Fixed bug with js not loading
+	* Fixed 'pay-for-order' page bug to work with pretty permalinks (getting value from global $wp and not from $_REQUEST)
+
+2014.06.11 - version 2.1.1
+	* Fixed incompatibility issue with gateway "mollie". 
+	  Default $gateway->method_title is not supported by the gateway but a method called $gateway->get_title()
+	* Fixed bug with WP_PLUGIN_URL to the function plugins_url()
+
+2014.06.08 - version 2.1.0
+	* Added compatibility for Subscription plugin
+	* Fee calculation now based on prices incl. tax & total incl. tax
+
+2014.05.16 - version 2.0.2
+	* fixed bug in linklist for payment gateways - changed from title to id
+	* CSS set size of link list
+
+2014.05.06 - version 2.0.1
+	* change 'woocommerce' to 'wc-settings' on settingstab
+	* Fixed "bug" for available payment gateways that need a cart for function $gateway->is_available (function load_request_data) encountered with 2.1.8
+	* remove uninstall.php, as > WP 2.7 uses uninstall hook if present
+
+2014.04.06 - version 2.0.0
+	* Major enhencements of the plugin:
+		* use of WC() and make ready for WC 2.1.6
+		* WooCommerce Core Bugfix on pay order page - WooCommerce always selects first gateway, not selected payment gateway in the order !!!!!!
+		* adding class WC_Order_addfee as extending WC_Order with functionality for calculating fees and totals in an order
+		* automatic fee calculation on pay-for-order frontend page when customer changes payment gateway
+		* automatic gateway fee calculation on admin order page when saving the order
+		* fee calculation when using coupons
+		* checkboxes allow supressing automatic fee calculation for a specific order
+		* checkbox to allow only selected payment gateway on pay for order page
+		* integrate version 1.0.3 for backward compatibility < 2.1.6 => modifying files of this version
+		* backward compatibility < 2.1.6 Bugfix on pay order page - WooCommerce always selects first gateway, not selected payment gateway in the order
+
+2014.02.14 - version 1.0.3
+	* Fixed single product fee issue
+
+2013.12.06 - version 1.0.2
+	* Fixed calculation error when using product fees AND order fees
+	* Fixed problem entering decimal numbers in chrome
+
+2013.11.28 - version 1.0.1
+	* Fixed session handling
+
+2013.11.27 - version 1.0.0
+	* First release

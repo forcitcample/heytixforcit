@@ -1,0 +1,49 @@
+.wpv-countdown.regular {
+	text-align: center;
+
+	.wpvc-block {
+		display: inline-block;
+		vertical-align: middle;
+		padding: 40px 20px 20px;
+		border: 1px solid @default-line-color;
+		border-radius: 3px;
+		width: 140px;
+		text-align: center;
+		margin-right: 10px;
+		margin-left: 10px;
+		.border-box();
+
+		.value {
+			font-family: @h2-face;
+			font-size: 40px;
+			font-weight: bold;
+			color: @accent-color-1;
+			padding-bottom: 40px;
+		}
+
+		.value-label {
+			border-top: 1px dotted @default-line-color;
+			padding-top: 20px;
+			text-transform: uppercase;
+		}
+	}
+
+	.wpvc-sep {
+		display: inline-block;
+		vertical-align: middle;
+		font-size: 30px;
+		color: @accent-color-7;
+	}
+
+	&.lt300 {
+		.wpvc-block {
+			margin: 10px 0;
+		}
+	}
+
+	&.lt350 {
+		.wpvc-sep {
+			display: none;
+		}
+	}
+}

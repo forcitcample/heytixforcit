@@ -1,0 +1,12 @@
+{
+    "rules": {
+      ".read": "auth != null",
+      ".write": "auth != null",
+      
+      "messages": {
+        "$msg_id": {
+          ".validate": "auth.is_operator == true || newData.child('cnv_id').val() == root.child('users').child(auth.user_id).child('cnv_id').val()"
+        }
+      }
+    }
+}

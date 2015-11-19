@@ -1,0 +1,117 @@
+div.wpcf7-response-output,
+div.wpcf7-validation-errors {
+	margin: 1em 0 0 !important;
+	position: relative;
+	z-index: 8;
+}
+
+.wpcf7-not-valid {
+	&, input& {
+		border-color: #D94729;
+	}
+}
+
+.wpcf7-not-valid-tip {
+	display: none !important;
+}
+
+div.wpcf7 {
+	.wpcf7-form {
+		display: block;
+		margin: 0;
+
+		.wpcf7-submit {
+
+			margin-top: 0;
+
+
+			&:hover {
+				background-color: @accent-color-2;
+			}
+		}
+	}
+}
+
+.vamtam-rsvp-form {
+	label {
+		font-size: 13px;
+		color: @accent-color-8;
+	}
+
+	input[type="text"],
+	input[type="number"],
+	select {
+		font-size: 20px;
+		padding: 17px;
+		background: @accent-color-8 !important;
+		color: @accent-color-6;
+	}
+
+	.wpcf7-form-control-wrap.your-name {
+		width: 100%;
+	}
+
+	.ajax-loader {
+		display: none;
+	}
+
+	.chosen-container-single {
+		.chosen-single {
+			background: @accent-color-8;
+			border: 0;
+			box-shadow: none;
+			.wpv-font(h4-) !important;
+			font-size: 20px;
+			padding: 17px;
+
+			span {
+				margin-right: 67px;
+			}
+
+			div {
+				border-left: 1px solid @default-line-color;
+				width: 67px;
+
+				b {
+					background: none;
+
+					&:before {
+						content: "";
+						border: 10px solid transparent;
+						border-top-color: @accent-color-1;
+						border-bottom: 0;
+						position: absolute;
+						top: 50%;
+						right: 50%;
+						margin-top: -5px;
+						margin-right: -10px;
+					}
+				}
+			}
+		}
+
+		.chosen-drop {
+			border: 0;
+
+			.highlighted {
+			background-color: @accent-color-1;
+			}
+
+			.chosen-results {
+
+				.active-result {
+					padding: 20px;
+					font-size: 16px;
+				}
+
+			 	.result-selected, .highlighted {
+					background: @accent-color-1;
+			    }
+			}
+		}
+
+		.chosen-search {
+			display: none;
+		}
+	}
+}
