@@ -1,0 +1,180 @@
+# Tribe Events WooTickets by Modern Tribe, Inc.
+# Copyright (C) Modern Tribe, Inc.
+# This file is distributed under the same license as the Tribe Events WooTickets package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Tribe Events WooTickets\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-12-03 15:19-0300\n"
+"PO-Revision-Date: 2014-01-26 12:29+0200\n"
+"Last-Translator: Arian - www.administrare-cantine.ro <arianserv@gmail.com>\n"
+"Language-Team: Arian | www.administrare-cantine.ro <arianserv@gmail.com>\n"
+"Language: ro_RO\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ./\n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: Poedit 1.6.3\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../wootickets.php:128
+msgid "The Events Calendar"
+msgstr "Calendarul de Evenimente"
+
+#: ../wootickets.php:129
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: ../wootickets.php:134 ../wootickets.php:136
+#, php-format
+msgid ""
+"To begin using WooTickets, please install the latest version of <a href=\"%s"
+"\" class=\"thickbox\" title=\"%s\">%s</a>."
+msgstr ""
+"Pentru a începe utilizarea WooTickets, vă rugăm să instalaţi ultima versiune "
+"a <a href=\"%s\" class=\"thickbox\" title=\"%s\">%s</a>."
+
+#: ../admin-views/metabox-advanced.php:3
+msgid "Stock:"
+msgstr "Stoc:"
+
+#: ../admin-views/metabox-advanced.php:7
+msgid ""
+"(Total available # of this ticket type. Once they're gone, ticket type is "
+"sold out)"
+msgstr ""
+"(# total disponibil din acest tip de bilet. Când nu vor mai fi, tipul de "
+"bilet va deveni epuizat)"
+
+#: ../admin-views/metabox-advanced.php:12
+msgid "SKU:"
+msgstr "SKU:"
+
+#: ../admin-views/metabox-advanced.php:16
+msgid "(A unique identifying code for each ticket type you're selling)"
+msgstr ""
+"(Un cod unic de identificare pentru fiecare tip de bilet pe care îl vindeți)"
+
+#: ../admin-views/metabox-advanced.php:25
+msgid ""
+"Currently, WooTickets will only show up on the frontend once per full event. "
+"For PRO users this means the same ticket will appear across all events in "
+"the series. Please configure your events accordingly."
+msgstr ""
+"Momentan, WooTickets se va afişa doar o sigură dată, în interfaţă/frontend , "
+"per eveniment complet. Pentru utilizatorii PRO, aceasta înseamnă că acelaşi "
+"bilet va apare de-a lungul tuturor evenimentelor din serie. Vă rugăm să vă "
+"configuraţi evenimentele conform acestui fapt."
+
+#: ../classes/class-ticket-email.php:13 ../views/wootickets/tickets.php:82
+msgid "Tickets"
+msgstr "Bilete"
+
+#: ../classes/class-ticket-email.php:14
+msgid ""
+"Email the user will recieve after a completed order with the tickets he "
+"purchased."
+msgstr ""
+"Email-ul pe care utilizatorul îl va primi după finalizarea comenzii cu "
+"biletele pe care le-a achiziţionat."
+
+#: ../classes/class-ticket-email.php:16
+msgid "Your tickets from {sitename}"
+msgstr "Biletele dvs. de pe  {sitename}"
+
+#: ../classes/class-ticket-email.php:97
+msgid "Subject"
+msgstr "Subiect"
+
+#: ../classes/class-ticket-email.php:99
+#, php-format
+msgid "Defaults to <code>%s</code>"
+msgstr "Implicit către <code>%s</code>"
+
+#: ../classes/class-wootickets.php:279
+msgid "You'll receive your tickets in another email."
+msgstr "Veți primi biletele în alt email."
+
+#: ../classes/class-wootickets.php:557
+#, php-format
+msgid "In trash (was %s)"
+msgstr "În gunoi (a fost %s)"
+
+#: ../classes/class-wootickets.php:560
+msgid "Deleted"
+msgstr "Şters"
+
+#: ../classes/class-wootickets.php:567
+msgid "(deleted)"
+msgstr "(şters)"
+
+#: ../classes/class-wootickets.php:666
+msgid "Event sales report"
+msgstr "Raport vânzări evenimente"
+
+#: ../classes/class-wootickets.php:766
+msgid "This is a ticket for the event:"
+msgstr "Acesta este un bilet pentru evenimentul:"
+
+#: ../vendor/pue-client/admin-views/license-key.view.php:9
+#: ../vendor/pue-client/admin-views/license-key.view.php:13
+#: ../vendor/pue-client/lib/pue_plugin_update_engine.class.php:291
+msgid "License Key"
+msgstr "Cheie de Licenţă"
+
+#: ../vendor/pue-client/admin-views/license-key.view.php:10
+msgid "A valid license key is required for support and updates."
+msgstr "Pentru actualizări şi suport este necesară o cheie validă de licenţă."
+
+#: ../vendor/pue-client/admin-views/license-key.view.php:16
+msgid "Replace empty fields"
+msgstr "Înlocuire câmpuri goale"
+
+#: ../vendor/pue-client/admin-views/license-key.view.php:25
+#: ../vendor/pue-client/lib/pue_plugin_update_engine.class.php:292
+msgid "A valid license key is required for support and updates"
+msgstr "Pentru actualizări şi suport este necesară o cheie validă de licenţă."
+
+#: ../vendor/pue-client/lib/pue_plugin_update_engine.class.php:360
+msgid "License key(s) updated."
+msgstr "Chei(e) de licenţă actualizate(ă)."
+
+#: ../vendor/pue-client/lib/pue_plugin_update_engine.class.php:400
+msgid "Sorry, key validation server is not available."
+msgstr "Ne pare rău, serverul de validare al cheilor nu este disponibil."
+
+#: ../vendor/pue-client/lib/pue_plugin_update_engine.class.php:402
+msgid "Sorry, this key is expired."
+msgstr "Ne pare rău, această cheie a expirat."
+
+#: ../vendor/pue-client/lib/pue_plugin_update_engine.class.php:404
+msgid "Sorry, this key is out of installs."
+msgstr "Ne pare rău, această cheie este în afara instalării."
+
+#: ../vendor/pue-client/lib/pue_plugin_update_engine.class.php:406
+msgid "Sorry, this key is not valid."
+msgstr "Ne pare rău, această cheie este invalidă."
+
+#: ../vendor/pue-client/lib/pue_plugin_update_engine.class.php:409
+#, php-format
+msgid "Valid Key! Expires on %s"
+msgstr "Cheie Validă! Expiră la %s"
+
+#: ../vendor/pue-client/lib/pue_plugin_update_engine.class.php:413
+#, php-format
+msgid ""
+"Hmmm... something's wrong with this validator. Please contact <a href=\"%s"
+"\">support.</a>"
+msgstr ""
+"Hmmm... ceva nu e în regulă cu acest validator. Vă rugăm să contactaţi <a "
+"href=\"%s\">echipa de suport.</a>"
+
+#: ../views/wootickets/tickets.php:89
+msgid "Add to cart"
+msgstr "Adaugă în coș"

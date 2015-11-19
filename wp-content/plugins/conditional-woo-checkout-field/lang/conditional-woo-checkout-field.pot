@@ -1,0 +1,262 @@
+# Copyright (C) 2014 Conditional Woo Checkout Field
+# This file is distributed under the same license as the Conditional Woo Checkout Field package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Conditional Woo Checkout Field 1.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/conditional-woo-checkout-"
+"field\n"
+"POT-Creation-Date: 2014-06-04 20:01:50+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2014-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: options.php:19
+msgid "Conditional Checkout Field"
+msgstr ""
+
+#: options.php:20
+msgid ""
+"Enter in the details for a field to be displayed at checkout provided a "
+"certain product is in the cart."
+msgstr ""
+
+#: options.php:27
+msgid "Product ID"
+msgstr ""
+
+#: options.php:28
+msgid "Title"
+msgstr ""
+
+#: options.php:29
+msgid "Input Type"
+msgstr ""
+
+#: options.php:30
+msgid "Field Label"
+msgstr ""
+
+#: options.php:31
+msgid "Placeholder Text"
+msgstr ""
+
+#: options.php:32
+msgid "Class"
+msgstr ""
+
+#: options.php:33
+msgid "Required Field?"
+msgstr ""
+
+#: options.php:34
+msgid "Error Message"
+msgstr ""
+
+#: options.php:35
+msgid "Add to Order Email/Invoice?"
+msgstr ""
+
+#: options.php:44
+msgid "Text Box"
+msgstr ""
+
+#: options.php:45
+msgid "Text Area"
+msgstr ""
+
+#: options.php:46
+msgid "Select Menu"
+msgstr ""
+
+#: options.php:49
+msgid "Select Options"
+msgstr ""
+
+#: options.php:56
+msgid "Yes"
+msgstr ""
+
+#: options.php:57
+msgid "No"
+msgstr ""
+
+#: options.php:61
+msgid "Order Email"
+msgstr ""
+
+#: options.php:62
+msgid "Order Invoice"
+msgstr ""
+
+#: options.php:75
+msgid "Show Help"
+msgstr ""
+
+#: options.php:76
+msgid "Hide Help"
+msgstr ""
+
+#: options.php:78
+msgid "How to use these fields:"
+msgstr ""
+
+#: options.php:78
+msgid "All fields are required unless otherwise indicated below."
+msgstr ""
+
+#: options.php:80
+msgid "Product ID:"
+msgstr ""
+
+#: options.php:82
+msgid ""
+"This is the ID number of the product, which if it is in the customer's cart, "
+"should trigger the custom field to display at checkout. You can get the ID "
+"number by viewing your"
+msgstr ""
+
+#: options.php:82
+msgid "product admin page"
+msgstr ""
+
+#: options.php:82
+msgid ""
+", and hovering your mouse over the product. The ID number will be displayed "
+"under the product name, next to the Edit links."
+msgstr ""
+
+#: options.php:85
+msgid "Title:"
+msgstr ""
+
+#: options.php:87
+msgid ""
+"It is important that you do not change this after orders are made using this "
+"custom field. If changed, older orders may not show the customer's "
+"information entered into this field, as the script uses the \"Title\" name "
+"to lookup the value to be displayed. Changing this field would result in "
+"older orders not containing the correct \"Title\" that the script will use "
+"to pull the customer's information from. If it becomes necessary to change "
+"this title, and you wish to display the data along with the older orders, "
+"you can change the custom field's Name in each order to the new Title, and "
+"the information will continue to be displayed. Note, changing the title will "
+"not result in a loss of data, rather it will simply not display older data "
+"using an outdated field title."
+msgstr ""
+
+#: options.php:90
+msgid "Input Type:"
+msgstr ""
+
+#: options.php:92
+msgid ""
+"Identify what you would like the customer to use as the input field. Short "
+"responses, such as a name, date, etc. might only need a text box. Longer "
+"responses might need a text area. For a pre-defined list of choices, use "
+"Select, and enter the choices in the box below the Select option with one "
+"option on each line (hit enter on your keyboard after each option)."
+msgstr ""
+
+#: options.php:95
+msgid "Field Label (optional but recommended):"
+msgstr ""
+
+#: options.php:97
+msgid ""
+"Use this to instruct the customer what to enter in the field. This is the "
+"text that is in between the Title and the input field. If the field is set "
+"to be required, a red asterisk (*) by default will show next to this label."
+msgstr ""
+
+#: options.php:100
+msgid "Placeholder Text (optional):"
+msgstr ""
+
+#: options.php:102
+msgid ""
+"Often times using placeholder text is a useful way to guide customers to "
+"enter information in the correct format. The information entered here will "
+"appear in the input field (if it is a text box or text area). It will look "
+"\"greyed out\" until the customer enters some information in the field."
+msgstr ""
+
+#: options.php:105
+msgid "Class (optional):"
+msgstr ""
+
+#: options.php:107
+msgid ""
+"If you wish to edit the CSS class of the input field, use this to enter the "
+"class."
+msgstr ""
+
+#: options.php:110
+msgid "Required Field?:"
+msgstr ""
+
+#: options.php:112
+msgid ""
+"Simply indicates whether or not the customer must enter information into the "
+"field. If required, a red asterisk will be placed immediately following the "
+"field label, and an error will be displayed if the customer leaves the field "
+"empty."
+msgstr ""
+
+#: options.php:115
+msgid "Error Message (optional unless required field is set to Yes):"
+msgstr ""
+
+#: options.php:117
+msgid ""
+"If the field is set to be required, this will be the error message displayed "
+"to the customer if they do not enter any information. Use this to give the "
+"customer information as to how to complete the field, such as \"Please enter "
+"your customization text in the field below\", etc. If you leave this error "
+"message blank and the customer does not fill out the required field, an "
+"error box will be displayed at the top of the page, but it will not give the "
+"customer any useful information on how to clear this error."
+msgstr ""
+
+#: options.php:120
+msgid "Add to Order Email/Invoice:"
+msgstr ""
+
+#: options.php:122
+msgid ""
+"If you want the information the customer enters to be included in their "
+"order emails or order invoice check the appropriate boxes. The order invoice "
+"is found in the customer's"
+msgstr ""
+
+#: options.php:122
+msgid "My Account"
+msgstr ""
+
+#: options.php:122
+msgid "page on your website."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Conditional Woo Checkout Field"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://oizuled.com/wordpress-plugins/conditional-woo-checkout-field/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Display a custom field at checkout in your WooCommerce store if a certain "
+"product is in the customer's cart."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Scott DeLuzio"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://oizuled.com"
+msgstr ""

@@ -1,0 +1,15 @@
+.chained_products_admin_settings .chained_products_quantity {
+    width: 15% !important;
+    margin: 0 1em;
+}
+.add_remove_chained_products_row {
+    float: left;
+    width: 20px;
+    height: 20px;
+    line-height: 1.2 !important;
+    cursor: pointer;
+    margin-left: -5px;
+    font: normal 28px/1 dashicons;
+    color: #AAA !important;
+}
+.chained_products_admin_settings a { cursor: pointer }

@@ -1,0 +1,467 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Woocommerce Additional Fees\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-01 12:12+0100\n"
+"PO-Revision-Date: 2014-09-01 13:06+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: C:\\xampp\\htdocs\\wp_shop\\wp-content\\plugins"
+"\\woocommerce-additional-fees\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.6.9\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: C:\\xampp\\htdocs\\wp_shop\\wp-content\\plugins"
+"\\woocommerce-additional-fees\n"
+
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/classes/class-wc-add-fees-activation.php:45
+msgid ""
+"<p>The plugin <strong>WooCommerce Additional Fees</strong> needs the plugin "
+"WooCommerce to be able to be activated. Please activate this plugin first. "
+"Plugin could not be activated.</p>"
+msgstr ""
+
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/classes/class-wc-add-fees-activation.php:45
+msgid "Plugin Activation Error"
+msgstr ""
+
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/classes/class-wc-add-fees-admin.php:112
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/classes/class-wc-add-fees-admin.php:261
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/classes/class-wc-add-fees-admin.php:429
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/v103/classes/woocommerce_additional_fees_admin.php:119
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/v103/classes/woocommerce_additional_fees_admin.php:247
+msgid "Additional Fees"
+msgstr ""
+
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/classes/class-wc-add-fees-admin.php:401
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/classes/class-wc-add-fees.php:332
+msgid ""
+"An internal server error occured in processing a request. Please try again "
+"or contact us. Thank you. "
+msgstr ""
+
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/classes/class-wc-add-fees-admin.php:418
+msgid "Goto settingspage of this plugin"
+msgstr ""
+
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/classes/class-wc-add-fees-admin.php:418
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/classes/class-wc-add-fees-admin.php:471
+msgid "Recalculation of fees is disabled due to refunds on additional fees !"
+msgstr ""
+
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/classes/class-wc-add-fees-admin.php:484
+msgid "Allow calculation of fees"
+msgstr ""
+
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/classes/class-wc-add-fees-admin.php:484
+msgid ""
+"If checked, additional fees will be calculated on the pay-for-order page, if "
+"the payment gateway is changed. "
+msgstr ""
+
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/classes/class-wc-add-fees-admin.php:488
+msgid "Calculate fees on saving/updating order"
+msgstr ""
+
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/classes/class-wc-add-fees-admin.php:488
+msgid ""
+"If checked, additional fees will be calculated, when the order is saved. The "
+"state of the checkbox above will be ignored. "
+msgstr ""
+
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/classes/class-wc-add-fees-admin.php:492
+msgid "Do not allow to change gateway"
+msgstr ""
+
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/classes/class-wc-add-fees-admin.php:492
+msgid ""
+"If checked, the customer cannot choose a different payment gateway on the "
+"pay-for-order page. "
+msgstr ""
+
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/classes/class-wc-add-fees.php:183
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/classes/class-wc-add-fees.php:193
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/classes/class-wc-add-fees.php:592
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/v103/classes/woocommerce_additional_fees.php:340
+msgid "Additional Fee"
+msgstr ""
+
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/classes/class-wc-add-fees.php:595
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/v103/classes/woocommerce_additional_fees.php:343
+msgid "Fee for "
+msgstr ""
+
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/classes/class-wc-add-fees.php:912
+msgid ""
+"An error occured in calculation of additional fees for your selected payment "
+"gateway. Kindly contact us to recheck your invoice or try to change the "
+"payment gateway. "
+msgstr ""
+
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/classes/class-wc-add-fees.php:926
+msgid "Invalid pay order parameters. "
+msgstr ""
+
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/classes/class-wc-add-fees.php:926
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/classes/class-wc-add-fees.php:958
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/classes/class-wc-add-fees.php:976
+msgid "My Account"
+msgstr ""
+
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/classes/class-wc-add-fees.php:958
+msgid "Invalid payment gateway selected - it is no longer available. "
+msgstr ""
+
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/classes/class-wc-add-fees.php:976
+msgid "Invalid order. "
+msgstr ""
+
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/classes/class-wc-add-fees.php:1022
+#, php-format
+msgid ""
+"This order&rsquo;s status is &ldquo;%s&rdquo;&mdash;it cannot be paid for. "
+"Please contact us if you need assistance. "
+msgstr ""
+
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/classes/class-wc-add-fees.php:1028
+msgid "Sorry, this order is invalid and cannot be paid for. "
+msgstr ""
+
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/classes/class-wc-add-fees.php:1244
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/v103/classes/woocommerce_additional_fees.php:682
+msgid "Fixed amount"
+msgstr ""
+
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/classes/class-wc-add-fees.php:1245
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/v103/classes/woocommerce_additional_fees.php:683
+msgid "add % to total amount"
+msgstr ""
+
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/classes/class-wc-add-fees.php:1246
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/v103/classes/woocommerce_additional_fees.php:684
+msgid "include % in total amount"
+msgstr ""
+
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/classes/class-wc-add-fees.php:1273
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/v103/classes/woocommerce_additional_fees.php:704
+msgid "No Tax required"
+msgstr ""
+
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/classes/class-wc-add-fees.php:1274
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/v103/classes/woocommerce_additional_fees.php:705
+msgid "Standard"
+msgstr ""
+
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/classes/panels/class-wc-add-fees-panel-admin.php:71
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/classes/panels/class-wc-add-fees-panel-admin.php:139
+#, php-format
+msgid ""
+"%1$d Error(s) have been found and were reset to original value. Please check "
+"your entries. "
+msgstr ""
+
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/classes/panels/class-wc-add-fees-panel-admin.php:103
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/v103/classes/panels/wc_panel_admin.php:106
+msgid "Activate for this product:"
+msgstr ""
+
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/classes/panels/class-wc-add-fees-panel-admin.php:105
+msgid ""
+"Check to activate additional fees for this product. You must also enable "
+"additional fees for all products in &quot;Basic Settings&quot; in "
+"WooCommerce Settings Page. If unchecked, all gateway settings for this "
+"product are ignored. "
+msgstr ""
+
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/classes/panels/class-wc-add-fees-panel-admin.php:198
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/v103/classes/panels/wc_panel_admin.php:201
+msgid "Basic Settings"
+msgstr ""
+
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/classes/panels/class-wc-add-fees-panel-admin.php:276
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/v103/classes/panels/wc_panel_admin.php:265
+msgid "Basic settings for WooCommerce additional fees plugin"
+msgstr "Basiseinstellungen für WooCommerce Additional Fee Plugin"
+
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/classes/panels/class-wc-add-fees-panel-admin.php:286
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/v103/classes/panels/wc_panel_admin.php:279
+msgid "Delete options on deactivate"
+msgstr ""
+
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/classes/panels/class-wc-add-fees-panel-admin.php:287
+msgid ""
+"Check to delete options on deactivate. Does not remove any fees in existing "
+"orders. "
+msgstr ""
+
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/classes/panels/class-wc-add-fees-panel-admin.php:298
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/v103/classes/panels/wc_panel_admin.php:295
+msgid "Delete options on uninstall"
+msgstr ""
+
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/classes/panels/class-wc-add-fees-panel-admin.php:299
+msgid ""
+"Check to delete options on uninstall. Does not remove any fees in existing "
+"orders. "
+msgstr ""
+
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/classes/panels/class-wc-add-fees-panel-admin.php:323
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/v103/classes/panels/wc_panel_admin.php:324
+msgid "Enable additional fees calculation for products"
+msgstr ""
+
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/classes/panels/class-wc-add-fees-panel-admin.php:324
+msgid ""
+"Check to enable additional fees calculation for products in the shop. If not "
+"checked, all settings on product level will be ignored. "
+msgstr ""
+
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/classes/panels/class-wc-add-fees-panel-admin.php:350
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/classes/panels/class-wc-add-fees-panel-admin.php:523
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/v103/classes/panels/wc_panel_admin.php:352
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/v103/classes/panels/wc_panel_admin.php:513
+msgid "Additional Fee Settings for Payment Gateway:"
+msgstr ""
+
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/classes/panels/class-wc-add-fees-panel-admin.php:359
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/classes/panels/class-wc-add-fees-panel-admin.php:529
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/v103/classes/panels/wc_panel_admin.php:361
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/v103/classes/panels/wc_panel_admin.php:519
+msgid "Status: "
+msgstr ""
+
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/classes/panels/class-wc-add-fees-panel-admin.php:360
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/classes/panels/class-wc-add-fees-panel-admin.php:530
+msgid "Payment gateway is enabled. "
+msgstr ""
+
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/classes/panels/class-wc-add-fees-panel-admin.php:361
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/classes/panels/class-wc-add-fees-panel-admin.php:531
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/v103/classes/panels/wc_panel_admin.php:363
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/v103/classes/panels/wc_panel_admin.php:521
+msgid "Payment gateway is disabled"
+msgstr ""
+
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/classes/panels/class-wc-add-fees-panel-admin.php:390
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/v103/classes/panels/wc_panel_admin.php:398
+msgid "Enable additional fees on total cart value for this gateway"
+msgstr ""
+
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/classes/panels/class-wc-add-fees-panel-admin.php:391
+msgid ""
+"Check to enable additional fees to be added based on the total cart value "
+"for this gateway. The fee is applied to overall cart value also including "
+"all fees added on product level. "
+msgstr ""
+
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/classes/panels/class-wc-add-fees-panel-admin.php:399
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/classes/panels/class-wc-add-fees-panel-admin.php:577
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/v103/classes/panels/wc_panel_admin.php:407
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/v103/classes/panels/wc_panel_admin.php:567
+msgid "Output text:"
+msgstr "Ausgabetext:"
+
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/classes/panels/class-wc-add-fees-panel-admin.php:401
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/classes/panels/class-wc-add-fees-panel-admin.php:579
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/v103/classes/panels/wc_panel_admin.php:409
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/v103/classes/panels/wc_panel_admin.php:569
+msgid "Enter Text for Fee to display as explanation to Fee"
+msgstr ""
+
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/classes/panels/class-wc-add-fees-panel-admin.php:416
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/classes/panels/class-wc-add-fees-panel-admin.php:600
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/v103/classes/panels/wc_panel_admin.php:424
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/v103/classes/panels/wc_panel_admin.php:590
+msgid "Tax Class:"
+msgstr ""
+
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/classes/panels/class-wc-add-fees-panel-admin.php:419
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/classes/panels/class-wc-add-fees-panel-admin.php:603
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/v103/classes/panels/wc_panel_admin.php:427
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/v103/classes/panels/wc_panel_admin.php:593
+msgid "Select the tax class for the additional fee"
+msgstr ""
+
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/classes/panels/class-wc-add-fees-panel-admin.php:433
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/classes/panels/class-wc-add-fees-panel-admin.php:619
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/v103/classes/panels/wc_panel_admin.php:441
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/v103/classes/panels/wc_panel_admin.php:610
+msgid "Type of additional fee:"
+msgstr ""
+
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/classes/panels/class-wc-add-fees-panel-admin.php:436
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/classes/panels/class-wc-add-fees-panel-admin.php:622
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/v103/classes/panels/wc_panel_admin.php:444
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/v103/classes/panels/wc_panel_admin.php:613
+msgid "Select the type of value for the additional fee"
+msgstr ""
+
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/classes/panels/class-wc-add-fees-panel-admin.php:446
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/classes/panels/class-wc-add-fees-panel-admin.php:634
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/v103/classes/panels/wc_panel_admin.php:454
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/v103/classes/panels/wc_panel_admin.php:625
+msgid "Value to add:"
+msgstr ""
+
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/classes/panels/class-wc-add-fees-panel-admin.php:448
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/v103/classes/panels/wc_panel_admin.php:456
+msgid ""
+"Enter the value to add to total amount, In case of 'Fixed amount' enter the "
+"value according to your settings in 'Prices entered with/without tax'."
+msgstr ""
+
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/classes/panels/class-wc-add-fees-panel-admin.php:464
+msgid "Fixed Value to add:"
+msgstr "Fixer Betrag zum Hinzufügen:"
+
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/classes/panels/class-wc-add-fees-panel-admin.php:466
+msgid ""
+"Enter a fixed value to be added in addition to the calculated fees above (e."
+"g. a fixed transaction fee charged by the credit card company). Enter the "
+"value according to your settings in 'Prices entered with/without tax'."
+msgstr ""
+
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/classes/panels/class-wc-add-fees-panel-admin.php:482
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/v103/classes/panels/wc_panel_admin.php:472
+msgid "Maximum cart value for adding fee:"
+msgstr ""
+
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/classes/panels/class-wc-add-fees-panel-admin.php:484
+msgid ""
+"Ignore additional fee, when total amount exceeds value. Leave 0 for "
+"unlimited amount. Enter the value according to your settings in 'Prices "
+"entered with/without tax'."
+msgstr ""
+
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/classes/panels/class-wc-add-fees-panel-admin.php:566
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/v103/classes/panels/wc_panel_admin.php:556
+msgid "Enable additional fees:"
+msgstr ""
+
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/classes/panels/class-wc-add-fees-panel-admin.php:568
+msgid ""
+"Check to enable Additional fees calculation for this product and gateway. "
+"Additional fees are added based on the value of this product. "
+msgstr ""
+
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/classes/panels/class-wc-add-fees-panel-admin.php:636
+msgid ""
+"Enter the value to add to total amount. In case of 'Fixed amount' enter the "
+"value according to your settings in 'Prices entered with/without tax' . "
+msgstr ""
+
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/classes/panels/class-wc-add-fees-panel-admin.php:654
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/v103/classes/panels/wc_panel_admin.php:645
+msgid "Maximum value:"
+msgstr ""
+
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/classes/panels/class-wc-add-fees-panel-admin.php:656
+msgid ""
+"Ignore additional fee, when total amount sold of this product exceeds this "
+"maximum value. Leave 0 for unlimited amount. "
+msgstr ""
+
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/classes/panels/class-wc-add-fees-panel-admin.php:908
+msgid ""
+"You must enter a positive number or Zero as number. For decimal point enter "
+"\".\". "
+msgstr ""
+
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/classes/panels/class-wc-add-fees-panel-admin.php:932
+msgid ""
+"[Value to add] must be less than 90%, when additional fee is included in "
+"total amount (Total amount including fee is 100%) . "
+msgstr ""
+
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/v103/classes/panels/wc_panel_admin.php:74
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/v103/classes/panels/wc_panel_admin.php:142
+#, php-format
+msgid ""
+"%1$d Error(s) have been found and were reset to original value. Please check "
+"your entries."
+msgstr ""
+
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/v103/classes/panels/wc_panel_admin.php:108
+msgid ""
+"Check to activate additional fees for this product. You must also enable "
+"additional fees for all products in &quot;Basic Settings&quot; in "
+"WooCommerce Settings Page. If unchecked, all gateway settings for this "
+"product are ignored."
+msgstr ""
+
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/v103/classes/panels/wc_panel_admin.php:280
+msgid ""
+"Check to delete options on deactivate. Does not remove any fees in existing "
+"orders."
+msgstr ""
+
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/v103/classes/panels/wc_panel_admin.php:296
+msgid ""
+"Check to delete options on uninstall. Does not remove any fees in existing "
+"orders."
+msgstr ""
+
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/v103/classes/panels/wc_panel_admin.php:325
+msgid ""
+"Check to enable additional fees calculation for products in the shop. If not "
+"checked, all settings on product level will be ignored."
+msgstr ""
+
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/v103/classes/panels/wc_panel_admin.php:362
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/v103/classes/panels/wc_panel_admin.php:520
+msgid "Payment gateway is enabled."
+msgstr ""
+
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/v103/classes/panels/wc_panel_admin.php:399
+msgid ""
+"Check to enable additional fees to be added based on the total cart value "
+"for this gateway. The fee is applied to overall cart value also including "
+"all fees added on product level."
+msgstr ""
+
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/v103/classes/panels/wc_panel_admin.php:474
+msgid ""
+"Ignore additional fee, when total amount exceeds value. Leave 0 for "
+"unlimited amount."
+msgstr ""
+
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/v103/classes/panels/wc_panel_admin.php:558
+msgid ""
+"Check to enable Additional fees calculation for this product and gateway. "
+"Additional fees are added based on the value of this product."
+msgstr ""
+
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/v103/classes/panels/wc_panel_admin.php:627
+msgid ""
+"Enter the value to add to total amount. In case of 'Fixed amount' enter the "
+"value according to your settings in 'Prices entered with/without tax'."
+msgstr ""
+
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/v103/classes/panels/wc_panel_admin.php:647
+msgid ""
+"Ignore additional fee, when total amount sold of this product exceeds this "
+"maximum value. Leave 0 for unlimited amount."
+msgstr ""
+
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/v103/classes/panels/wc_panel_admin.php:893
+msgid ""
+"You must enter a positive number or Zero as number. For decimal point enter "
+"\".\"."
+msgstr ""
+
+#: C:\xampp\htdocs\wp_shop\wp-content\plugins\woocommerce-additional-fees/v103/classes/panels/wc_panel_admin.php:916
+msgid ""
+"[Value to add] must be less than 90%, when additional fee is included in "
+"total amount (Total amount including fee is 100%)."
+msgstr ""

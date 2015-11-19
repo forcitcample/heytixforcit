@@ -1,0 +1,390 @@
+@charset "utf-8";
+
+
+
+/* CSS Document */
+
+
+
+
+
+
+
+.bar_toggle span{ display:block; background-color:#fff; height:2px;}
+
+
+
+.bar_toggle span+span{ margin-top:6px;}
+
+
+
+.bar_toggle{ width:31px; background-color:#239ed9; padding:10px; cursor:pointer; display:none; margin-top:10px}
+
+
+
+
+
+
+
+@media (max-width:1200px) and (min-width:991px) {
+
+.header_inside {
+max-width: 873px;
+}
+
+/* Micah Remove
+.navig li{
+font-size:27px;
+}
+*/
+
+}
+
+
+
+
+
+
+
+@media (max-width:990px) and (min-width:768px) {
+
+.header_inside {
+max-width: 665px;
+}
+
+/* Micah Remove
+.navig li{ 
+font-size:27px;
+}
+*/
+
+}
+
+@media (max-width:767px) {
+
+.header_inside { 
+max-width:inherit; 
+padding:0px 20px; 
+text-align:center;
+}
+
+
+
+
+/*----- Micah Remove for 2 Tab Layout
+.bar_toggle{ 
+	display:block;
+	float: right;
+}
+
+.navig li {
+float: none;
+}
+
+.navig {
+height: auto;
+}
+
+.navig li.nav_b {
+width:100%; 
+text-align:left
+}
+
+.navig li.nav_a {
+width:100%;
+}
+
+.navig li.nav_c {
+width:100%;
+}
+
+.navig li.nav_a a { 
+text-align: left; 
+padding-right: 0px;
+}
+
+.navig li.nav_c a { 
+padding-left:20px
+}
+
+.navig li a{ 
+padding-left:20px
+}
+
+.navig li{ 
+font-size:21px;
+}
+
+.navig a{ 
+background-image:none;
+}
+
+.navg_ul{ 
+clear:both; 
+display:none; 
+}
+
+.srch_btn{ 
+font-size:15px;
+}
+
+.navig{
+padding-left:14px; 
+padding-right:14px;
+}
+*/
+
+
+}
+
+@media (max-width:690px) {
+
+
+
+}
+
+
+@media (min-width:481px) {
+/*
+	.txt_chk img.photo { 
+width:50px; 
+height:50px;
+overflow: hidden;
+}*/
+
+.fb_thumb { width: 50px;
+height: 50px;
+position: relative;
+overflow: hidden;
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+-ms-border-radius: 50%;
+-o-border-radius: 50%;
+border-radius: 50%; }
+                
+.fb_thumb img {     display: inline;
+    margin: 0 auto;
+    height: auto;
+    width: 100%; }
+
+}
+
+
+@media (max-width:659px) {
+	
+.header_inside .logo { 
+float:none;
+display: block;
+}
+	
+.header_inside .top_right_main{ 
+    float: left;
+    position: relative;
+    left: 50%;
+    padding: 20px 0 15px 0;
+}
+
+ul.top_right { 
+margin-left: 0px!important; 
+}
+
+.top_right li {
+font-size: 12px!important;
+}
+
+.top_right {
+   float: left;
+    position: relative;
+    left: -50%;
+}
+
+
+}
+
+
+
+
+
+
+@media (min-width:581px) {
+	
+.title_login { 
+	padding: 75px 0px 65px 0px!important;
+	
+}
+
+.txt_chk span img.logo_photo { 
+	padding-top: 38%!important;
+}
+
+.login_logo img {
+	width: 163px;
+	height: 118px;
+}
+}
+
+@media (max-width:580px) {
+
+.txt_chk span img.logo_photo { 
+	padding-top: 30%!important;
+}
+
+.txt_box {
+width: 90%;
+}
+
+.title { 
+padding:30px 0px;
+}
+
+.srch_btn { 
+width:100%; 
+margin-left:0px; 
+margin-top:10px;
+}
+
+.search_bar { 
+padding-left:14px; 
+padding-right:14px;
+}
+
+.chk_list_main {
+padding-left:14px; 
+padding-right:14px;
+}
+
+/*
+.navig{padding-left:14px; padding-right:14px;}
+*/
+
+
+.login {
+padding: 40px 20px 40px 20px;
+}
+
+.login_box {
+width: 82%;
+}
+
+.title_login {
+padding: 40px 0px 30px 0px!important;
+}
+
+.main {
+overflow-x: hidden;
+}
+
+.login_logo img {
+	width: 120px;
+	height: 87px;
+}
+
+
+
+}
+
+
+
+@media (max-width:480px) {
+
+.navig li.nav_a a { font-size: 25px; }
+.navig li.nav_b a { font-size: 25px; }
+	
+	
+.login_box {
+width: 78%;
+}
+
+.logo { 
+font-size: 27px;
+}
+
+.title { 
+font-size:27px;
+}
+
+
+.txt_chk {
+font-size: 17px;
+}
+
+.fb_thumb { width: 40px;
+height: 40px;
+position: relative;
+overflow: hidden;
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+-ms-border-radius: 50%;
+-o-border-radius: 50%;
+border-radius: 50%; }
+                
+.fb_thumb img {     display: inline;
+    margin: 0 auto;
+    height: auto;
+    width: 100%; }
+    
+
+.fa { 
+font-size:18px;
+}
+
+.txt_box {
+width: 89%;
+}
+
+.content {
+padding: 0px 0px 40px 0px;
+}
+
+.sign_in_btn{ 
+border-radius:2px;
+}
+
+}
+
+
+
+@media (max-width:400px) {
+
+.txt_box {
+width: 83%;
+}	
+
+.login_box {
+width: 75%;
+}
+
+}
+
+
+
+@media (max-width:348px) {
+
+.search_bar { 
+padding-left:10px; 
+padding-right:10px;
+}
+
+.chk_list_main {
+padding-left:10px; 
+padding-right:10px;
+}
+
+.navig{
+padding-left:10px; 
+padding-right:10px;
+}
+
+.txt_box {
+width: 82%;
+}
+
+element.style {
+
+}
+
+.login_box {
+width: 71%;
+}
+
+}

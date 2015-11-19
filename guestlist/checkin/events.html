@@ -1,0 +1,8 @@
+<form action="{{  @ALIASES.checkin_url }}" method="GET" >
+	<select name="event_id">
+	<repeat group="{{ @data }}" value="{{ @event }}">
+		<option value="{{ @event.post_id }}">{{ @event.post_title }}</option>
+	</repeat>
+	</select>
+	<input type="submit" value="Checkin Tickets >>">
+</form>

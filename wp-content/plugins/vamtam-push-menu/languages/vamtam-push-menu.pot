@@ -1,0 +1,42 @@
+# Copyright (C) 2015 Vamtam
+# This file is distributed under the same license as the Vamtam Push Menu package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Vamtam Push Menu 2.0.5\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/push-menu\n"
+"POT-Creation-Date: 2015-04-03 22:01:58+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: grunt-wp-i18n 0.4.6\n"
+
+#: push-menu.php:53
+msgid "Push Menu"
+msgstr ""
+
+#: push-menu.php:111
+msgid "Menu"
+msgstr ""
+
+#: push-menu.php:117
+msgid "Back"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Vamtam Push Menu"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Implements the \"Navigation Drawer\" UI pattern from Android 4.x"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Vamtam"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://vamtam.com"
+msgstr ""

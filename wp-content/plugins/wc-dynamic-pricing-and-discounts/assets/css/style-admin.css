@@ -1,0 +1,162 @@
+/**
+ * WooCommerce Dynamic Pricing & Discounts Plugin Admin Styles
+ */
+.rp_wcdpd_left {
+    width: 760px;
+    float: left;
+    border: 1px solid #dfdfdf;
+    border-top: none;
+    background-color: #fcfcfc;
+}
+
+.rp_wcdpd_left h3 {
+    padding: 10px 0 10px 15px;
+    border-top: 1px solid #dfdfdf;
+    border-bottom: 1px solid #dfdfdf;
+    background-color: #f9f9f9;
+    margin: 0;
+}
+
+.rp_wcdpd_left .form-table th {
+    width: 220px;
+    padding: 10px 10px 10px 0;
+}
+
+.rp_wcdpd_left .form-table td {
+    padding: 5px 10px 5px 0px;
+}
+
+.rp_wcdpd_settings_right {
+    float: right;
+    margin: 20px 20px 0 20px;
+}
+
+.rp_wcdpd_left .submit {
+    border-top: 1px solid #dfdfdf;
+    padding: 15px 0 10px 15px;
+}
+
+#rp_wcdpd_add_set {
+    float: right;
+    margin-top: 15px;
+}
+
+.rp_wcdpd_sets_remove {
+    float: right;
+}
+
+.rp_wcdpd_sets {
+    margin: 20px;
+}
+
+.rp_wcdpd_sets_section {
+    margin: 10px 0;
+    font-size: 1em;
+    font-weight: bold;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #dfdfdf;
+    color: #aaaaaa;
+}
+
+.rp_wcdpd_set_title {
+    font-weight: bold;
+}
+
+.rp_wcdpd_left .form-table {
+    margin: 10px 0 10px 15px;
+    width: auto;
+}
+
+input[type="text"].rp_wcdpd_field,
+select.rp_wcdpd_field {
+    width: 400px;
+}
+
+input[type="text"].rp_wcdpd_pricing_field,
+select.rp_wcdpd_pricing_field {
+    width: 100%;
+}
+
+.rp_wcdpd_left table.rp_wcdpd_pricing_table {
+    margin: 15px 0 15px 15px;
+}
+
+.rp_wcdpd_left table.rp_wcdpd_conditions_table {
+    margin: 15px 0 30px 15px;
+}
+
+.rp_wcdpd_pricing_table th,
+.rp_wcdpd_pricing_table td,
+.rp_wcdpd_conditions_table th,
+.rp_wcdpd_conditions_table td {
+    padding: 10px 10px 10px 0;
+}
+
+.rp_wcdpd_pricing_column {
+    width: 21%;
+}
+
+.rp_wcdpd_pricing_column input {
+    padding: 2px;
+    line-height: 28px;
+    height: 28px;
+    vertical-align: middle;
+}
+
+.rp_wcdpd_pricing_column_wider {
+    min-width: 178px;
+}
+
+.rp_wcdpd_pricing_column_wider select {
+    padding: 2px;
+    line-height: 28px;
+    height: 28px;
+    vertical-align: middle;
+}
+
+input.rp_wcdpd_date_field {
+    width: 195px;
+}
+
+.rp_wcdpd_conditions_field_key {
+    width: 280px;
+}
+
+.rp_wcdpd_conditions_field_value {
+    width: 296px;
+    padding: 2px;
+    line-height: 28px;
+    height: 28px;
+    vertical-align: middle;
+}
+
+div.rp_wcdpd_sets table.rp_wcdpd_items_table thead tr th {
+    padding: 10px 10px 3px 0;
+}
+
+.ui-accordion .ui-accordion-content {
+    overflow: visible;
+}
+
+.rp_wcdpd_tip{
+    position: relative;
+    float: right;
+    text-align: center;
+    width: 15px;
+    height: 15px;
+    color: #dfdfdf;
+}
+
+.rp_wcdpd_tip:hover {
+    color: #000;
+}
+
+.rp_wcdpd_tip_right {
+    width: 20px;
+    top: 5px;
+}
+
+.rp_wcdpd_tip_section {
+    float: none;
+    left: 10px;
+}

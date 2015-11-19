@@ -1,0 +1,22 @@
+<html>
+<head>
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<div>
+    <iframe src="http://jcrawford.heytix.com/venue-events/?venue_id=9413" width="100%" scrolling="no" seamless="seamless"></iframe>
+</div>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/iframeResizer.min.js"></script>
+<script type="text/javascript">
+    var isOldIE = (navigator.userAgent.indexOf("MSIE") !== -1); // Detect IE10 and below
+    $('iframe').iFrameResize({
+        log            : true,
+        autoResize     : true,
+        heightCalculationMethod: isOldIE ? 'max' : 'lowestElement',
+        enablePublicMethods : true,
+    });
+</script>
+</body>
+</html>

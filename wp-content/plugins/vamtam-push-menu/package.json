@@ -1,0 +1,22 @@
+{
+  "name": "push-menu",
+  "version": "1.0.0",
+  "description": "Please find our support system and documentation here:",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "^0.6.5",
+    "grunt-contrib-nodeunit": "^0.2.2",
+    "grunt-contrib-uglify": "^0.2.7",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-watch": "^0.5.3",
+    "grunt-phpdocumentor": "^0.1.0",
+    "grunt-parallel": "~0.3.0",
+    "grunt-wp-i18n": "^0.4.6",
+    "matchdep": "^0.3.0",
+    "grunt-concurrent": "^1.0.0"
+  },
+  "author": "Vamtam",
+  "license": "dual GPL/Envato",
+  "readmeFilename": "readme.txt",
+  "jsLocation": "js/"
+}

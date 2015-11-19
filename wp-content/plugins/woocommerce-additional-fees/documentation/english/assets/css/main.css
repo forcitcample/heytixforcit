@@ -1,0 +1,232 @@
+/* 
+    Document   : main
+    Created on : 18.05.2011, 13:37:47
+    Author     : Schoenmann Guenter
+    Description:
+        Main stylesheet for Documentation.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+a:visited,
+a{
+    color: #FD8D38;
+	text-decoration: none !important;
+}
+a:hover{
+    color: #777;
+}
+
+table, td, th {
+    vertical-align: top !important;
+	padding: 5px 5px 5px 5px;
+}
+
+.ip-doc-page-content {
+	padding: 20px;
+	width: 90%;
+	margin-left: 40px;
+}
+
+.ip-doc-page-content .ip-doc-headline {
+	/* text-decoration: underline; */
+	margin-top: 10px;
+    
+}
+
+.ip-doc-page-content .ip-doc-headline h1 {
+	text-decoration: underline;
+}
+
+.ip-doc-page-content .ip-doc-description {
+	
+}
+
+.ip-doc-page-content .ip-doc-description .ip-doc-description-p{
+
+}
+
+.ip-doc-page-content .ip-doc-footer{
+	width: 100%;
+    background-color: #ccccff;
+    color: #666666;
+}
+
+.ip-doc-page-content .ip-doc-footer .ip-doc-description-footer{
+	font-size: 0.85em;
+    font-style: italic;
+}
+
+li.ip-doc-cont-numlist-1 {
+	list-style-type: upper-roman;
+    font-weight: bold;
+	font-size: 1.2em;
+    text-decoration: none;
+}
+.ip-doc-cont-numlist-2 {
+	list-style-type: decimal;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+li.ip-doc-numlist-1 {
+	list-style-type: decimal;
+    font-weight: bold;
+	font-size: 1.0em;
+    
+}
+
+li.ip-doc-numlist-1 a{
+	text-decoration: none;
+}
+li.ip-doc-numlist-1 a:hover{
+	text-decoration: underline;
+}
+
+li.ip-doc-numlist-2 {
+	list-style-type: lower-alpha;
+    font-weight: normal;
+}
+li.ip-doc-numlist-2num {
+	list-style-type: decimal;
+    font-weight: normal;
+}
+
+li.ip-doc-numlist-2 a{
+	text-decoration: none;
+}
+li.ip-doc-numlist-2 a:hover{
+	text-decoration: underline;
+}
+
+li.ip-doc-numlist-3 {
+	list-style-type: circle;
+    font-weight: normal;
+}
+
+li.ip-doc-numlist-3 a{
+	text-decoration: none;
+}
+li.ip-doc-numlist-3 a:hover{
+	text-decoration: underline;
+}
+
+li.ip-doc-numlist-4 {
+	list-style-type: disc;
+    font-weight: normal;
+	margin-left: 10px;
+}
+
+li.ip-doc-numlist-5 {
+	list-style-type: circle;
+    font-weight: normal;
+	margin-left: 10px;
+}
+
+
+li {
+	color: #666666;
+}
+
+.ip-doc-description pre.ip-syntax{
+	width: 90%;
+	border: 2px solid #3333ff;
+    color: #3333ff;
+    background-color: #ccccff;
+	padding: 10px;
+	margin: 0 auto 30px;
+	font-weight: bold;
+	white-space: pre-wrap;
+}
+
+.ip-doc-description pre.ip-syntax strong{
+	color:	#ff0000;
+    font-weight: bold;
+}
+
+.ip-doc-description pre.ip-syntax i.ip-parameter{
+    font-style: oblique;
+	font-weight: normal;
+	color: #990033;
+}
+
+.ip-doc-description pre.ip-syntax .ip-keyword{
+    font-weight: bold;
+    color: #FF0000;
+}
+
+.ip-doc-headline {
+	font-weight: bold !important;
+   /* text-decoration: underline; */
+}
+
+.ip-doc-description-p {
+    color: #666666;
+}
+
+.ip-doc-description-p-warning {
+	font-size: 1.2em;
+    font-weight: bold;
+    color: #ff3366;
+}
+
+
+.ip-doc-table-noborder {
+	table-layout: auto;
+}
+
+.ip-doc-table-nowrap {
+	white-space:  nowrap;
+    vertical-align: top;
+}
+
+.ip-doc-bold {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.ip-doc-bold.red{
+	text-decoration: none;
+    color: #ff3366;
+}
+
+.ip-doc-hrefcont {
+	font-size: 0.8em;
+	text-decoration: underline !important;
+}
+
+.ip-doc-delete-file {
+	color: #CC0000;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 3px;
+    text-align: center;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: 'SansationRegular';
+    src: url('font/Sansation_Regular-webfont.eot');
+    src: url('font/Sansation_Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/Sansation_Regular-webfont.woff') format('woff'),
+         url('font/Sansation_Regular-webfont.ttf') format('truetype'),
+         url('font/Sansation_Regular-webfont.svg#SansationRegular') format('svg');
+}
+
+
+.alt {
+    font-family: 'SansationRegular', Arial, sans-serif;
+	font-style: normal;
+}
+
+.nounderline {
+	text-decoration: none !important;
+}
+
+.ip-doc-description-li{
+	margin: 2px 0;
+	line-height: 1.30em;
+}
+

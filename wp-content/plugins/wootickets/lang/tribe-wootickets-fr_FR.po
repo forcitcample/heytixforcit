@@ -1,0 +1,129 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Tickets 3.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-04-23 17:00-0800\n"
+"PO-Revision-Date: 2014-05-13 11:30+0100\n"
+"Last-Translator: Alaric Breithof <alaric.breithof@icloud.com>\n"
+"Language-Team: Modern Tribe, Inc. <pro@tri.be>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.5\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;"
+"esc_html_x:1,2c\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../admin-views/metabox-advanced.php:3
+msgid "Stock:"
+msgstr "Stock:"
+
+#: ../admin-views/metabox-advanced.php:7
+msgid ""
+"(Total available # of this ticket type. Once they're gone, ticket type is "
+"sold out)"
+msgstr ""
+"(Nombre total de billets de ce type. Si non affiché, les billets ont tous "
+"été vendus)"
+
+#: ../admin-views/metabox-advanced.php:12
+msgid "SKU:"
+msgstr "UGS:"
+
+#: ../admin-views/metabox-advanced.php:16
+msgid "(A unique identifying code for each ticket type you're selling)"
+msgstr "(Code unique pour chaque type de billet que vous vendez)"
+
+#: ../admin-views/metabox-advanced.php:25
+msgid ""
+"Currently, WooTickets will only show up on the frontend once per full event. "
+"For PRO users this means the same ticket will appear across all events in "
+"the series. Please configure your events accordingly."
+msgstr ""
+"Actuellement, WooTickets n'apparaitra qu'une fois sur le front-end par "
+"événement complet. Pour les utilisateurs PRO les billets apparaitront sur "
+"tous les événements de la série. Veuillez configurer vos événements."
+
+#: ../classes/class-ticket-email.php:13 ../views/wootickets/tickets.php:82
+msgid "Tickets"
+msgstr "Billets"
+
+# Mistake in english: receive
+#: ../classes/class-ticket-email.php:14
+msgid ""
+"Email the user will recieve after a completed order with the tickets he "
+"purchased."
+msgstr ""
+"E-mail que l'utilisateur verra après la confirmation complète de sa commande."
+
+#: ../classes/class-ticket-email.php:16
+msgid "Your tickets from {sitename}"
+msgstr "Vos billets de {nom du site}"
+
+#: ../classes/class-ticket-email.php:97
+msgid "Subject"
+msgstr "Sujet"
+
+#: ../classes/class-ticket-email.php:99
+#, php-format
+msgid "Defaults to <code>%s</code>"
+msgstr "Par défaut <code>%s</code>"
+
+#: ../classes/class-wootickets.php:306
+msgid "You'll receive your tickets in another email."
+msgstr "Vous recevrez vos billets dans un autre e-mail."
+
+#: ../classes/class-wootickets.php:586
+#, php-format
+msgid "In trash (was %s)"
+msgstr "Dans la corbeille (il y avait %s)"
+
+#: ../classes/class-wootickets.php:592
+msgid "Deleted"
+msgstr "Supprimé"
+
+#: ../classes/class-wootickets.php:597
+msgid "(deleted)"
+msgstr "(supprimé)"
+
+#: ../classes/class-wootickets.php:693
+msgid "Event sales report"
+msgstr "Rapport de ventes des événements"
+
+#: ../classes/class-wootickets.php:715
+msgid "Report"
+msgstr "Rapport"
+
+#: ../classes/class-wootickets.php:738
+msgid "This is a ticket for the event:"
+msgstr "Ceci est un billet pour l'événement:"
+
+#: ../views/wootickets/tickets.php:59
+msgid "Out of stock!"
+msgstr "Plus en stock!"
+
+#: ../views/wootickets/tickets.php:89
+msgid "Add to cart"
+msgstr "Ajouter au panier"
+
+#: ../wootickets.php:127
+msgid "The Events Calendar"
+msgstr "The Events Calendar"
+
+#: ../wootickets.php:128
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: ../wootickets.php:133 ../wootickets.php:135
+#, php-format
+msgid ""
+"To begin using WooTickets, please install the latest version of <a href=\"%s"
+"\" class=\"thickbox\" title=\"%s\">%s</a>."
+msgstr ""
+"Afin d'utiliser WooTickets, veuillez installer la dernière version de <a "
+"href=\"%s\" class=\"thickbox\" title=\"%s\">%s</a>."

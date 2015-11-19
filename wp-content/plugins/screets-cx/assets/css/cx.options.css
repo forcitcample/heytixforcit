@@ -1,0 +1,346 @@
+
+/* Hide WP update notifications on options page */
+.update-nag { display: none; }
+
+
+.cx-table th {
+	background-color: #fff;
+	padding: 7px 14px !important;
+	margin: 0;
+	line-height: 1;
+}
+
+.cx-table td {
+	background-color: #fafafa;
+	padding: 7px 14px !important;
+}
+
+.cx-error { color: #e54045; }
+.cx-error-field { border-color: #E6ACAE !important; }
+#cx-opts-tabs span.cx-error-tab {
+	position: absolute;
+	font-size: 13px;
+	top: -10px;
+	right: -5px;
+	color: #fff;
+	background-color: #e54045;
+	padding: 1px 5px 3px 5px;
+	margin: 0;
+	line-height: 1;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+}
+
+/* Display chat button */
+.cx-chat-btn { display: block !important; }
+
+
+/**
+ * Installation
+ */
+.cxo_install {
+	position: fixed;
+	top: 100px;
+	right: 20px;
+	width: 270px;
+	background-color: #fff;
+	padding: 15px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.cxo_install h2 {
+	font-size: 14px;
+	font-weight: bold;
+	padding: 0;
+	margin: 0;
+	line-height: 1;
+}
+
+
+/**
+ * Preview
+ */
+.cxo_preview {
+	position: fixed;
+	top: 100px;
+	right: 0;
+	width: 300px;
+}
+
+select.cx-preview {
+	display: block;
+	font-size: 14px;
+	margin: 15px 0;
+}
+.cx-preview-box {
+	display: none;
+}
+
+.cx-preview-box._visible {
+	display: block;
+}
+
+.postbox .hndle {
+	padding: 7px;
+	cursor: default;
+}
+
+#icon-cx-opts {
+	background: url('../img/cx-ico-32.png') no-repeat;
+}
+
+/* Preview icons */
+.cx-preview-icons li {
+	display: inline-block;
+	color: #ccc;
+	margin-right: 7px;
+	cursor: pointer;
+}
+.cx-preview-icons li:hover {
+	color: #aaa;
+}
+
+.cx-preview-icons li.active {
+	color: #333;
+}
+
+.cx-preview-icons li .dashicons {
+	font-size: 21px;
+}
+
+.cx-license-img {
+	float: left;
+	max-width: 70px;
+	margin-right: 15px;
+}
+
+#cx_preview_title {
+	font-size: 13px;
+	margin-bottom: 15px;
+}
+
+/***********************************
+	Common styles
+***********************************/
+
+.cx-opts-onehalf {
+	float: left;
+	width: 46%;
+	margin: 0 4% 1em 0;
+}
+.cx-opts-onethird {
+	float: left;
+	width: 31%;
+	margin: 0 2% 1em 0;
+}
+.cx-opts-onesecond {
+	float: left;
+	width: 65%;
+	margin: 0 2% 1em 0;
+}
+.cx-opts-clear {
+	display: block;
+	height: 0;
+	overflow: hidden;
+	clear: both;
+}
+.cx-opts-hidden { display: none }
+
+.cx-help {
+	line-height: 21px;
+	padding: 30px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.cx-help p {
+	padding: 0 0 15px 0 !important;
+	margin: 0;
+}
+
+.cx-help h3 {
+	margin: 0 0 15px 0;
+	padding: 0;
+}
+
+.cx-lead {
+	font-size:14px; 
+	font-weight:normal;
+	margin-bottom: 20px;
+}
+
+.cx-lead p { padding: 0; margin: 0 !important; }
+
+.cx-list li {
+	font-size: 16px;
+	padding: 15px;
+	border-bottom: 1px solid #ddd;
+	margin: 0;
+}
+
+/***********************************
+	Nav tabs
+***********************************/
+
+#cx-opts-tabs {}
+#cx-opts-tabs span {
+	visibility: hidden;
+	-webkit-border-radius: 3px 3px 0 0;
+	-moz-border-radius: 3px 3px 0 0;
+	border-radius: 3px 3px 0 0;
+	cursor: pointer;
+}
+#cx-opts-tabs .nav-tab {
+	position: relative;
+}
+#cx-opts-tabs .nav-tab-active,
+#cx-opts-tabs span:hover { color: #464646 }
+
+
+
+/***********************************
+	Panes
+***********************************/
+
+.cx-opts-pane {
+	margin: 20px 0;
+	padding-bottom: 20px;
+	border-bottom: 3px solid #f0f0f0;
+}
+.js .cx-opts-pane {
+	padding-bottom: 0;
+	border: none;
+}
+
+
+
+/***********************************
+	Fields
+***********************************/
+
+
+
+#cx-opts-settings .form-table td,
+#cx-opts-settings .form-table th { 
+	padding: 0 0 15px 0;
+}
+
+#cx-opts-settings .form-table h2 {
+	margin: 0;
+	padding: 0;
+}
+
+#cx-opts-settings .description {
+	display: block;
+	margin-top: 5px;
+}
+#cx-opts-settings .description small {
+	display: block;
+	font-style: normal;
+	line-height: 16px;
+}
+
+#cx-opts-settings span.description code {
+	padding: 0;
+	font-size: 12px;
+	line-height: 16px;
+}
+.cx-opts-textarea {
+	width: 400px;
+}
+
+.cx-opts-code {
+	width: 400px;
+	min-width: 25em;
+	max-width: 50em;
+	padding: 4px;
+	font-size: 13px;
+	font-family: "Consolas", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace !important;
+	line-height: 21px !important;
+	background: scroll url('../img/code.png');
+}
+
+.cx-opts-select {
+	max-width: 50em;
+}
+
+.cx-opts-checkbox-group label {
+	display: inline-block;
+	margin: 0 0 5px 0;
+}
+
+
+/***********************************
+	Color picker
+***********************************/
+
+.cx-opts-color-picker {
+	position: relative;
+	width: 300px;
+}
+.cx-opts-color-picker-preview {
+	position: absolute;
+	right: 0;
+	top: 0;
+	display: none;
+	background: #fff;
+	border: 1px solid #eee;
+	z-index: 4;
+}
+
+
+
+/***********************************
+	Notifications
+***********************************/
+
+#cx-opts-settings .cx-opts-notification {
+	position: relative;
+	margin: 20px 0;
+}
+#cx-opts-settings .cx-opts-notification small {
+	float: right;
+	display: none;
+	color: #555;
+}
+.js #cx-opts-settings .cx-opts-notification:hover small { display: inline }
+
+
+
+/***********************************
+	Actions bar
+***********************************/
+
+.cx-opts-actions-bar {
+	margin-top: 20px;
+	padding: 10px;
+	background: #f5f5f5;
+	border-top: 1px solid #eee;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.cx-opts-spin,
+.cx-opts-success-tip {
+	display: none;
+	margin-left: 10px;
+}
+.cx-opts-success-tip { color: #0b0 }
+.cx-opts-spin img,
+.cx-opts-success-tip img { margin: 0 5px -3px 0 }
+
+@media screen and (max-width:680px) {
+	.cxo_preview {
+		display: none;
+	}
+}

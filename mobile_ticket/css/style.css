@@ -1,0 +1,500 @@
+@charset "utf-8";
+
+.terms { display: none; color: red; text-align: center;}
+/* CSS Document */
+#sendTix {
+    position: relative;
+    text-align: center!important;
+    max-width: 450px;
+    height: 100vh;
+    margin: 0 auto;
+
+}
+.ticket_block { display: none;}
+
+body{margin:0px; padding:0px; word-wrap: break-word;background: #f0f0f0; font-family:Arial;}
+
+.clear{clear:both;}
+
+input text{ outline:none;}
+
+h1,h2,h3,h4,h5,h6,img,a,ul{margin:0px; padding:0px; list-style-type:none;outline:none;border:0px; text-decoration:none;}
+
+@font-face {
+
+    font-family: "Brandon_thin";
+
+    src:url(../fonts/Brandon_thin.otf);
+
+}
+
+@font-face {
+
+    font-family: "Brandon_light";
+
+    src:url(../fonts/Brandon_light.otf);
+
+}
+
+@font-face {
+
+    font-family: "Brandon_bld";
+
+    src:url(../fonts/Brandon_bld.otf);
+
+}
+
+
+
+@font-face {
+
+    font-family: "opensans-semibold";
+
+    src:url(../fonts/opensans-semibold.ttf);
+
+}
+
+@font-face {
+
+    font-family: "opensans-semibolditalic";
+
+    src:url(../fonts/opensans-semibolditalic.ttf);
+
+}
+
+@font-face {
+
+    font-family: "langdon";
+
+    src:url(../fonts/langdon.otf);
+
+}
+
+@font-face {
+
+    font-family: "Brandon_blk";
+
+    src:url(../fonts/Brandon_blk.otf);
+
+}
+
+@font-face {
+
+    font-family: "opensans-light";
+
+    src:url(../fonts/opensans-light.ttf);
+
+}
+
+
+
+
+
+.main {
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+
+}
+
+#sendTicketView, #getTicketView, #successView, #errorView {
+    border: 1px solid black;
+    margin-top: 5px !important;
+}
+
+.ticket_block, #sendTicketView, #getTicketView, #successView, #errorView {
+    position: relative;
+    text-align: center!important;
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+.ticket_block {
+    height: 100vh;
+    display: none;
+}
+
+.ticket_img {
+    top: 0;
+    padding: 0;
+    margin: 0;
+    z-index: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.ticket_img img {
+    height: auto;
+    max-width: 100%;
+}
+
+.logos {
+    position: absolute;
+    z-index: 5;
+    left: 3%;
+    top: 15px;
+    width: 40px;
+    height: 92px;
+}
+
+.logos img {
+    width: 40px;
+    height: 92px;
+}
+
+.ticket_info {
+    position: absolute;
+    width: 94%;
+    margin-left: 3%;
+    height: 456px;
+    top: 130px;
+    background: #ffffff;
+    z-index: 10;
+    border: 1px solid #dadada;
+}
+
+.ticket_specs {
+    padding: 4%;
+}
+
+
+/*-- ticket text --*/
+
+
+.artist_name, .apology {
+    font-family: "Brandon_light", arial;
+    font-size: 20px;
+    font-weight: regular;
+    text-transform: uppercase;
+    color: #8d8d8d;
+    margin: 0 0 5px 0;
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+}
+
+.date_time, .connect_us {
+    font-family: "Brandon_light", arial;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #8d8d8d;
+    margin: 0 0 15px 0;
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+}
+
+img.venue_logo {
+    width: 120px;
+    height: auto;
+    margin-bottom: 5px;
+}
+
+.sec_code {
+    font-family: "Brandon_regular", arial;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #8d8d8d;
+    margin: 15px 0 20px 0;
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+}
+
+.ticket_details {
+    width: 100%;
+}
+
+.purchase, .new_owner {
+    float: left;
+    width: 46%;
+    padding-left: 3%;
+    text-align: left;
+    margin: 0 0 0px 0;
+}
+
+.purchaser, .name {
+    font-family: "Brandon_bld", arial;
+    color: #8d8d8d;
+    text-transform: uppercase;
+    font-size: 11px;
+    line-height: 1.0;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: .5em;
+}
+
+.purchase_name, .new_owner_name {
+    font-family: "Brandon_light", arial;
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 1.0;
+    color: #8d8d8d;
+    margin: 0 0 0px 0;
+    -webkit-font-smoothing: antialiased;
+}
+
+.ticket_type {
+    float: right;
+    width: 46%;
+    padding-right: 3%;
+    text-align: right;
+    margin: 0 0 0px 0;
+}
+
+.type {
+    font-family: "Brandon_bld", arial;
+    color: #8d8d8d;
+    text-transform: uppercase;
+    font-size: 11px;
+    line-height: 1.0;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: .5em;
+}
+
+.type_class {
+    font-family: "Brandon_light", arial;
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 1.0;
+    color: #8d8d8d;
+    margin: 0 0 0px 0;
+    -webkit-font-smoothing: antialiased;
+}
+
+.print_btn {
+    position: absolute;
+    top: 606px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: #2070a3;
+}
+
+.print_btn i {  font-size: 26px; }
+.print_tix {
+    font-family: "Brandon_bld", arial;
+    color: #2070a3;
+    text-transform: uppercase;
+    font-size: 11px;
+    line-height: 1.5;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: .5em;
+}
+
+.print_tix:hover { color: #40a4e3; }
+.print_btn button:hover { color: #40a4e3; }
+
+button.print_it { outline: 0; border: none; background: transparent; color: #2070a3; cursor: pointer; }
+button.print_it:hover { color: #40a4e3; }
+
+.phone_btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: #2070a3;
+}
+
+.sorry, .email_heytix, .call_heytix { margin-top: 30px; }
+.sorry .apology { color: #444444; }
+.sorry h1, .sorry h2 { line-height: 1.2; margin: 5px 0 0 0; padding: 0; }
+.sorry h1.apology { font-size: 30px; font-family: "Brandon_bld", arial; }
+.email_heytix a { color: #2070a3; }
+.email_heytix a:hover { color: #40a4e3; }
+a.phone_btn { margin-top: 15px; }
+
+
+@media screen and (min-width:580px) {
+    .dialer { display: none; }
+}
+
+
+@media screen and (max-width:580px) {
+    .print_btn { display: none; }
+}
+
+
+@media print {
+
+    .print_btn * {
+        visibility: hidden;
+    }
+
+}
+
+.ticket_not_found { display: none; }
+.ticket_block { display: none; }
+
+.modal {
+    background-color: rgb(248, 248, 248) !important;
+    border-radius: 0 !important;
+}
+
+.modal.fade.custom_modal {
+    top: -100%;
+}
+
+.modal.fade.custom_modal.in {
+    top: 10%;
+}
+
+.modal-body {
+    max-height: 600px !important;
+}
+
+.header {
+    text-align: center;
+    vertical-align: top;
+    padding: 15px;
+    background-color: rgb(23, 78, 142);
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "Brandon_regular", arial;
+}
+
+.text_explanation {
+    padding: 30px 40px;
+    font-family: "Brandon_light", arial;
+    line-height: 20px;
+    font-weight: 600;
+    text-align: center;
+    font-size: 15px;
+}
+
+.orange_text {
+    font-family: "Brandon_light", arial;
+    font-weight: 600;
+    text-align: center;
+    font-size: 15px;
+    color: rgb(206, 102, 32);
+}
+
+.send_ticket_form {
+    padding: 40px 40px 20px;
+    font-family: "Brandon_light", arial;
+}
+
+.star {
+    color: red;
+    margin-left: -4px;
+    font-weight: 600;
+    font-family: "Brandon_regular", arial;
+    font-size: 17px;
+}
+
+.form_label {
+    font-weight: 600;
+    font-family: "Brandon_regular", arial;
+    font-size: 14px;
+}
+
+.input_name, .input_email {
+    height: 40px;
+    color: #808080;
+    border: 1px solid #E8E8E8;
+    text-indent: 1em;
+    font-size: 18px;
+}
+
+.input_name {
+    margin: 10px 0 20px 0;
+    width: 40%;
+}
+
+.first_name {
+    float: left;
+}
+.last_name {
+    float: right;
+}
+
+.input_email {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.input_name::-webkit-input-placeholder {
+    font-weight: bold;
+    font-family: "Brandon_light", arial;
+    font-style: normal;
+}
+
+.input_name:-moz-placeholder {
+    font-weight: bold;
+    font-family: "Brandon_light", arial;
+    font-style: normal;
+}
+
+.send_ticket_button {
+    margin-top: 30px;
+    text-align: center;
+    color: rgb(4, 145, 212);
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 60px;
+    border: 2px solid;
+    cursor: pointer;
+}
+
+.send_ticket_button:hover {
+    background-color: rgb(4, 145, 212);
+    color: white;
+    border: 2px solid rgb(4, 145, 212);
+}
+
+.has_error {
+    border: 1px solid red;
+}
+
+.blue_link {
+    color:rgb(0, 178, 255);
+    text-decoration:none;
+    cursor: pointer;
+}
+
+.how_to_get_ticket {
+    font-family: "Brandon_light", arial;
+    line-height: 20px;
+    font-weight: 600;
+    text-align: center;
+    font-size: 15px;
+}
+
+.additional_top_space {
+    padding-top: 30px;
+}
+
+.agreement {
+    margin: 30px 0 50px;
+    font-style: italic;
+    font-size: 16px;
+}
+
+input.checkbox_agreement {
+    width: 30px !important;
+    height: 20px;
+    margin-top: -1px !important;
+}
+
+.new_owner {
+    display: none;
+}
+
+.qrcode {
+    width: 210px;
+    height: 210pz;
+}
+
+.success_msg {
+    margin: 70px;
+    margin-top: 100px;
+    color: rgb(60, 118, 61);
+    font-size: 18px;
+}
+
+.error_msg {
+    margin: 70px;
+    margin-top: 100px;
+    color: rgb(187, 68, 66);
+    font-size: 18px;
+}
+
+#errorView, #successView, #getTicketView, #sendTicketView { display: none; }

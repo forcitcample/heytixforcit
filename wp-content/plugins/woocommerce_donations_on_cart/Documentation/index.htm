@@ -1,0 +1,267 @@
+<!doctype html>  
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	
+	<title>Woocommerce Donation - Accept donations in woocommerce</title>
+	
+	<meta name="description" content="The Woocommerce Donation allows you to accept donations on the woocommerce cart page from your clients. The amount to donate can be any value so they can donate 1 or even 1000 USD The currency accepted will be the same as the base currency that you have configured woocommerce ">
+	<meta name="author" content="Albdesign">
+	<meta name="copyright" content="Albdesign">
+	<meta name="generator" content="Documenter v2.0 http://rxa.li/documenter">
+	<meta name="date" content="2014-01-23T00:00:00+01:00">
+	
+	<link rel="stylesheet" href="assets/css/documenter_style.css" media="all">
+	
+	
+	<script src="assets/js/jquery.js"></script>
+	
+	<script src="assets/js/jquery.scrollTo.js"></script>
+	<script src="assets/js/jquery.easing.js"></script>
+	
+	<script>document.createElement('section');var duration='500',easing='swing';</script>
+	<script src="assets/js/script.js"></script>
+	
+	<style>
+		html{background-color:#FFFFFF;color:#383838;}
+		::-moz-selection{background:#444444;color:#DDDDDD;}
+		::selection{background:#444444;color:#DDDDDD;}
+		
+		a{color:#0000FF;}
+		.btn {
+			border-radius:3px;
+		}
+		.btn-primary {
+			  background-image: -moz-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -ms-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -webkit-gradient(linear, 0 0, 0 0088CC%, from(#DDDDDD), to(#0044CC));
+			  background-image: -webkit-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -o-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: linear-gradient(top, #0088CC, #0044CC);
+			  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0088CC', endColorstr='#0044CC', GradientType=0);
+			  border-color: #0044CC #0044CC #bfbfbf;
+			  color:#FFFFFF;
+		}
+		.btn-primary:hover,
+		.btn-primary:active,
+		.btn-primary.active,
+		.btn-primary.disabled,
+		.btn-primary[disabled] {
+		  border-color: #0088CC #0088CC #bfbfbf;
+		  background-color: #0044CC;
+		}
+		hr{border-top:1px solid #EBEBEB;border-bottom:1px solid #FFFFFF;}
+		#documenter_sidebar, #documenter_sidebar ul a{background-color:#DDDDDD;color:#222222;}
+		#documenter_sidebar ul a{-webkit-text-shadow:1px 1px 0px #EEEEEE;-moz-text-shadow:1px 1px 0px #EEEEEE;text-shadow:1px 1px 0px #EEEEEE;}
+		#documenter_sidebar ul{border-top:1px solid #AAAAAA;}
+		#documenter_sidebar ul a{border-top:1px solid #EEEEEE;border-bottom:1px solid #AAAAAA;color:#444444;}
+		#documenter_sidebar ul a:hover{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+		#documenter_sidebar ul a.current{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+		#documenter_copyright{display:block !important;visibility:visible !important;}
+	</style>
+	
+</head>
+<body class="documenter-project-woocommerce-donation">
+	<div id="documenter_sidebar">
+		<a href="#documenter_cover" id="documenter_logo"></a>
+		<ul id="documenter_nav">
+			<li><a class="current" href="#documenter_cover">Start</a></li>
+				
+			<li><a href="#installing_the_plugin" title="Installing the plugin">Installing the plugin</a></li>
+			<li><a href="#first_usage" title="First Usage">First Usage</a></li>
+			<li><a href="#create_donation_product" title="Create donation product">Create donation product</a></li>
+			<li><a href="#select_donation_product" title="Select donation product">Select donation product</a></li>
+			<li><a href="#view_product_on_product_list" title="Viewing product">Viewing product</a></li>
+			<li><a href="#making_a_donation" title="Making a donation">Making a donation</a></li>
+			<li><a href="#cart_view_with_donation" title="Cart with Donation">Cart with donation applied</a></li>
+			<li><a href="#order_with_donation" title="Order with donation">Order with donation</a></li>
+			<li><a href="#translations" title="Translations">Translations</a></li>
+			<li><a href="#support" title="thanks">Support</a></li>
+
+		</ul>
+		<div id="documenter_copyright">Copyright Albdesign 2014<br>
+		made with the <a href="http://rxa.li/documenter">Documenter v2.0</a> 
+		</div>
+	</div>
+	<div id="documenter_content">
+	<section id="documenter_cover">
+	<h1>Woocommerce Donation</h1>
+	<h2>Accept donations in woocommerce</h2>
+	<div id="documenter_buttons">
+		
+	</div>
+	<hr>
+	<ul>
+	<li>created: 01/23/2014</li>
+	<li>latest update: 03/01/2014</li>
+	<li>by: Albdesign</li>
+	<li><a href="http://www.pidhasome.com/albdesign/plugins/woocommerce_donations/">http://www.pidhasome.com/albdesign/plugins/woocommerce_donations/</a></li>
+	<li>email: <a href="mailto:&#97;&#108;&#98;&#100;&#101;&#115;&#105;&#103;&#110;&#64;&#112;&#105;&#100;&#104;&#97;&#115;&#111;&#109;&#101;&#46;&#99;&#111;&#109;">&#97;&#108;&#98;&#100;&#101;&#115;&#105;&#103;&#110;&#64;&#112;&#105;&#100;&#104;&#97;&#115;&#111;&#109;&#101;&#46;&#99;&#111;&#109;</a></li>
+	</ul>
+	<p>Thank you for purchasing my plugin. If you have any questions please leave a comment on the comment section of the plugin.</p>
+	</section>
+	
+	<section id="installing_the_plugin">
+	<div class="page-header"><h3>Installing the plugin</h3><hr class="notop"></div>
+<p>
+	<strong>Installing via Wordpress administration area</strong></p>
+<p>
+	After you have purchased the plugin go to wordpress administration area then on PLUGINS , ADD NEW , UPLOAD and browse to &nbsp;the zip file you downloaded &nbsp;and click INSTALL</p>
+<p>
+	&nbsp;</p>
+<p>
+	<img src="assets/images/uploadplugin.png"></p>
+
+<div>
+	Activate &#39;WooCommerce Donations Plugin&#39; through the &#39;Plugins&#39; menu in WordPress</div>	
+	
+<p>
+	&nbsp;</p>
+<p>
+	<strong>Installing via FTP</strong></p>
+<div>
+	1. Upload the folder &#39;woocommerce_donations_on_cart&#39; to the &#39;/wp-content/plugins/&#39; directory<br>
+	&nbsp;</div>
+<div>
+	2. Activate &#39;WooCommerce Donations Plugin&#39; through the &#39;Plugins&#39; menu in WordPress</div>
+</section>
+<section id="first_usage">
+	<div class="page-header"><h3>First Usage</h3><hr class="notop"></div>
+<p>
+	After installing the plugin you will find a new menu item named "DONATIONS" under the Woocommerce main menu like in the image below&nbsp;</p>
+<p> <img src="assets/images/1_no_products_yet.png" /></p>
+<p>
+	The idea behind donations is that the donation is related to a product . When making a donation whats really happening behind the scene is that the client is setting a price for that product &nbsp;and also purchasing that product&nbsp;</p>
+<p>
+	Thats why the best option is to create or select an existing product with named &quot;Donations&quot; since that name will be shown on the cart and the invoice&nbsp;</p>
+<p>
+	Next we will create or select an existing product that will be used for the donation</p>
+<p>
+	&nbsp;</p>
+</section>
+<section id="create_donation_product">
+	<div class="page-header"><h3>Create donation product</h3><hr class="notop"></div>
+	
+<p>
+	<img src="assets/images/1_no_products_yet.png" />
+</p>
+	
+<p>
+	We need to create or select an existing product that fullfills the following criteria :</p>
+<p>
+	<strong>a) &nbsp;its a hidden from catalog product&nbsp;</strong></p>
+<p>
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;This to ensure that the client cannot purchase just the donation but that product will be added to his cart if he has &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;other products on the cart</p>
+<p>
+	<strong>b) has zero tax&nbsp;</strong></p>
+<p>
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;We dont want to tax the client for the donation they make&nbsp;</p>
+<p>
+	<strong>c) can be added just once on the cart&nbsp;</strong></p>
+<p>
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<span style="line-height: 19px; color: rgb(0, 0, 0); white-space: pre-wrap;">_sold_individually is yes </span></p>
+<p>
+	<strong><span style="line-height: 19px; color: rgb(0, 0, 0); white-space: pre-wrap;">d) SKU</span></strong></p>
+<p>
+	<span style="line-height: 19px; color: rgb(0, 0, 0); white-space: pre-wrap;">set a SKU to this product so you will recognize it faster when you see the order on the &quot;order&quot; area of woocommerce</span></p>
+<p>
+	&nbsp;</p>
+<p>
+	So the donation will not be displayed as a single product , will have a SKU that you can differentiate easily , will have no taxes and there can only be a donation on a given cart </p>
+	
+<p> &nbsp; </p>	
+
+<p> <strong>Below are the settings we talked about </strong></p> </p>
+
+<p> Product is not taxable </p>	
+<p><img src="assets/images/10_product_general.png" width="1597" /></p>
+<p> &nbsp; </p>	
+
+<p> Cant have two donation so we set the selling as individual </p>	
+<p><img src="assets/images/11_product_sold_individually.png"  width="1597" /></p>
+<p> &nbsp; </p>	
+
+<p> Product is not shippable </p>	
+<p><img src="assets/images/12_product_shipping.png"  width="1597" /></p>
+<p> &nbsp; </p>	
+
+</section>
+<section id="select_donation_product">
+	<div class="page-header"><h3>Select donation product</h3><hr class="notop"></div>
+<p>
+	After we have created the product we need to set this product as the one to be added to the order in case the clients makes a donation</p>
+<p>
+	Select the products from the dropdown and click &quot;Save changes&quot;</p>
+<p>
+	<img src="assets/images/3_save_product.png" /></p>
+</section>
+
+<section id="view_product_on_product_list">
+	<div class="page-header"><h3>Viewing product</h3><hr class="notop"></div>
+<p>
+	Below is how the new product will be shown on the woocommerce product list</p>
+
+<p><img src="assets/images/4_product_list.png" /></p>
+</section>
+
+<section id="making_a_donation">
+	<div class="page-header"><h3>Making a donation</h3><hr class="notop"></div>
+<p>
+	Here we will have a look from the client point of view where he can make a donation&nbsp; </p>
+	
+	
+	
+<p>After entering the desired amount he wish to donate the client clicks "Add donation"</p>
+
+<p><img src="assets/images/5_donation_field_on_cart_page.png" /></p>
+	
+</section>
+
+<section id="cart_view_with_donation">
+	<div class="page-header"><h3>Cart with donation</h3><hr class="notop"></div>
+<p>
+	Below we can see the cart has the donation amount that the client chosed and the order total also updated accordingly</p>
+
+<p><img src="assets/images/6_order_total.png" /></p>	
+	
+</section>
+
+
+<section id="order_with_donation">
+	<div class="page-header"><h3>Order with donation</h3><hr class="notop"></div>
+<p>
+	An order with donation will appear on the &quot;orders&quot; area of Woocommerce like the image below&nbsp;</p>
+
+<p><img src="assets/images/9_order_on_admin_page.png" /></p>	
+	
+</section>
+
+
+<section id="translations">
+	<div class="page-header"><h3>Translating the plugin</h3><hr class="notop"></div>
+<p>
+	The plugin is translation ready via PO/MO files . Your translated files ( PO / MO ) need to be inside the &quot;language&quot; folder </p>
+
+<p>Inside the &quot;language&quot; folder you will find also a POT file that you can use for your translations </p>
+	
+<p>The default language of the plugin is English</p>	
+	
+</section>
+
+<section id="support">
+	<div class="page-header"><h3>Support</h3><hr class="notop"></div>
+<p>
+	Should you need support please contact me via the comments sections of the plugin&nbsp;</p>
+
+<p>&nbsp;</p>	
+<p>Thank you again for purchasing this plugin and hope you enjoy it&nbsp;</p>	
+	
+</section>
+
+	</div>
+</body>
+</html>

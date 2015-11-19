@@ -1,0 +1,87 @@
+.loop-wrapper.news.scroll-x,
+.portfolios.scroll-x,
+.woocommerce-scrollable.scroll-x {
+	> .bx-wrapper {
+		> div > ul {
+			margin: 0;
+		}
+
+		> .bx-controls {
+			display: none;
+
+			html.touch & {
+				display: block;
+			}
+
+			> .bx-controls-direction a:not(.disabled) {
+				display: block;
+				margin-top: -25px;
+				width: 50px;
+				height: 50px;
+				top: 50%;
+				color: @accent-color-1;
+				opacity: .9;
+				transition: all .3s;
+
+				&:hover {
+					opacity: 1;
+				}
+
+				&:after {
+					font: 50px/1 theme;
+				}
+
+				&.bx-prev {
+					right: auto;
+					left: -35px;
+
+					&:after {
+						content: icon(theme-arrow-bg-left);
+					}
+				}
+
+				&.bx-next {
+					right: -35px;
+
+					&:after {
+						content: icon(theme-arrow-bg-right);
+					}
+				}
+			}
+		}
+
+		&:hover {
+			> .bx-controls {
+				display: block;
+			}
+		}
+
+		.portfolio-item-wrapper .thumbnail-overlay {
+			left: 0;
+			right: 0;
+		}
+	}
+}
+
+.loop-wrapper.news.scroll-x {
+	padding-top: 0 !important;
+}
+
+.woocommerce-scrollable.scroll-x {
+	ul.products {
+		padding-top: 0;
+		border-top: 0;
+
+		li.product {
+			margin: 0;
+
+			> div {
+				padding: 0 20px;
+			}
+
+			html.csstransforms & span.onsale {
+				margin-right: 5px;
+			}
+		}
+	}
+}

@@ -1,0 +1,64 @@
+/*
+    Document   : woocommerce_admin
+    Created on : 21.01.2013, 11:43:07
+    Author     : Schoenmann Guenter
+    Description:
+		Style the general option page for QRCode woocommerce products
+
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+
+.wc_clear_both{
+	clear:both;
+}
+
+
+.js_hide_on_load{
+	display: none;
+}
+
+.hide_tax{
+	display: none;
+}
+
+.add_fees_ul {
+    float: left;
+    font-size: 12px;
+    list-style: none outside none;
+    margin: 8px 0 5px;
+    padding: 0;
+}
+
+.add_fees_ul .add_fees_basic_link{
+	display: none;
+}
+
+.add_fees_ul li{
+  width: auto;
+  float: left;
+  margin: 0px;
+}
+.add_fees_ul a{
+	line-height: 2em;
+    padding: 0.2em;
+    text-decoration: none;
+}
+.add_fees_ul a.current{
+	color: #000000;
+	border: 0 none;
+    font-weight: bold;
+}
+
+.add_fees_ul a.current:hover{
+	color: #d64e21;
+}
+
+
+#woocommerce-product-data ul.product_data_tabs li.add_fees_tab a{
+    background-position: 5px -58px;
+}
+
+ .woocommerce #wc_add_fees_Basic_Settings table.form-table th {
+display: none;
+}

@@ -1,0 +1,1515 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Screets CX\n"
+"POT-Creation-Date: 2014-11-29 04:10+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Screets <support@screets.com>\n"
+"Language-Team: Screets Team <support@screets.com>\n"
+"Language: bs_BA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.10\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x;_ex;_nx\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../core/admin/chat_console.php:19 ../core/options/options.php:799
+msgid "Users"
+msgstr "Корисници"
+
+#: ../core/admin/chat_console.php:20 ../core/admin/chat_console.php:25
+#: ../core/fn.common.php:551
+msgid "Please wait"
+msgstr "Молимо сачекајте"
+
+#: ../core/class.logs.php:16
+msgid "Chat log(s) deleted succesfully"
+msgstr "Чат транскрипт(и) успешно избрисани"
+
+#: ../core/class.logs.php:48
+msgid "User"
+msgstr "Корисник"
+
+#: ../core/class.logs.php:49 ../core/fn.admin.php:225 ../core/fn.admin.php:475
+#: ../core/options/options.php:58
+msgid "Email"
+msgstr "Емаил"
+
+#: ../core/class.logs.php:50 ../core/fn.admin.php:481
+msgid "IP Address"
+msgstr "ИП адреса"
+
+#: ../core/class.logs.php:51
+msgid "Create at"
+msgstr "Направи на"
+
+#: ../core/class.logs.php:52
+msgid "Total Messages"
+msgstr "Укупно порука"
+
+#: ../core/class.logs.php:85 ../core/options/options.php:21
+#: ../core/options/options.php:22 ../core/options/options.php:311
+msgid "N/A"
+msgstr "Н/А"
+
+#: ../core/class.logs.php:99
+msgid "Show logs"
+msgstr "Покажи транскрипте"
+
+#: ../core/class.logs.php:100
+msgid "Delete"
+msgstr "Избрисати"
+
+#: ../core/class.logs.php:173 ../core/class.logs.php:334
+msgid "Chat log(s) has been deleted"
+msgstr "Цхат транскрипт(и) је избрисан"
+
+#: ../core/class.logs.php:175 ../core/class.logs.php:268
+#: ../core/class.logs.php:305 ../core/class.logs.php:336
+#: ../core/fn.admin.php:77 ../core/fn.admin.php:78
+msgid "Chat Logs"
+msgstr "Чат транскрипти"
+
+#: ../core/class.options.php:408 ../core/fn.common.php:59
+#: ../screets-cx.php:172
+msgid "Settings"
+msgstr "Подешавања"
+
+#: ../core/fn.admin.php:88 ../core/fn.admin.php:89
+#: ../core/options/options.php:717
+msgid "Offline messages"
+msgstr "Оффлине порука"
+
+#: ../core/fn.admin.php:161
+msgid "CX Operator"
+msgstr "CX Оператор"
+
+#: ../core/fn.admin.php:224
+msgid "Title"
+msgstr "Наслов"
+
+#: ../core/fn.admin.php:226 ../core/fn.admin.php:478
+#: ../core/fn.offline.php:138 ../core/options/options.php:527
+msgid "Phone"
+msgstr "Телефон"
+
+#: ../core/fn.admin.php:227
+msgid "Details"
+msgstr "Детаљи"
+
+#: ../core/fn.admin.php:228
+msgid "Last Login"
+msgstr "Последња пријава"
+
+#: ../core/fn.admin.php:249
+msgid "Delete this item permanently"
+msgstr "Трајно избрисати ову ставку"
+
+#: ../core/fn.admin.php:249
+msgid "Delete Permanently"
+msgstr "Трајно брисање"
+
+#: ../core/fn.admin.php:289 ../core/fn.admin.php:384
+msgid "Sender"
+msgstr "Пошиљалац"
+
+#: ../core/fn.admin.php:290 ../core/fn.admin.php:508
+msgid "Receiver"
+msgstr "Пријемник"
+
+#: ../core/fn.admin.php:291 ../core/fn.admin.php:507
+msgid "Date"
+msgstr "Датум"
+
+#: ../core/fn.admin.php:343 ../screets-cx.php:480
+msgid "Chat Options"
+msgstr "Чат опције"
+
+#: ../core/fn.admin.php:355
+msgid "Visitor Details"
+msgstr "Детаљи посетиоца"
+
+#: ../core/fn.admin.php:367 ../screets-cx.php:266 ../screets-cx.php:267
+msgid "Offline Message"
+msgstr "Онлине поруке"
+
+#: ../core/fn.admin.php:376
+msgid "Message Details"
+msgstr "Детаљи поруке"
+
+#: ../core/fn.admin.php:410
+msgid "Full name"
+msgstr "Пуно име"
+
+#: ../core/fn.admin.php:415 ../core/fn.offline.php:133
+#: ../core/options/options.php:517
+msgid "E-mail"
+msgstr "Пуно име"
+
+#: ../core/fn.admin.php:472 ../core/fn.offline.php:128
+msgid "Name"
+msgstr "Име"
+
+#: ../core/fn.admin.php:482
+msgid "Browser"
+msgstr "Бровсер"
+
+#: ../core/fn.admin.php:483
+msgid "OS"
+msgstr "ОС"
+
+#: ../core/fn.admin.php:514
+msgid "Message has NOT been sent to offline emails!"
+msgstr "Порука НИЈЕ послата на е-поште ван мреже!"
+
+#: ../core/fn.admin.php:516
+msgid "Message has been received to offline emails successfully."
+msgstr "Порука је успешно примљена на оффлине е-пошту"
+
+#: ../core/fn.admin.php:535 ../core/options/options.php:111
+#: ../core/options/options.php:114
+msgid "Display chat box"
+msgstr "Погледај  чат боx"
+
+#: ../core/fn.admin.php:536
+msgid "Default"
+msgstr "Oбично"
+
+#: ../core/fn.admin.php:537 ../core/options/options.php:134
+msgid "Show"
+msgstr "Дисплеј"
+
+#: ../core/fn.admin.php:538 ../core/options/options.php:135
+msgid "Hide"
+msgstr "Сакрити"
+
+#: ../core/fn.admin.php:542
+msgid "Auto-initiate chat after"
+msgstr "Ауто-иницирати разговор после"
+
+#: ../core/fn.admin.php:544
+msgid "second(s)"
+msgstr "секунда(е)"
+
+#: ../core/fn.admin.php:545
+msgid "Set 0 (zero) to use default value in chat settings"
+msgstr "Сет 0 (нула) да користи подразумевану вредност у подешавањима за чат"
+
+#: ../core/fn.ajax.php:123
+#, fuzzy
+msgid "New visitor is online "
+msgstr "Посетиоци нису пронађени"
+
+#: ../core/fn.ajax.php:124
+#, fuzzy, php-format
+msgid "%s is online"
+msgstr "%s писање"
+
+#: ../core/fn.ajax.php:124
+msgid "Please check chat console"
+msgstr ""
+
+#: ../core/fn.ajax.php:321
+msgid "Successfully saved!"
+msgstr "Успешно сачуван!"
+
+#: ../core/fn.ajax.php:341 ../core/fn.ajax.php:348 ../core/fn.ajax.php:359
+#: ../core/fn.ajax.php:365 ../core/fn.common.php:558
+msgid "Please fill out all required fields"
+msgstr "Молимо Вас да попуните сва обавезна поља"
+
+#: ../core/fn.ajax.php:351 ../core/fn.common.php:559
+msgid "E-mail is invalid"
+msgstr "Емаил је неважећи"
+
+#: ../core/fn.ajax.php:372
+msgid "Admin"
+msgstr "Администратор"
+
+#: ../core/fn.ajax.php:372
+msgid "Offline messages in chat options are not set correctly!"
+msgstr "Оффлине поруке у опцијама чат нису исправно подешене!"
+
+#: ../core/fn.ajax.php:376 ../core/fn.ajax.php:392
+msgid "Something went wrong. Please try again"
+msgstr "Нешто је пошло наопако. Молимо вас покушајте поново"
+
+#: ../core/fn.ajax.php:395
+msgid "Successfully sent! Thank you"
+msgstr "Успешно је послао ! хвала"
+
+#: ../core/fn.common.php:49
+msgid "Chat Console"
+msgstr "Чат конзола"
+
+#: ../core/fn.common.php:69 ../screets-cx.php:943
+msgid "Connect"
+msgstr "Конекција"
+
+#: ../core/fn.common.php:540
+msgid "Waiting"
+msgstr "Чекање"
+
+#: ../core/fn.common.php:541
+msgid "Start Chat"
+msgstr "Почетни чат"
+
+#: ../core/fn.common.php:546
+msgid "No operators online"
+msgstr "Нема оператора онлине"
+
+#: ../core/fn.common.php:547
+msgid "No messages found"
+msgstr "Нема пронађене поруке"
+
+#: ../core/fn.common.php:548
+msgid "Sending"
+msgstr "Слање"
+
+#: ../core/fn.common.php:549
+msgid "Connecting"
+msgstr "Спајање"
+
+#: ../core/fn.common.php:550
+#, php-format
+msgid "%s is writing"
+msgstr "%s писање"
+
+#: ../core/fn.common.php:552
+msgid "Chat Online"
+msgstr "Чат онлине"
+
+#: ../core/fn.common.php:553
+msgid "Chat Offline"
+msgstr "Чат оффлине"
+
+#: ../core/fn.common.php:554 ../core/options/options.php:631
+#: ../core/options/options.php:645 ../core/options/options.php:665
+#: ../core/options/options.php:679 ../core/options/options.php:693
+msgid "Optional"
+msgstr "Опционално"
+
+#: ../core/fn.common.php:555
+msgid "Your message"
+msgstr "Ваша порука"
+
+#: ../core/fn.common.php:556
+msgid "End chat"
+msgstr "Прекини ћаскање"
+
+#: ../core/fn.common.php:557
+msgid "Connecting error!"
+msgstr "Погресно повезивање!"
+
+#: ../core/fn.common.php:560
+msgid "You"
+msgstr "Ви"
+
+#: ../core/fn.common.php:561
+msgid "Online"
+msgstr "Онлине"
+
+#: ../core/fn.common.php:562 ../core/options/options.php:710
+msgid "Offline"
+msgstr "Оффлине"
+
+#: ../core/fn.common.php:563
+msgid ""
+"Operators do not chat from here, only visitors. If you want to test chat "
+"box, you will want to use two different browsers or computers"
+msgstr ""
+"Опреатери не разговарају овде само посетиоци. Ако желите да тестирате чат "
+"боx, да ли желите користити два различита бровсера или компјутера"
+
+#: ../core/fn.common.php:566
+msgid "January"
+msgstr "Јануар"
+
+#: ../core/fn.common.php:567
+msgid "February"
+msgstr "Фебруар"
+
+#: ../core/fn.common.php:568
+msgid "March"
+msgstr "Март"
+
+#: ../core/fn.common.php:569
+msgid "April"
+msgstr "Април"
+
+#: ../core/fn.common.php:570 ../core/fn.common.php:584
+msgid "May"
+msgstr "Маи"
+
+#: ../core/fn.common.php:571
+msgid "June"
+msgstr "Јун"
+
+#: ../core/fn.common.php:572
+msgid "July"
+msgstr "Јул"
+
+#: ../core/fn.common.php:573
+msgid "August"
+msgstr "Аугуст"
+
+#: ../core/fn.common.php:574
+msgid "September"
+msgstr "Cептембар"
+
+#: ../core/fn.common.php:575
+msgid "October"
+msgstr "Oктобар"
+
+#: ../core/fn.common.php:576
+msgid "November"
+msgstr "Новембар"
+
+#: ../core/fn.common.php:577
+msgid "December"
+msgstr "Децембар"
+
+#: ../core/fn.common.php:580
+msgid "Jan"
+msgstr "Јан"
+
+#: ../core/fn.common.php:581
+msgid "Feb"
+msgstr "Феб"
+
+#: ../core/fn.common.php:582
+msgid "Mar"
+msgstr "Мар"
+
+#: ../core/fn.common.php:583
+msgid "Apr"
+msgstr "Апр"
+
+#: ../core/fn.common.php:585
+msgid "Jun"
+msgstr "Јун"
+
+#: ../core/fn.common.php:586
+msgid "Jul"
+msgstr "Јул"
+
+#: ../core/fn.common.php:587
+msgid "Aug"
+msgstr "Авг"
+
+#: ../core/fn.common.php:588
+msgid "Sep"
+msgstr "Сеп"
+
+#: ../core/fn.common.php:589
+msgid "Oct"
+msgstr "Окт"
+
+#: ../core/fn.common.php:590
+msgid "Nov"
+msgstr "Нов"
+
+#: ../core/fn.common.php:591
+msgid "Dec"
+msgstr "Дец"
+
+#: ../core/fn.common.php:594
+msgid "ago"
+msgstr "пре"
+
+#: ../core/fn.common.php:595
+msgid "less than a minute"
+msgstr "Мање од минут"
+
+#: ../core/fn.common.php:596
+msgid "about a minute"
+msgstr "Око минуте"
+
+#: ../core/fn.common.php:597
+#, php-format
+msgid "%d minutes"
+msgstr "%d минута"
+
+#: ../core/fn.common.php:598
+msgid "about an hour"
+msgstr "Око једног сата"
+
+#: ../core/fn.common.php:599
+#, php-format
+msgid "about %d hours"
+msgstr "Око %d сати"
+
+#: ../core/fn.common.php:600
+msgid "a day"
+msgstr "Дан"
+
+#: ../core/fn.common.php:601
+#, php-format
+msgid "%d days"
+msgstr "%d дана"
+
+#: ../core/fn.common.php:602
+msgid "about a month"
+msgstr "Oко месец дана"
+
+#: ../core/fn.common.php:603
+#, php-format
+msgid "%d months"
+msgstr "%d месеци"
+
+#: ../core/fn.common.php:604
+msgid "about a year"
+msgstr "Око једне године "
+
+#: ../core/fn.common.php:605
+#, php-format
+msgid "%d years"
+msgstr "%d година"
+
+#: ../core/fn.offline.php:142
+msgid "Message"
+msgstr "Порука"
+
+#: ../core/fn.offline.php:145
+msgid "User information"
+msgstr "Корисник података"
+
+#: ../core/fn.offline.php:163
+msgid "New offline message"
+msgstr "Нове оффлине поруке"
+
+#: ../core/fn.offline.php:216
+msgid "We received your message"
+msgstr "Примили смо вашу поруку"
+
+#: ../core/fn.setup.php:73 ../core/fn.setup.php:81 ../core/fn.setup.php:89
+#: ../core/fn.setup.php:98 ../core/fn.setup.php:107
+msgid "This field is required"
+msgstr "Ово поље је обавезно"
+
+#: ../core/fn.setup.php:116 ../core/fn.setup.php:125
+msgid "Please review this field"
+msgstr "Молимо вас да прегледате ово поље"
+
+#: ../core/options/options.php:56 ../screets-cx.php:485
+msgid "Operator Name"
+msgstr "Име оператора"
+
+#: ../core/options/options.php:57
+msgid "Username"
+msgstr "Корисничко име"
+
+#: ../core/options/options.php:75
+msgid "No operators found"
+msgstr "Нема пронађених оператeрa"
+
+#: ../core/options/options.php:98
+msgid "General"
+msgstr "Генерално"
+
+#: ../core/options/options.php:105
+msgid "Display"
+msgstr "Дисплеј"
+
+#: ../core/options/options.php:112
+#, php-format
+msgid ""
+"<a href='%s' target='_blank'>wp_footer()</a> function has to be located in "
+"your theme"
+msgstr ""
+"<a href='%s' target='_blank'>wp_footer()</a> функција мора бити смештена у "
+"својој теми"
+
+#: ../core/options/options.php:116
+#, fuzzy
+msgid "Disable on mobile devices"
+msgstr "Онемогућити мобилним уређајима"
+
+#: ../core/options/options.php:117
+#, fuzzy
+msgid "Display in WooCommerce pages"
+msgstr "Увек се приказује на почетној страници"
+
+#: ../core/options/options.php:117
+msgid "Product pages, cart and checkout"
+msgstr ""
+
+#: ../core/options/options.php:131
+#, fuzzy
+msgid "Display on homepage?"
+msgstr "Увек се приказује на почетној страници"
+
+#: ../core/options/options.php:175
+msgid "Notifications"
+msgstr ""
+
+#: ../core/options/options.php:181
+#, fuzzy
+msgid "Notify operators by email"
+msgstr "Нема оператора онлине"
+
+#: ../core/options/options.php:184
+msgid "When visitor logs into chat"
+msgstr ""
+
+#: ../core/options/options.php:196
+msgid "License"
+msgstr "Лиценца"
+
+#: ../core/options/options.php:202 ../core/options/options.php:222
+msgid "Purchase Code"
+msgstr "Куповина кодa"
+
+#: ../core/options/options.php:203
+#, php-format
+msgid ""
+"You can find your <strong>purchase code</strong> under <a href=\"%s\" target="
+"\"_blank\">Downloads</a> tab in CodeCanyon. <br />Just click \"Download\" "
+"button next to the the plugin."
+msgstr ""
+"Можете наћи свој <strong>куповни код</strong> под<a href=\"%s\" target="
+"\"_blank\">Downloads</a> tab in CodeCanyon. <br />Just click \"Download"
+"\"дугме на следећи Чат X плугин."
+
+#: ../core/options/options.php:212
+msgid "Upgrade"
+msgstr ""
+
+#: ../core/options/options.php:223
+msgid "Please enter your Live Chat plugin purchase code here"
+msgstr ""
+
+#: ../core/options/options.php:237 ../core/options/options.php:426
+msgid "Appearance"
+msgstr "Изглед"
+
+#: ../core/options/options.php:244
+msgid "Chat Window"
+msgstr "Чат прозор"
+
+#: ../core/options/options.php:250
+msgid "Skin"
+msgstr "Тема"
+
+#: ../core/options/options.php:263
+msgid "Primary Color"
+msgstr "Примарна боја"
+
+#: ../core/options/options.php:264
+msgid "Also using for colorizing offline emails"
+msgstr "Такође, користећи за цолоризинг оффлине мејлове"
+
+#: ../core/options/options.php:272
+msgid "Link Color"
+msgstr "Боја везе"
+
+#: ../core/options/options.php:281
+msgid "Widget size"
+msgstr "Wидгет величина"
+
+#: ../core/options/options.php:293
+msgid "Widget Position"
+msgstr "Wидгет положај"
+
+#: ../core/options/options.php:294
+msgid "Which side do you want to display chat box"
+msgstr "Којој страни желите приказати чат боx"
+
+#: ../core/options/options.php:296
+msgid "top-left"
+msgstr "Горњи леви"
+
+#: ../core/options/options.php:297
+msgid "top-right"
+msgstr "Горњи десни"
+
+#: ../core/options/options.php:298
+msgid "bottom-left"
+msgstr "Доњи лијеви"
+
+#: ../core/options/options.php:299
+msgid "bottom-right"
+msgstr "Доњи десни"
+
+#: ../core/options/options.php:308
+msgid "Animation"
+msgstr "Анимациа"
+
+#: ../core/options/options.php:317
+msgid "Animate"
+msgstr "Анимирати"
+
+#: ../core/options/options.php:326
+msgid "Speed up animation"
+msgstr "Убрзајте анимацију"
+
+#: ../core/options/options.php:337
+msgid "Offset"
+msgstr "Оффсет"
+
+#: ../core/options/options.php:349
+msgid "Delay"
+msgstr "Одлагање"
+
+#: ../core/options/options.php:350
+msgid "1000 ms = 1 second"
+msgstr "1000 мс = 1 секунда"
+
+#: ../core/options/options.php:354
+msgid "milliseconds"
+msgstr "Милисекунда"
+
+#: ../core/options/options.php:361
+msgid "Radius"
+msgstr "Радиус"
+
+#: ../core/options/options.php:373
+msgid "Reply Box Position"
+msgstr "Одговор позиције боxа"
+
+#: ../core/options/options.php:376
+msgid "Top"
+msgstr "Врх"
+
+#: ../core/options/options.php:377
+msgid "Bottom"
+msgstr "Дно"
+
+#: ../core/options/options.php:386
+msgid "Company Avatar"
+msgstr ""
+
+#: ../core/options/options.php:387
+#, fuzzy
+msgid "Default operators' avatar"
+msgstr "Обична улога оператера"
+
+#: ../core/options/options.php:395
+msgid "Avatar Size"
+msgstr ""
+
+#: ../core/options/options.php:408
+#, fuzzy
+msgid "Avatar Radius"
+msgstr "Радиус"
+
+#: ../core/options/options.php:409
+msgid "If avatar size and radius values are the same, avatar will be circle"
+msgstr ""
+
+#: ../core/options/options.php:420
+msgid "Chat Button"
+msgstr "Чат буттон"
+
+#: ../core/options/options.php:429
+msgid "Show title"
+msgstr "Покажи наслов"
+
+#: ../core/options/options.php:430
+msgid "Show icon"
+msgstr "Покажи икону"
+
+#: ../core/options/options.php:431
+msgid "Show arrow"
+msgstr "Покажи стрелицу"
+
+#: ../core/options/options.php:444
+msgid "Button Size"
+msgstr "Величина типке"
+
+#: ../core/options/options.php:445
+msgid "0 (zero): No fixed size"
+msgstr "0 (нула): Нема фиксне величине"
+
+#: ../core/options/options.php:456
+#, fuzzy
+msgid "Button title"
+msgstr "Величина типке"
+
+#: ../core/options/options.php:458
+msgid "Chat with us"
+msgstr "Дописивање са нама"
+
+#: ../core/options/options.php:467
+msgid "Messages"
+msgstr "Порукe"
+
+#: ../core/options/options.php:473
+#, fuzzy
+msgid "Offline form title"
+msgstr "Оффлине"
+
+#: ../core/options/options.php:475
+msgid "Contact us"
+msgstr "Контактирајте нас"
+
+#: ../core/options/options.php:483
+msgid "Reply field label"
+msgstr "Одговор ознакe поља"
+
+#: ../core/options/options.php:485 ../core/options/options.php:556
+msgid "Type here and hit enter to chat"
+msgstr "Унесите овде и притисните ентер за чат"
+
+#: ../core/options/options.php:493
+msgid "Offline body"
+msgstr "Оффлине"
+
+#: ../core/options/options.php:494 ../core/options/options.php:762
+#: ../core/options/options.php:774
+msgid "HTML tags are allowed"
+msgstr "ХТМЛ тагови су дозвољени"
+
+#: ../core/options/options.php:495
+msgid ""
+"Sorry! We aren't around right now. Leave a message and we'll get back to "
+"you, asap."
+msgstr ""
+"Жао ми је! Ми нисмо тренутно ту. Оставите поруку, а ми ћемо се јавити што пре"
+
+#: ../core/options/options.php:505
+msgid "Name field label"
+msgstr "Име ознакe поља"
+
+#: ../core/options/options.php:507
+msgid "Your name"
+msgstr "Твоје име"
+
+#: ../core/options/options.php:515
+msgid "Email field label"
+msgstr "Ознака Е-маил поље "
+
+#: ../core/options/options.php:525
+msgid "Phone field label"
+msgstr "Телефонска ознака поља"
+
+#: ../core/options/options.php:535
+msgid "Message field label"
+msgstr "Ознаћено поље поруке"
+
+#: ../core/options/options.php:537
+msgid "How can we help you?"
+msgstr ""
+
+#: ../core/options/options.php:545
+msgid "Send button"
+msgstr "Пошаљите дугме"
+
+#: ../core/options/options.php:547
+msgid "Send"
+msgstr "Послати"
+
+#: ../core/options/options.php:566
+msgid "Forms"
+msgstr "Обрасци"
+
+#: ../core/options/options.php:575
+msgid "Login form"
+msgstr "Облик образаца"
+
+#: ../core/options/options.php:591
+msgid "Prechat message"
+msgstr "Пречат порука"
+
+#: ../core/options/options.php:593
+msgid "Questions? We're here. Send us a message!"
+msgstr "Питања? Ми смо овде. Пошаљите нам поруку!"
+
+#: ../core/options/options.php:603
+msgid "Welcome message"
+msgstr "Поздравна порука"
+
+#: ../core/options/options.php:605
+msgid "Questions, issues or concerns? I'd love to help you!"
+msgstr "Питања, проблеми или бриге? Волео би да ти помогнем!"
+
+#: ../core/options/options.php:627 ../core/options/options.php:661
+msgid "Name field"
+msgstr "Име поља"
+
+#: ../core/options/options.php:630 ../core/options/options.php:644
+#: ../core/options/options.php:664 ../core/options/options.php:678
+#: ../core/options/options.php:692
+msgid "Hidden"
+msgstr "Сакривен"
+
+#: ../core/options/options.php:632 ../core/options/options.php:646
+#: ../core/options/options.php:666 ../core/options/options.php:680
+#: ../core/options/options.php:694
+msgid "Required"
+msgstr "Потребан"
+
+#: ../core/options/options.php:641 ../core/options/options.php:675
+msgid "Email field"
+msgstr "Е-маил поље"
+
+#: ../core/options/options.php:655
+msgid "Contact form"
+msgstr "Образац контакта"
+
+#: ../core/options/options.php:689
+msgid "Phone field"
+msgstr "Телефонско поље"
+
+#: ../core/options/options.php:723
+msgid "Where should offline messages go?"
+msgstr "Где треба Оффлине порука ићи?"
+
+#: ../core/options/options.php:724
+msgid "If you need SMTP configuration, you will want to use WP SMTP plugin"
+msgstr "Ако требате СМТП конфигурацију, користити ћете WП СМПТ плугин"
+
+#: ../core/options/options.php:724 ../core/options/options.php:725
+msgid "Separate email addresses with comma ','"
+msgstr "Раздвојите е-маил адресе са зарезом ','"
+
+#: ../core/options/options.php:733
+msgid "Redirect offline button to an URL"
+msgstr "Преусмеравање оффлине дугме на УРЛ"
+
+#: ../core/options/options.php:734
+msgid ""
+"If you have already contact system, you can link button to an existing page "
+"when chat is offline"
+msgstr ""
+"Ако сте већ контактирати систем, можете да повежете дугме на постојећу "
+"страницу када је ћаскање оффлине"
+
+#: ../core/options/options.php:743 ../core/options/options.php:745
+msgid "Site Name"
+msgstr "Име странице"
+
+#: ../core/options/options.php:752
+msgid "Site URL"
+msgstr "УРЛ страница"
+
+#: ../core/options/options.php:761
+msgid "E-mail header"
+msgstr "Е-маил хеадер"
+
+#: ../core/options/options.php:763
+msgid ""
+"We received your message and will respond within one business day, likely "
+"much sooner. We will be happy to provide you with a detailed answer as "
+"quickly as we can."
+msgstr ""
+"Примили смо вашу поруку и ми ћемо одговорити у року од једног радног дана, "
+"вероватно много раније. Ми ћемо бити сретни да вам пружимо детаљан одговор "
+"што брже можемо."
+
+#: ../core/options/options.php:773
+msgid "E-mail footer"
+msgstr "Е-маил фоотер"
+
+#: ../core/options/options.php:775
+msgid ""
+"Regards,\n"
+"\n"
+"Your Company\n"
+"<a href='http://www.yourdomain.com'>www.yourdomain.com</a>"
+msgstr ""
+"Здраво,\n"
+"\n"
+"Ваша фирма\n"
+"<a href='http://www.yourdomain.com'>www.yourdomain.com</a>"
+
+#: ../core/options/options.php:785
+msgid "Send a copy to visitor as well"
+msgstr "Пошаљи копију посетиоца као ..."
+
+#: ../core/options/options.php:806
+msgid "Operators & Visitors"
+msgstr "Оператори и посетиоци"
+
+#: ../core/options/options.php:812
+msgid "Default role of operators"
+msgstr "Обична улога оператера"
+
+#: ../core/options/options.php:813
+msgid ""
+"Operators have the same capability with this role. It does NOT mean this "
+"role will act like operator"
+msgstr ""
+"Оператери имају исту могуц́ност са овом улогом . То не значи ће ова улога "
+"деловати као оператер"
+
+#: ../core/options/options.php:822
+msgid "Additional role of operators"
+msgstr "Додатна улога оператора"
+
+#: ../core/options/options.php:823
+msgid "Additional role from your active WP plugins"
+msgstr "Додатна улога од ваших активних УП Додаци"
+
+#: ../core/options/options.php:845 ../core/options/options.php:847
+msgid "Guest Prefix"
+msgstr "Гост Префикс"
+
+#: ../core/options/options.php:846
+msgid ""
+"For instance, you can write <em>Guest-</em>. Then guest name looks like "
+"<em>Guest-1234</em>"
+msgstr ""
+"На пример, можете да напишете <em>Гостt-</em>. Онда изглед имена госта "
+"<em>Гост-1234</em>"
+
+#: ../core/options/options.php:850
+msgid "Guest"
+msgstr "Гост"
+
+#: ../core/options/options.php:856
+msgid "Operators List"
+msgstr "Листа оператора"
+
+#: ../core/options/options.php:862
+msgid "Create Operator"
+msgstr "Направи Оператор"
+
+#: ../core/options/options.php:862
+msgid "Note that administrators can also answer visitors like operators"
+msgstr ""
+"Имајте на уму да администратори такође могу одговорити посетиоце попут "
+"оператера"
+
+#: ../core/options/options.php:874 ../core/options/options.php:955
+msgid "Advanced"
+msgstr "Напредан"
+
+#: ../core/options/options.php:881
+msgid "Realtime App Platform"
+msgstr "Реално Платформа за апликацију"
+
+#: ../core/options/options.php:894 ../core/options/options.php:896
+msgid "App URL"
+msgstr "Апп УРЛ"
+
+#: ../core/options/options.php:895
+msgid "URL of the application"
+msgstr "УРЛ апликације"
+
+#: ../core/options/options.php:895
+#, php-format
+msgid "<a href=\"%s\" target=\"_blank\">Create free %s account</a>"
+msgstr "<a href=\"%s\" target=\"_blank\">креирајте бесплатни%s рачуна</a>"
+
+#: ../core/options/options.php:906 ../core/options/options.php:908
+msgid "App Token"
+msgstr "Апп токен"
+
+#: ../core/options/options.php:907
+msgid ""
+"The token can be found under \"Secrets\" menu in your Firebase dashboard"
+msgstr "Токена можете наћи под \"Secrets\" мени у ваш Firebase dashboard"
+
+#: ../core/options/options.php:915
+msgid "Performance"
+msgstr "Перформансе"
+
+#: ../core/options/options.php:931
+msgid "Compress"
+msgstr "Сабити"
+
+#: ../core/options/options.php:932
+msgid ""
+"Improve performance by using compressed CSS / JS files of current template."
+msgstr ""
+"Побољшајте перформансе помоћу збирног ЦСС / ЈС датотеке текућег предлошка"
+
+#: ../core/options/options.php:934
+msgid "Use compiled JavaScript file"
+msgstr "Сабити ЈаваСцрипт датотеку"
+
+#: ../core/options/options.php:935
+msgid "Use compressed CSS file"
+msgstr "Сабити ЦСС датотеку"
+
+#: ../core/options/options.php:936
+msgid "Disable CSS file"
+msgstr "Искључи ЦСС датотеку"
+
+#: ../core/options/options.php:945
+msgid "Faster AJAX"
+msgstr "Брже АЈАКS"
+
+#: ../core/options/options.php:946
+msgid ""
+"This method isn't supported by some PHP/Apache server installations.<br>If "
+"contact form sends email after activating this method, you can use it safely."
+msgstr ""
+
+#: ../core/options/options.php:947
+msgid "Use faster AJAX for the plugin instead of default WordPress AJAX"
+msgstr "Користите бржи AJAX за плугин уместо стандардног WордПресс AJAKX"
+
+#: ../core/options/options.php:962
+msgid "Debug"
+msgstr "Дебуг"
+
+#: ../core/options/options.php:964
+msgid "Activate browser console debug"
+msgstr "Активирајте прегледник конзоле дебуг"
+
+#: ../core/options/options.php:972
+msgid "Custom CSS"
+msgstr "Прилагодљиви ЦСС"
+
+#: ../core/options/options.php:1002
+msgid "Reverse Proxy IPs"
+msgstr "Реверсе Проки ИП адресе"
+
+#: ../core/options/options.php:1003
+msgid ""
+"If your server is behind a reverse proxy, you must whitelist the proxy IP "
+"addresses from which WordPress should trust the HTTP_X_FORWARDED_FOR header "
+"in order to properly identify the visitor's IP address. Comma-delimited, e."
+"g. '10.0.1.200,10.0.1.201'"
+msgstr ""
+"Ако се ваш сервер налази иза реверсе проxy , морате дозволити проxи ИП "
+"адресу са које WордПресс треба да верујете ХТТП_Кс_ФОРВАРДЕД_ФОР заглавље да "
+"правилно идентификује ИП адресу посетиоца . Одвојен , на пример , "
+"'10 .0.1.200,10.0.1.201 '"
+
+#: ../core/options/options.php:1016
+msgid "Help"
+msgstr "Ппомоћ"
+
+#: ../core/options/views/check_data.php:19
+#, fuzzy
+msgid "Realtime Data"
+msgstr "Реално вријеме"
+
+#: ../core/options/views/check_data.php:22
+msgid "Clean realtime data"
+msgstr ""
+
+#: ../core/options/views/check_data.php:23
+msgid ""
+"All data in your realtime app platform will be cleaned and saved into your "
+"database!"
+msgstr ""
+
+#: ../core/options/views/check_data.php:24
+msgid "Logout from chat console before clean data!"
+msgstr ""
+
+#: ../core/options/views/check_db.php:13
+msgid "Create Databases"
+msgstr "Креирање базе података"
+
+#: ../core/options/views/check_db.php:13
+msgid ""
+"No databases found. It is required for archiving your chat logs and more."
+msgstr ""
+"Нема пронађених база података.То је потребно  за архивирање ваших чат "
+"транскрипта и више."
+
+#: ../core/options/views/check_db.php:16
+msgid "Good"
+msgstr "Добро"
+
+#: ../core/options/views/check_db.php:21
+msgid "Database status"
+msgstr "Статус базе података"
+
+#: ../core/options/views/check_security.php:13
+msgid "Update now"
+msgstr "Ажурирајте сада "
+
+#: ../core/options/views/check_security.php:13
+msgid "Security rules couldn't be updated."
+msgstr "Правила сигурности не могу бити ажурирана."
+
+#: ../core/options/views/check_security.php:16
+msgid "Up-to-date"
+msgstr "Ажурирајте"
+
+#: ../core/options/views/check_security.php:21
+msgid "Security"
+msgstr "Безбедност"
+
+#: ../core/options/views/check_session.php:15
+msgid "Check"
+msgstr ""
+
+#: ../core/options/views/check_session.php:16
+msgid ""
+"You are using <strong>PHP sessions</strong>. Please click \"Check\" button "
+"to ensure that sessions really work!"
+msgstr ""
+
+#: ../core/options/views/check_session.php:16
+msgid ""
+"If you want to store session data to database, add the code below into "
+"<strong>wp-config.php</strong>."
+msgstr ""
+
+#: ../core/options/views/check_session.php:21
+msgid "Clean sessions"
+msgstr ""
+
+#: ../core/options/views/check_session.php:22
+msgid "Session data storing to database."
+msgstr ""
+
+#: ../core/options/views/check_session.php:28
+msgid "Sessions"
+msgstr ""
+
+#: ../core/options/views/closetab.php:4
+msgid "Save changes"
+msgstr "Спреми промене"
+
+#: ../core/options/views/closetab.php:5 ../screets-cx.php:951
+msgid "Saving"
+msgstr "Спашавање"
+
+#: ../core/options/views/closetab.php:6
+msgid "Saved"
+msgstr "Спремљено"
+
+#: ../core/options/views/closetab.php:7
+msgid ""
+"Reset all settings to default. Are you sure? This action cannot be undone!"
+msgstr ""
+"Ресетујте сва подешавања на дефаулт. Да ли сте сигурни? Ова радња не може да "
+"се опозове!"
+
+#: ../core/options/views/closetab.php:7
+msgid "Restore default settings"
+msgstr "Враћање заданих поставки"
+
+#: ../core/options/views/code.php:5
+msgid "Insert code"
+msgstr "Унеси код"
+
+#: ../core/options/views/dashboard.php:3
+msgid "Recent Activity"
+msgstr "Недавне активности"
+
+#: ../core/options/views/dashboard.php:9
+msgid "Feedback"
+msgstr "Повратна веза"
+
+#: ../core/options/views/license.php:13
+msgid "Purchase"
+msgstr "Куповина "
+
+#: ../core/options/views/notifications.php:5
+msgid "Instructions"
+msgstr "Инструкције"
+
+#: ../core/options/views/notifications.php:17
+#: ../core/options/views/notifications.php:28
+#: ../core/options/views/notifications.php:37
+#: ../core/options/views/notifications.php:46
+msgid "Click to close"
+msgstr "Кликните да затворите"
+
+#: ../core/options/views/settings.php:13
+msgid ""
+"For full functionality of this page it is reccomended to enable javascript."
+msgstr "Молимо омогоћите ЈаваСцрипт"
+
+#: ../core/options/views/settings.php:14
+msgid "Settings reseted successfully"
+msgstr "Поставке успешно спашене"
+
+#: ../core/options/views/settings.php:15
+msgid "There is already default settings"
+msgstr "Ту су већ дефаулт поставке"
+
+#: ../core/options/views/settings.php:16
+msgid "Settings saved successfully"
+msgstr "Поставке успешно спашене"
+
+#: ../core/options/views/settings.php:17
+msgid "Settings not saved, because there is no changes"
+msgstr "Поставке нису спашене, јер нема промјена"
+
+#: ../core/options/views/upload.php:18
+msgid "Upload"
+msgstr "Уплоад"
+
+#: ../screets-cx.php:265
+msgid "Offline Messages"
+msgstr "Оффлине поруке"
+
+#: ../screets-cx.php:268
+msgid "Parent Offline Message:"
+msgstr "Парент оффлине порука"
+
+#: ../screets-cx.php:269
+msgid "All Offline Messages"
+msgstr "Све оффлине поруке"
+
+#: ../screets-cx.php:270
+msgid "View Offline Message"
+msgstr "Погледај оффлине поруке"
+
+#: ../screets-cx.php:271
+msgid "Add New Offline Message"
+msgstr "Додај нову оффлине поруку"
+
+#: ../screets-cx.php:272
+msgid "New Offline Message"
+msgstr "Нове оффлине порука"
+
+#: ../screets-cx.php:273
+msgid "Edit Offline Message"
+msgstr "Уреди оффлине поруку"
+
+#: ../screets-cx.php:274
+msgid "Update Offline Message"
+msgstr "Упдате оффлине порука"
+
+#: ../screets-cx.php:275
+msgid "Search offline message"
+msgstr "Тражи оффлине поруку"
+
+#: ../screets-cx.php:276
+msgid "No offline message found"
+msgstr "Нема пронађене оффлине поруке "
+
+#: ../screets-cx.php:277
+msgid "No offline message found in Trash"
+msgstr "Нема пронађене оффлине поруке у смећу"
+
+#: ../screets-cx.php:489
+msgid "Refresh chat console page when you update operator name"
+msgstr "Освежите страницу чат конзоле када ажурирате име оператера"
+
+#: ../screets-cx.php:944
+msgid "Disconnect"
+msgstr "Прекинута веза"
+
+#: ../screets-cx.php:945
+#, fuzzy
+msgid "You're offline"
+msgstr "Ви сте оффлине"
+
+#: ../screets-cx.php:946
+msgid ""
+"Chat logs saved into your own server and removed from realtime app platform "
+"after ending chat"
+msgstr ""
+"Чат транскрипте сачуване у свом серверу и уклоњени из апликације у реалном "
+"времену платформе након завршетка ћаскања"
+
+#: ../screets-cx.php:947
+msgid "Save and end chat"
+msgstr "Сачувајте и завршите разговор"
+
+#: ../screets-cx.php:948
+msgid ""
+"If you leave, you will be logged out of chat. However you will be able to "
+"save conversations into your server when you come back to console!"
+msgstr ""
+"Ако одете, бићете ођављени са чата. Међутим, моћи ћете да сачувате разговоре "
+"у вашем серверу када се вратите у конзолуи!"
+
+#: ../screets-cx.php:949
+msgid "New Message"
+msgstr "Нова порука"
+
+#: ../screets-cx.php:950
+msgid "New User Online"
+msgstr "Нови корисник Онлине"
+
+#~ msgid "Display login form"
+#~ msgstr "Приказ пријавног образца"
+
+#~ msgid "If you hide display form, conversation box will appear automatically"
+#~ msgstr "Ако сакријете приказани облик, разговор се аутоматски појављује"
+
+#~ msgid "Prechat message when operator ends visitor chat"
+#~ msgstr "Пречат порука када оператор завршава посетилаца чат"
+
+#~ msgid ""
+#~ "Your chat session has been ended. If you have further questions or "
+#~ "concerns, please feel free to login chat."
+#~ msgstr ""
+#~ "Ваша сесија је завршена за ћаскање. Уколико имате додатних питања или "
+#~ "недоумица, слободно се пријавите ћаскање."
+
+#~ msgid "There is already usual delay while connecting realtime app platform"
+#~ msgstr ""
+#~ "Већ постоји уобичајено кашњење док је повезивање у реалном времену апп "
+#~ "платформу"
+
+#~ msgid "Chat Operator"
+#~ msgstr "Чат Оператор"
+
+#~ msgid "Hide when all operators offline"
+#~ msgstr "Сакриј када су сви оператери оффлине"
+
+#~ msgid "When online"
+#~ msgstr "Када онлине"
+
+#~ msgid "When offline"
+#~ msgstr "Када оффлине"
+
+#~ msgid ""
+#~ "Firebase <strong>App URL</strong> is empty in <strong>%s</strong> tab"
+#~ msgstr ""
+#~ "Firebase <strong>App URL</strong> је празан у <strong>%s</strong> tab"
+
+#~ msgid ""
+#~ "Firebase <strong>App Token</strong> is empty in <strong>%s</strong> tab"
+#~ msgstr ""
+#~ "Firebase <strong>App Token</strong> је празан у <strong>%s</strong> tab"
+
+#~ msgid ""
+#~ "<strong>Offline email address(es)</strong> is empty in <strong>%s</"
+#~ "strong> tab"
+#~ msgstr ""
+#~ "<strong>Offline email address(es)</strong> је празан у <strong>%s</"
+#~ "strong> tab"
+
+#~ msgid "Badge Color"
+#~ msgstr "Ознака боје"
+
+#~ msgid "Chat Badge"
+#~ msgstr "Ознака чата"
+
+#~ msgid "Badge Layout"
+#~ msgstr "Распоред ознаке"
+
+#~ msgid "Text Only"
+#~ msgstr "Само текст"
+
+#~ msgid "Custom Image"
+#~ msgstr "Прилагођена слика"
+
+#~ msgid "Badge Image"
+#~ msgstr "Ознака слике"
+
+#~ msgid "Maximum file upload size is %s"
+#~ msgstr "Максимална велична уплоад датотеке  %s"
+
+#~ msgid "Badge Text"
+#~ msgstr "Ознака текста"
+
+#~ msgid "Badge Placeholder"
+#~ msgstr "Задржана ознака"
+
+#~ msgid "Type your message here"
+#~ msgstr "Упишите вашу поруку"
+
+#~ msgid "Prechat message after badge screen"
+#~ msgstr "Пречат порука након ознаке на екрану"
+
+#~ msgid "Introduce yourself"
+#~ msgstr "Представите себе"
+
+#~ msgid "Display badge"
+#~ msgstr "Дисплеј ознаке"
+
+#~ msgid "Show badge on startup automatically"
+#~ msgstr "Покажи ознаку на аутоматском покретању"
+
+#~ msgid "Screets API key"
+#~ msgstr "Сцреетс АПИ кључ"
+
+#~ msgid ""
+#~ "<a href=\"%s\" target=\"_blank\" class=\"cxv button\">Get your valid key</"
+#~ "a>"
+#~ msgstr ""
+#~ "<a href=\"%s\" target=\"_blank\" class=\"cxv button\">Скидај важећи кључ</"
+#~ "a>"
+
+#~ msgid ""
+#~ "You must enter a valid Screets API key here to use CX with all features"
+#~ msgstr ""
+#~ "Морате да унесете важец́и Сцреетс АПИ кључ овде да користите ЦX са свим "
+#~ "функцијама"
+
+#~ msgid "Allowed online visitors at a time"
+#~ msgstr "Дозвољени онлајн посетиоци на време"
+
+#~ msgid "0 (zero) for unlimited chats"
+#~ msgstr "0 (нула) за неограничен чат"
+
+#~ msgid ""
+#~ "Other visitors are allowed to fill out the contact form instead of "
+#~ "connecting to chat"
+#~ msgstr ""
+#~ "Остали посетиоци могу да попуне формулар за контакт уместо повезивања на "
+#~ "чат"
+
+#~ msgid "visitor(s)"
+#~ msgstr "Посетиоц ( и )"
+
+#~ msgid "Visitors"
+#~ msgstr "Посетиоци"
+
+#~ msgid "Visitor"
+#~ msgstr "Посетиоц"
+
+#~ msgid "Parent Visitor:"
+#~ msgstr "Парент посетиоц"
+
+#~ msgid "All Visitors"
+#~ msgstr "Сви посетиоци"
+
+#~ msgid "View Visitor"
+#~ msgstr "Погледај  посетиоца"
+
+#~ msgid "Add New Visitor"
+#~ msgstr "Додај новог посетиоца"
+
+#~ msgid "New Visitor"
+#~ msgstr "Нови посетиоц"
+
+#~ msgid "Edit Visitor"
+#~ msgstr "Уреди посетиоца"
+
+#~ msgid "Search visitors"
+#~ msgstr "Тражи посетиоце"
+
+#~ msgid "No visitors found in Trash"
+#~ msgstr "Посетиоци нису пронађени у смећу"
+
+#~ msgid ""
+#~ "Operators are NOT allowed to chat here. If you're testing chat, you will "
+#~ "want to open new computer or browser as visitor"
+#~ msgstr ""
+#~ "Оператер НЕ сме разговарати овде. Ако се разговор тестира, да ли желите "
+#~ "да отворите нови рачунар или бровсер као посетилац"
+
+#~ msgid "Your account has been deactivated. Please contact us"
+#~ msgstr "Ваш налог је деактивиран . Молимо контактирајте нас"
+
+#~ msgid "Login is failed. Please try again!"
+#~ msgstr "Пријављивање није успело . Покушајте поново!"
+
+#~ msgid "Default (AJAX)"
+#~ msgstr "Обично (АЈАX)"
+
+#~ msgid "None"
+#~ msgstr "Ниједан"
+
+#~ msgid "Editor"
+#~ msgstr "Уредник"
+
+#~ msgid "Author"
+#~ msgstr "Аутор"
+
+#~ msgid "Contributor"
+#~ msgstr "Сарадник"
+
+#~ msgid "Default width of widget"
+#~ msgstr "Обична ширина wидгет"
+
+#~ msgid "Closing animation"
+#~ msgstr "Затвори анимацију"
+
+#~ msgid "ID"
+#~ msgstr "ID"
+
+#~ msgid "Secret"
+#~ msgstr "Secret"
+
+#~ msgid "Changes may NOT be shown in preview"
+#~ msgstr "Promjene ne mogu biti prikazane u pregledu"

@@ -1,0 +1,23 @@
+.tagcloud {
+	padding-bottom: @small-padding / 4 !important;
+
+	a {
+		padding: 3px 8px;
+		margin: 5px 0.35em 0.4em 0;
+		display: inline-block;
+		border-radius: 2px;
+		position: relative;
+		text-transform: lowercase;
+		color: @accent-color-2;
+		background: @accent-color-8;
+		.readable-border(@accent-color-2);
+		.wpv-font(additional-font-2-);
+		font-weight: normal;
+
+		&:hover {
+			background: @accent-color-1;
+			color: @default-bg-color !important;
+			text-decoration: none;
+		}
+	}
+}

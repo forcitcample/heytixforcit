@@ -1,0 +1,19 @@
+@media (max-width: 479px) {
+	.responsive-layout {
+		header.main-header.layout-logo-menu .first-row .logo-wrapper .logo img {
+			max-width: 100px;
+		}
+
+		&.woocommerce,
+		&.woocommerce-page {
+			table.cart {
+				td,
+				th {
+					&.product-price {
+						display: none;
+					}
+				}
+			}
+		}
+	}
+}

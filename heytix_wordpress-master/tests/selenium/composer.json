@@ -1,0 +1,22 @@
+{
+  "name": "heytix/selenium-tests",
+  "description": "Selenium Tests for heytix.com",
+  "authors": [
+    {
+      "name": "Joseph Crawford",
+      "email": "info@josephcrawford.com"
+    }
+  ],
+  "require": {
+    "brianium/paratest": "dev-master",
+    "phpunit/phpunit-selenium": ">=1.2",
+    "jlipps/paraunit": "dev-master"
+  },
+  "autoload": {
+    "psr-0": {
+      "heytix":        "src/",
+      "tests":         "tests/"
+    }
+  }
+}
+

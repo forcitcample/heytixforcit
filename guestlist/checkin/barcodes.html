@@ -1,0 +1,21 @@
+<h1>Test Barcodes</h1>
+<table cellspacing="0" >
+<thead>
+    <tr>
+        <th>Ticket Type</th>
+        <th>Billing Name</th>
+        <th>Barcode</th>
+        <th>Ticket Id</th>
+    </tr>
+</thead>
+<tbody>
+<repeat group="{{ @data }}" value="{{ @ticket }}">
+    <tr>
+        <td>{{ @ticket.ticket_title }}</td>
+        <td>{{ @ticket.first_name}} {{ @ticket.last_name}}</td>
+        <td><img alt="No Barcode Found" src="api/tickets/{{ @ticket.ticket_id }}/barcode"></td>
+        <td>{{ @ticket.ticket_id }}</td>
+    </tr>
+</repeat>
+</tbody>
+</table>
